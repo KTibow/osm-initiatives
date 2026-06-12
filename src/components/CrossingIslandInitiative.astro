@@ -1,0 +1,294 @@
+---
+import PrChip from "./PrChip.astro";
+import {
+  countPct,
+  countTaginfoCombination,
+  countTaginfoStat,
+  fetchTaginfoJson,
+  remainder,
+  type TaginfoCombination,
+  type TaginfoStat,
+} from "../taginfo";
+
+const refs = [
+  {
+    owner: "openstreetmap",
+    repo: "iD",
+    number: 12421,
+    initiative: "crossing-island",
+    label: "copy to nodes",
+  },
+];
+
+type TaginfoValueSummary = {
+  total: number;
+  nodes: number;
+  ways: number;
+  crossingNodes: number;
+  footwayCrossings: number;
+  cyclewayCrossings: number;
+  pathCrossings: number;
+};
+
+type TaginfoSummary = {
+  total: number;
+  yes: TaginfoValueSummary;
+  no: TaginfoValueSummary;
+  error?: string;
+};
+
+function summarizeValue(
+  stats: TaginfoStat[],
+  combinations: TaginfoCombination[],
+): TaginfoValueSummary {
+  return {
+    total: countTaginfoStat(stats, "all"),
+    nodes: countTaginfoStat(stats, "nodes"),
+    ways: countTaginfoStat(stats, "ways"),
+    crossingNodes: countTaginfoCombination(combinations, "highway", "crossing"),
+    footwayCrossings: countTaginfoCombination(
+      combinations,
+      "footway",
+      "crossing",
+    ),
+    cyclewayCrossings: countTaginfoCombination(
+      combinations,
+      "cycleway",
+      "crossing",
+    ),
+    pathCrossings: countTaginfoCombination(combinations, "path", "crossing"),
+  };
+}
+
+const taginfo: TaginfoSummary = await (async () => {
+  try {
+    const [stats, yesStats, noStats, yesCombinations, noCombinations] =
+      await Promise.all([
+        fetchTaginfoJson<{ data: TaginfoStat[] }>(
+          "https://taginfo.openstreetmap.org/api/4/key/stats?key=crossing:island",
+        ),
+        fetchTaginfoJson<{ data: TaginfoStat[] }>(
+          "https://taginfo.openstreetmap.org/api/4/tag/stats?key=crossing:island&value=yes",
+        ),
+        fetchTaginfoJson<{ data: TaginfoStat[] }>(
+          "https://taginfo.openstreetmap.org/api/4/tag/stats?key=crossing:island&value=no",
+        ),
+        fetchTaginfoJson<{ data: TaginfoCombination[] }>(
+          "https://taginfo.openstreetmap.org/api/4/tag/combinations?key=crossing:island&value=yes&filter=all&sortname=to_count&sortorder=desc&rp=200&page=1",
+        ),
+        fetchTaginfoJson<{ data: TaginfoCombination[] }>(
+          "https://taginfo.openstreetmap.org/api/4/tag/combinations?key=crossing:island&value=no&filter=all&sortname=to_count&sortorder=desc&rp=200&page=1",
+        ),
+      ]);
+
+    return {
+      total: countTaginfoStat(stats.data, "all"),
+      yes: summarizeValue(yesStats.data, yesCombinations.data),
+      no: summarizeValue(noStats.data, noCombinations.data),
+    };
+  } catch (e) {
+    const emptyValue = {
+      total: 0,
+      nodes: 0,
+      ways: 0,
+      crossingNodes: 0,
+      footwayCrossings: 0,
+      cyclewayCrossings: 0,
+      pathCrossings: 0,
+    };
+
+    return {
+      total: 0,
+      yes: emptyValue,
+      no: emptyValue,
+      error: e instanceof Error ? e.message : String(e),
+    };
+  }
+})();
+
+const valueGroups = [
+  { value: "yes", summary: taginfo.yes },
+  { value: "no", summary: taginfo.no },
+];
+---
+
+<section>
+  <div class="hdr">
+    <strong>crossing:island</strong> (refuge islands) • should be present on crossing
+    nodes, not just ways (although micromapping islands is better)
+  </div>
+  <div class="prs">{refs.map((ref) => <PrChip ref={ref} />)}</div>
+  {
+    taginfo.error ? (
+      <div class="taginfo-error">taginfo unavailable: {taginfo.error}</div>
+    ) : (
+      <div class="panel">
+        <div class="list">
+          <ul class="tree" aria-label="taginfo crossing:island filter tree">
+            {valueGroups.map(({ value, summary }) => (
+              <li>
+                <span class="branch">
+                  <code>{`crossing:island=${value}`}</code>
+                </span>
+                <span class="count">
+                  {countPct(summary.total, taginfo.total)} of{" "}
+                  <code>crossing:island=*</code>
+                </span>
+                <ul>
+                  <li>
+                    <span class="branch">element type: nodes</span>
+                    <span class="count">
+                      {countPct(summary.nodes, summary.total)} of{" "}
+                      <code>{`crossing:island=${value}`}</code>
+                    </span>
+                    <ul>
+                      <li>
+                        <span class="branch">also crossing point</span>
+                        <span class="count">
+                          {countPct(summary.crossingNodes, summary.nodes)} of
+                          island nodes
+                        </span>
+                      </li>
+                      <li>
+                        <span class="branch">not a crossing point</span>
+                        <span class="count">
+                          {countPct(
+                            remainder(summary.nodes, summary.crossingNodes),
+                            summary.nodes,
+                          )}{" "}
+                          of island nodes
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span class="branch">element type: ways</span>
+                    <span class="count">
+                      {countPct(summary.ways, summary.total)} of{" "}
+                      <code>{`crossing:island=${value}`}</code>
+                    </span>
+                    <ul>
+                      <li>
+                        <span class="branch">also footway crossing</span>
+                        <span class="count">
+                          {countPct(summary.footwayCrossings, summary.ways)} of
+                          island ways
+                        </span>
+                      </li>
+                      <li>
+                        <span class="branch">also cycleway crossing</span>
+                        <span class="count">
+                          {countPct(summary.cyclewayCrossings, summary.ways)} of
+                          island ways
+                        </span>
+                      </li>
+                      <li>
+                        <span class="branch">also path crossing</span>
+                        <span class="count">
+                          {countPct(summary.pathCrossings, summary.ways)} of
+                          island ways
+                        </span>
+                      </li>
+                      <li>
+                        <span class="branch">none of the above</span>
+                        <span class="count">
+                          {countPct(
+                            remainder(
+                              summary.ways,
+                              summary.footwayCrossings,
+                              summary.cyclewayCrossings,
+                              summary.pathCrossings,
+                            ),
+                            summary.ways,
+                          )}{" "}
+                          of island ways
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    )
+  }
+</section>
+
+<style>
+  .hdr {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .desc {
+    font-size: 12px;
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  .prs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  .dim {
+    color: var(--fg-muted);
+  }
+  .taginfo-error {
+    color: var(--red);
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .panel {
+    margin-top: 6px;
+    padding: 6px 0;
+    min-width: 0;
+  }
+  .list {
+    max-width: 100%;
+    overflow: auto;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  .tree,
+  .tree ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 18px;
+  }
+  .tree {
+    padding: 3px 8px;
+  }
+  .tree li {
+    position: relative;
+    padding: 2px 0 2px 13px;
+    line-height: 1.45;
+  }
+  .tree li::before {
+    content: "├─";
+    position: absolute;
+    left: 0;
+    color: var(--fg-dim);
+  }
+  .tree li:last-child::before {
+    content: "└─";
+  }
+  .branch {
+    color: var(--fg);
+  }
+  .count {
+    color: var(--fg-muted);
+    margin-left: 6px;
+  }
+  code {
+    color: var(--fg);
+  }
+  @media (max-width: 650px) {
+    .count {
+      display: block;
+      margin-left: 0;
+    }
+  }
+</style>

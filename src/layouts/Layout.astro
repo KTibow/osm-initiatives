@@ -1,0 +1,60 @@
+---
+export interface Props {
+  title?: string;
+}
+const { title = "OSM initiatives" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  @import "@unocss/reset/tailwind-v4.css";
+  :root {
+    font-family: 'Courier New', 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    background: #0d1117;
+    color: #c9d1d9;
+    --bg: #0d1117;
+    --bg-card: #161b22;
+    --bg-hover: #1c2128;
+    --border: #30363d;
+    --border-bright: #484f58;
+    --fg: #c9d1d9;
+    --fg-muted: #8b949e;
+    --fg-dim: #484f58;
+    --green: #3fb950;
+    --green-bg: rgba(63, 185, 80, 0.12);
+    --yellow: #d29922;
+    --yellow-bg: rgba(210, 153, 34, 0.12);
+    --red: #f85149;
+    --red-bg: rgba(248, 81, 73, 0.12);
+    --blue: #58a6ff;
+    --purple: #bc8cff;
+    --purple-bg: rgba(188, 140, 255, 0.12);
+    --orange: #f0883e;
+  }
+  html { min-height: 100%; background: var(--bg); }
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1080px;
+    background: var(--bg);
+    color: var(--fg);
+  }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button, input, textarea, select { font: inherit; }
+  strong { font-weight: 700; }
+</style>

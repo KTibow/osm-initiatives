@@ -1,0 +1,4 @@
+.vite
+.astro
+dist
+.env

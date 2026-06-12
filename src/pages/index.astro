@@ -1,0 +1,218 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Layout from "../layouts/Layout.astro";
+import CrossingIslandInitiative from "../components/CrossingIslandInitiative.astro";
+import EliInitiative from "../components/EliInitiative.astro";
+import PlantNurseryInitiative from "../components/PlantNurseryInitiative.astro";
+import RaisedCrossingsInitiative from "../components/RaisedCrossingsInitiative.astro";
+import TactilePavingInitiative from "../components/TactilePavingInitiative.astro";
+import OverpassPanel from "../components/OverpassPanel.svelte";
+
+const trafficCalmingCrossingWaysQuery = `[out:json][timeout:60];
+(
+  way["traffic_calming"]["footway"="crossing"];
+  way["traffic_calming"]["cycleway"="crossing"];
+  way["traffic_calming"]["path"="crossing"];
+);
+out center 100;`;
+
+const crossingPointNotCrossingQuery = `[out:json][timeout:120];
+(
+  way["footway"="crossing"];
+  way["cycleway"="crossing"];
+  way["path"="crossing"];
+)->.crossingWays;
+node(w.crossingWays)->.crossingWayNodes;
+way(bn.crossingWayNodes)["highway"]->.touchingHighways;
+(
+  way.touchingHighways;
+  - way.crossingWays;
+)->.otherHighwayWays;
+node(w.crossingWays)(w.otherHighwayWays)["highway"!="crossing"]->.untaggedCrossingNodes;
+.untaggedCrossingNodes out 100;`;
+
+const missingCrossingIslandNodeQuery = `[out:json][timeout:360][maxsize:1073741824];
+(
+  way["crossing:island"]["footway"="crossing"];
+  way["crossing:island"]["cycleway"="crossing"];
+  way["crossing:island"]["path"="crossing"];
+)->.crossingWays;
+node(w.crossingWays)["highway"="crossing"][!"crossing:island"];
+out 100;`;
+
+const islandNodeNotCrossingPointQuery = `[out:json][timeout:60];
+node["crossing:island"="yes"]["highway"!="crossing"];
+out 100;`;
+
+const islandWayNotCrossingQuery = `[out:json][timeout:60];
+way["crossing:island"="yes"]["footway"!="crossing"]["cycleway"!="crossing"]["path"!="crossing"];
+out center 100;`;
+
+const tactilePavingNodeOnlyQuery = `[out:json][timeout:60];
+(
+  way["footway"="crossing"];
+  way["cycleway"="crossing"];
+  way["path"="crossing"];
+)->.crossingWays;
+node(w.crossingWays)["highway"="crossing"]["tactile_paving"="yes"]->.crossingNodesWithTactile;
+way(bn.crossingNodesWithTactile)->.waysTouchingTactileCrossingNodes;
+(
+  way.waysTouchingTactileCrossingNodes["footway"="crossing"];
+  way.waysTouchingTactileCrossingNodes["cycleway"="crossing"];
+  way.waysTouchingTactileCrossingNodes["path"="crossing"];
+)->.candidateWays;
+(
+  node(w.candidateWays)["barrier"="kerb"];
+  node(w.candidateWays)["kerb"]["highway"!="crossing"];
+)->.separateKerbs;
+way(bn.separateKerbs)->.waysWithSeparateKerbs;
+(
+  way.waysWithSeparateKerbs["footway"="crossing"];
+  way.waysWithSeparateKerbs["cycleway"="crossing"];
+  way.waysWithSeparateKerbs["path"="crossing"];
+)->.crossingWaysWithSeparateKerbs;
+node(w.crossingWaysWithSeparateKerbs)["highway"="crossing"]["tactile_paving"="yes"]->.nodeTactileWithKerbs;
+(
+  node(w.crossingWaysWithSeparateKerbs)["barrier"="kerb"]["tactile_paving"="yes"];
+  node(w.crossingWaysWithSeparateKerbs)["kerb"]["tactile_paving"="yes"]["highway"!="crossing"];
+)->.tactileKerbs;
+way(bn.tactileKerbs)->.waysWithTactileKerbs;
+(
+  way.waysWithTactileKerbs["footway"="crossing"];
+  way.waysWithTactileKerbs["cycleway"="crossing"];
+  way.waysWithTactileKerbs["path"="crossing"];
+)->.crossingWaysWithTactileKerbs;
+node(w.crossingWaysWithTactileKerbs)["highway"="crossing"]["tactile_paving"="yes"]->.nodeTactileWithTactileKerbs;
+(
+  .nodeTactileWithKerbs;
+  - .nodeTactileWithTactileKerbs;
+);
+out 100;`;
+
+const tactilePavingCrossingWayQuery = `[out:json][timeout:60];
+(
+  way["footway"="crossing"]["tactile_paving"="yes"];
+  way["cycleway"="crossing"]["tactile_paving"="yes"];
+  way["path"="crossing"]["tactile_paving"="yes"];
+);
+out center 100;`;
+
+let eliAvailability = null;
+try {
+  const eliPath = path.resolve("data/eli-availability.json");
+  if (fs.existsSync(eliPath)) {
+    eliAvailability = JSON.parse(fs.readFileSync(eliPath, "utf-8"));
+  }
+} catch {}
+const eliError = eliAvailability
+  ? ""
+  : "eli-availability.json not found at build time";
+---
+
+<Layout>
+  <main>
+    <div class="split section">
+      <div>
+        <RaisedCrossingsInitiative />
+        <OverpassPanel
+          client:load
+          title="traffic_calming on crossing ways (sample)"
+          query={trafficCalmingCrossingWaysQuery}
+          emptyText="no crossing ways with traffic_calming found"
+        />
+      </div>
+      <div>
+        <CrossingIslandInitiative />
+        <OverpassPanel
+          client:load
+          title="nodes missing crossing:island (sample)"
+          query={missingCrossingIslandNodeQuery}
+          emptyText="no missing island node samples"
+        />
+        <OverpassPanel
+          client:load
+          title="crossing:island nodes not highway=crossing (sample)"
+          query={islandNodeNotCrossingPointQuery}
+          emptyText="no island nodes missing highway=crossing found"
+          firstTag="highway"
+        />
+        <OverpassPanel
+          client:load
+          title="crossing:island ways not tagged as crossings (sample)"
+          query={islandWayNotCrossingQuery}
+          emptyText="no island ways missing crossing tags found"
+        />
+      </div>
+    </div>
+
+    <div class="section">
+      <TactilePavingInitiative />
+      <OverpassPanel
+        client:load
+        title="crossings with redundant tactile_paving=yes (Swiss sample)"
+        query={tactilePavingNodeOnlyQuery}
+        emptyText="no crossing-node tactile paving migration candidates found"
+        endpoint="https://overpass.osm.ch/api/interpreter"
+      />
+      <OverpassPanel
+        client:load
+        title="crossing ways tagged tactile_paving=yes (Swiss sample)"
+        query={tactilePavingCrossingWayQuery}
+        emptyText="no crossing ways tagged tactile_paving=yes found"
+        endpoint="https://overpass.osm.ch/api/interpreter"
+      />
+    </div>
+
+    <div class="section">
+      <section>
+        <div class="initiative-hdr"><strong>untagged crossings</strong></div>
+        <OverpassPanel
+          client:load
+          title="crossing/highway intersections not highway=crossing (Swiss sample)"
+          query={crossingPointNotCrossingQuery}
+          emptyText="no crossing/highway intersection issues found"
+          endpoint="https://overpass.osm.ch/api/interpreter"
+        />
+      </section>
+    </div>
+
+    <div class="section">
+      <PlantNurseryInitiative />
+    </div>
+
+    <div class="section">
+      <EliInitiative availability={eliAvailability} error={eliError} />
+    </div>
+  </main>
+</Layout>
+
+<style is:global>
+  .section {
+    margin-top: 18px;
+  }
+  .initiative-hdr {
+    color: var(--fg-dim);
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .initiative-desc {
+    color: var(--fg-muted);
+    font-size: 12px;
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .split > * {
+    min-width: 0;
+  }
+  @media (max-width: 800px) {
+    .split {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

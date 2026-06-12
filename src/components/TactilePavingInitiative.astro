@@ -1,0 +1,252 @@
+---
+import {
+  countPct,
+  countTaginfoCombination,
+  countTaginfoStat,
+  fetchTaginfoJson,
+  fmt,
+  type TaginfoCombination,
+  type TaginfoStat,
+} from "../taginfo";
+
+type TaginfoSummary = {
+  dataUntil: string;
+  totalYes: number;
+  yesNodes: number;
+  yesWays: number;
+  crossingPoints: number;
+  kerbs: number;
+  loweredKerbs: number;
+  footways: number;
+  crossingFootways: number;
+  error?: string;
+};
+
+const taginfo: TaginfoSummary = await (async () => {
+  try {
+    const [stats, combinations] = await Promise.all([
+      fetchTaginfoJson<{ data_until: string; data: TaginfoStat[] }>(
+        "https://taginfo.openstreetmap.org/api/4/tag/stats?key=tactile_paving&value=yes",
+      ),
+      fetchTaginfoJson<{ data_until: string; data: TaginfoCombination[] }>(
+        "https://taginfo.openstreetmap.org/api/4/tag/combinations?key=tactile_paving&value=yes&filter=all&sortname=to_count&sortorder=desc&rp=100&page=1",
+      ),
+    ]);
+
+    return {
+      dataUntil: stats.data_until,
+      totalYes: countTaginfoStat(stats.data, "all"),
+      yesNodes: countTaginfoStat(stats.data, "nodes"),
+      yesWays: countTaginfoStat(stats.data, "ways"),
+      crossingPoints: countTaginfoCombination(
+        combinations.data,
+        "highway",
+        "crossing",
+      ),
+      kerbs: countTaginfoCombination(combinations.data, "kerb"),
+      loweredKerbs: countTaginfoCombination(
+        combinations.data,
+        "kerb",
+        "lowered",
+      ),
+      footways: countTaginfoCombination(
+        combinations.data,
+        "highway",
+        "footway",
+      ),
+      crossingFootways: countTaginfoCombination(
+        combinations.data,
+        "footway",
+        "crossing",
+      ),
+    };
+  } catch (e) {
+    return {
+      dataUntil: "",
+      totalYes: 0,
+      yesNodes: 0,
+      yesWays: 0,
+      crossingPoints: 0,
+      kerbs: 0,
+      loweredKerbs: 0,
+      footways: 0,
+      crossingFootways: 0,
+      error: e instanceof Error ? e.message : String(e),
+    };
+  }
+})();
+---
+
+<section>
+  <div class="hdr">
+    <strong>tactile_paving</strong> • better placed on kerbs than crossing nodes or
+    anywhere else
+  </div>
+
+  {
+    taginfo.error ? (
+      <div class="taginfo-error">taginfo unavailable: {taginfo.error}</div>
+    ) : (
+      <div class="panel">
+        <div class="list">
+          <ul class="tree" aria-label="taginfo tactile_paving=yes filter tree">
+            <li>
+              <span class="branch">
+                <code>tactile_paving=yes</code>
+              </span>
+              <span class="count">{fmt(taginfo.totalYes)}</span>
+              <ul>
+                <li>
+                  <span class="branch">element type: nodes</span>
+                  <span class="count">
+                    {countPct(taginfo.yesNodes, taginfo.totalYes)} of{" "}
+                    <code>tactile_paving=yes</code>
+                  </span>
+                  <ul>
+                    <li>
+                      <span class="branch">
+                        also <code>highway=crossing</code>
+                      </span>
+                      <span class="count">
+                        {countPct(taginfo.crossingPoints, taginfo.yesNodes)} of{" "}
+                        <code>tactile_paving=yes</code> nodes
+                      </span>
+                    </li>
+                    <li>
+                      <span class="branch">
+                        also <code>kerb=*</code>
+                      </span>
+                      <span class="count">
+                        {countPct(taginfo.kerbs, taginfo.yesNodes)} of{" "}
+                        <code>tactile_paving=yes</code> nodes
+                      </span>
+                      <ul>
+                        <li>
+                          <span class="branch">
+                            also <code>kerb=lowered</code>
+                          </span>
+                          <span class="count">
+                            {countPct(taginfo.loweredKerbs, taginfo.kerbs)} of{" "}
+                            <code>kerb=*</code> tactile paving
+                          </span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="branch">element type: ways</span>
+                  <span class="count">
+                    {countPct(taginfo.yesWays, taginfo.totalYes)} of{" "}
+                    <code>tactile_paving=yes</code>
+                  </span>
+                  <ul>
+                    <li>
+                      <span class="branch">
+                        also <code>highway=footway</code>
+                      </span>
+                      <span class="count">
+                        {countPct(taginfo.footways, taginfo.yesWays)} of{" "}
+                        <code>tactile_paving=yes</code> ways
+                      </span>
+                      <ul>
+                        <li>
+                          <span class="branch">
+                            also <code>footway=crossing</code>
+                          </span>
+                          <span class="count">
+                            {countPct(
+                              taginfo.crossingFootways,
+                              taginfo.footways,
+                            )}{" "}
+                            of <code>highway=footway</code> tactile paving ways
+                          </span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    )
+  }
+</section>
+
+<style>
+  .hdr {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .desc {
+    font-size: 12px;
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  .dim {
+    color: var(--fg-muted);
+  }
+  .taginfo-error {
+    color: var(--red);
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .panel {
+    margin-top: 6px;
+    padding: 6px 0;
+    min-width: 0;
+  }
+  .list {
+    max-width: 100%;
+    overflow: auto;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  .tree,
+  .tree ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 18px;
+  }
+  .tree {
+    padding: 3px 8px;
+  }
+  .tree li {
+    position: relative;
+    padding: 2px 0 2px 13px;
+    line-height: 1.45;
+  }
+  .tree li::before {
+    content: "├─";
+    position: absolute;
+    left: 0;
+    color: var(--fg-dim);
+  }
+  .tree li:last-child::before {
+    content: "└─";
+  }
+  .branch {
+    color: var(--fg);
+  }
+  .count {
+    color: var(--fg-muted);
+    margin-left: 6px;
+  }
+  .tree-note {
+    color: var(--fg-dim);
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  code {
+    color: var(--fg);
+  }
+  @media (max-width: 650px) {
+    .count {
+      display: block;
+      margin-left: 0;
+    }
+  }
+</style>

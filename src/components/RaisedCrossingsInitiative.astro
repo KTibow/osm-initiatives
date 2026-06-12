@@ -1,0 +1,269 @@
+---
+import PrChip from "./PrChip.astro";
+import {
+  countPct,
+  countTaginfoCombination,
+  countTaginfoStat,
+  countTaginfoValue,
+  fetchTaginfoJson,
+  fmt,
+  type TaginfoCombination,
+  type TaginfoStat,
+  type TaginfoValue,
+} from "../taginfo";
+
+const refs = [
+  {
+    owner: "openstreetmap",
+    repo: "iD",
+    number: 12420,
+    initiative: "raised-crossings",
+    label: "warn on ways",
+  },
+  {
+    owner: "openstreetmap",
+    repo: "id-tagging-schema",
+    number: 2314,
+    initiative: "raised-crossings",
+    label: "hide on ways",
+  },
+];
+
+type TaginfoSummary = {
+  total: number;
+  nodes: number;
+  ways: number;
+  table: number;
+  tableNodes: number;
+  tableWays: number;
+  bump: number;
+  hump: number;
+  tableCrossingNodes: number;
+  tableFootwayCrossings: number;
+  error?: string;
+};
+
+const taginfo: TaginfoSummary = await (async () => {
+  try {
+    const [stats, values, tableStats, tableCombinations] = await Promise.all([
+      fetchTaginfoJson<{ data: TaginfoStat[] }>(
+        "https://taginfo.openstreetmap.org/api/4/key/stats?key=traffic_calming",
+      ),
+      fetchTaginfoJson<{ data: TaginfoValue[] }>(
+        "https://taginfo.openstreetmap.org/api/4/key/values?key=traffic_calming&filter=all&sortname=count&sortorder=desc&rp=10&page=1",
+      ),
+      fetchTaginfoJson<{ data: TaginfoStat[] }>(
+        "https://taginfo.openstreetmap.org/api/4/tag/stats?key=traffic_calming&value=table",
+      ),
+      fetchTaginfoJson<{ data: TaginfoCombination[] }>(
+        "https://taginfo.openstreetmap.org/api/4/tag/combinations?key=traffic_calming&value=table&filter=all&sortname=to_count&sortorder=desc&rp=30&page=1",
+      ),
+    ]);
+
+    return {
+      total: countTaginfoStat(stats.data, "all"),
+      nodes: countTaginfoStat(stats.data, "nodes"),
+      ways: countTaginfoStat(stats.data, "ways"),
+      table: countTaginfoStat(tableStats.data, "all"),
+      tableNodes: countTaginfoStat(tableStats.data, "nodes"),
+      tableWays: countTaginfoStat(tableStats.data, "ways"),
+      bump: countTaginfoValue(values.data, "bump"),
+      hump: countTaginfoValue(values.data, "hump"),
+      tableCrossingNodes: countTaginfoCombination(
+        tableCombinations.data,
+        "highway",
+        "crossing",
+      ),
+      tableFootwayCrossings: countTaginfoCombination(
+        tableCombinations.data,
+        "footway",
+        "crossing",
+      ),
+    };
+  } catch (e) {
+    return {
+      total: 0,
+      nodes: 0,
+      ways: 0,
+      table: 0,
+      tableNodes: 0,
+      tableWays: 0,
+      bump: 0,
+      hump: 0,
+      tableCrossingNodes: 0,
+      tableFootwayCrossings: 0,
+      error: e instanceof Error ? e.message : String(e),
+    };
+  }
+})();
+---
+
+<section>
+  <div class="hdr">
+    <strong>traffic_calming</strong> (raised crossings) • only matters to cars, so
+    should only be tagged on the crossing node
+  </div>
+  <div class="prs">{refs.map((ref) => <PrChip ref={ref} />)}</div>
+  {
+    taginfo.error ? (
+      <div class="taginfo-error">taginfo unavailable: {taginfo.error}</div>
+    ) : (
+      <div class="panel">
+        <div class="list">
+          <ul class="tree" aria-label="taginfo traffic_calming filter tree">
+            <li>
+              <span class="branch">
+                <code>traffic_calming=*</code>
+              </span>
+              <span class="count">{fmt(taginfo.total)}</span>
+              <ul>
+                <li>
+                  <span class="branch">value: speed table</span>
+                  <span class="count">
+                    {countPct(taginfo.table, taginfo.total)} of{" "}
+                    <code>traffic_calming=*</code>
+                  </span>
+                  <ul>
+                    <li>
+                      <span class="branch">element type: nodes</span>
+                      <span class="count">
+                        {countPct(taginfo.tableNodes, taginfo.table)} of speed
+                        tables
+                      </span>
+                      <ul>
+                        <li>
+                          <span class="branch">also crossing point</span>
+                          <span class="count">
+                            {countPct(
+                              taginfo.tableCrossingNodes,
+                              taginfo.tableNodes,
+                            )}{" "}
+                            of speed-table nodes
+                          </span>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="branch">element type: ways</span>
+                      <span class="count">
+                        {countPct(taginfo.tableWays, taginfo.table)} of speed
+                        tables
+                      </span>
+                      <ul>
+                        <li>
+                          <span class="branch">also crossing way</span>
+                          <span class="count">
+                            {countPct(
+                              taginfo.tableFootwayCrossings,
+                              taginfo.tableWays,
+                            )}{" "}
+                            of speed-table ways
+                          </span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="branch">
+                    value: <code>bump</code>
+                  </span>
+                  <span class="count">
+                    {countPct(taginfo.bump, taginfo.total)} of{" "}
+                    <code>traffic_calming=*</code>
+                  </span>
+                </li>
+                <li>
+                  <span class="branch">
+                    value: <code>hump</code>
+                  </span>
+                  <span class="count">
+                    {countPct(taginfo.hump, taginfo.total)} of{" "}
+                    <code>traffic_calming=*</code>
+                  </span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    )
+  }
+</section>
+
+<style>
+  .hdr {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .desc {
+    font-size: 12px;
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  .prs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  .dim {
+    color: var(--fg-muted);
+  }
+  .taginfo-error {
+    color: var(--red);
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .panel {
+    margin-top: 6px;
+    padding: 6px 0;
+    min-width: 0;
+  }
+  .list {
+    max-width: 100%;
+    overflow: auto;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  .tree,
+  .tree ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 18px;
+  }
+  .tree {
+    padding: 3px 8px;
+  }
+  .tree li {
+    position: relative;
+    padding: 2px 0 2px 13px;
+    line-height: 1.45;
+  }
+  .tree li::before {
+    content: "├─";
+    position: absolute;
+    left: 0;
+    color: var(--fg-dim);
+  }
+  .tree li:last-child::before {
+    content: "└─";
+  }
+  .branch {
+    color: var(--fg);
+  }
+  .count {
+    color: var(--fg-muted);
+    margin-left: 6px;
+  }
+  code {
+    color: var(--fg);
+  }
+  @media (max-width: 650px) {
+    .count {
+      display: block;
+      margin-left: 0;
+    }
+  }
+</style>

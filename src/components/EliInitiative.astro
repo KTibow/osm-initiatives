@@ -1,0 +1,327 @@
+---
+import { getSecret } from "astro:env/server";
+import type { EliAvailability } from "../types";
+
+const eliOwner = "osmlab";
+const eliRepo = "editor-layer-index";
+const token = getSecret("GITHUB_TOKEN");
+
+function ghHeaders(): Record<string, string> {
+  const h: Record<string, string> = {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+  if (token) h["Authorization"] = `Bearer ${token}`;
+  return h;
+}
+
+async function fetchJson<T>(url: string): Promise<T> {
+  const r = await fetch(url, { headers: ghHeaders() });
+  if (!r.ok) throw new Error(`${r.status} ${r.statusText} for ${url}`);
+  return r.json() as Promise<T>;
+}
+
+type GHPr = {
+  number: number;
+  title: string;
+  html_url: string;
+  draft: boolean;
+  labels: { name: string }[];
+  state: string;
+  merged: boolean;
+};
+
+const allPrs: GHPr[] = await fetchJson(
+  `https://api.github.com/repos/${eliOwner}/${eliRepo}/pulls?state=open&per_page=100`,
+);
+
+async function fetchDiff(num: number): Promise<string> {
+  const url = `https://github.com/${eliOwner}/${eliRepo}/pull/${num}.diff`;
+  const res = await fetch(url, {
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+  });
+  return res.ok ? await res.text() : "";
+}
+
+const diffs = await Promise.all(allPrs.map((p) => fetchDiff(p.number)));
+const layerToPrs = new Map<string, GHPr[]>();
+
+for (let i = 0; i < allPrs.length; i++) {
+  const pr = allPrs[i];
+  const sections = diffs[i].split(/\ndiff --git /);
+  for (let raw of sections) {
+    if (!raw.trim()) continue;
+    if (!raw.match(/sources\/.+\.geojson/)) continue;
+    const pathM = raw.match(/^(?:a|b)\/(sources\/.+\.geojson)/m);
+    if (!pathM) continue;
+    const filename = pathM[1];
+    const idM = raw.match(/^\s*"?id"?\s*:\s*"([^"]+)"/m);
+    const id = idM
+      ? idM[1]
+      : filename.replace(/^sources\/[^/]+\//, "").replace(/\.geojson$/, "");
+    const arr = layerToPrs.get(id) ?? [];
+    if (!arr.includes(pr)) arr.push(pr);
+    layerToPrs.set(id, arr);
+  }
+}
+
+function prIcon(pr: GHPr): { char: string; cls: string } {
+  if (pr.draft) return { char: "◆", cls: "draft" };
+  if (pr.labels.some((l) => /triage|wait|review|needed/i.test(l.name)))
+    return { char: "◐", cls: "wait" };
+  return { char: "○", cls: "open" };
+}
+
+const { availability, error = "" } = Astro.props as {
+  availability: EliAvailability | null;
+  error?: string;
+};
+
+const layers = (availability?.layers ?? []).map((l) => {
+  const prs = layerToPrs.get(l.id) ?? [];
+  const lower = layerToPrs.get(l.id.toLowerCase());
+  return {
+    ...l,
+    prs: lower ? [...prs, ...lower.filter((p) => !prs.includes(p))] : prs,
+  };
+});
+
+function color(s: string): string {
+  if (s === "up") return "good";
+  if (s === "unsupported") return "dim";
+  return "bad";
+}
+
+function detailTitle(detail?: string, url?: string): string {
+  return [detail, url].filter(Boolean).join("\n");
+}
+
+function layerTitle(l: (typeof layers)[number]): string {
+  if (l.status !== "up") return detailTitle(l.exampleDetail, l.exampleUrl);
+  if (l.maxZoom != null && l.workingZoom != null && l.workingZoom < l.maxZoom) {
+    return detailTitle(l.declaredZoomExampleDetail, l.declaredZoomExampleUrl);
+  }
+  return "";
+}
+
+const statusIcon = (s: string): string =>
+  s === "up"
+    ? "●"
+    : s === "unsupported"
+      ? "○"
+      : s === "wrong_params"
+        ? "◈"
+        : "○";
+
+const groups = [
+  { key: "up", cls: "good", label: "up", layers: [] as typeof layers },
+  { key: "other", cls: "bad", label: "other", layers: [] as typeof layers },
+  {
+    key: "unsupported",
+    cls: "dim",
+    label: "unsupported",
+    layers: [] as typeof layers,
+  },
+];
+for (const l of layers) {
+  if (l.status === "up") groups[0].layers.push(l);
+  else if (l.status === "unsupported") groups[2].layers.push(l);
+  else groups[1].layers.push(l);
+}
+---
+
+<section>
+  <div class="hdr">
+    <strong>ELI availability</strong>
+    <span class="dim">({layers.length} layers, {allPrs.length} PRs)</span>
+  </div>
+  {error && <div class="err">✕ {error}</div>}
+
+  {
+    !layers.length ? (
+      <div class="dim" style="padding:12px 6px;text-align:center">
+        no audit data yet — run the ELI workflow
+      </div>
+    ) : (
+      groups.map((g) =>
+        g.layers.length ? (
+          <>
+            <div class="gh">
+              <span class="gh-lbl">{g.label}</span>{" "}
+              <span class="gh-cnt">({g.layers.length})</span>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <>
+                    <th>layer</th>
+                    <th>status</th>
+                    <th>pr</th>
+                  </>
+                </tr>
+              </thead>
+              <tbody>
+                {g.layers.map((l) => {
+                  const hoverTitle = layerTitle(l);
+                  return (
+                    <tr>
+                      <td class="nm">
+                        <span class={`d ${color(l.status)}`} title={hoverTitle}>
+                          {statusIcon(l.status)}
+                        </span>{" "}
+                        {l.name} <span class="dim">{l.id}</span>
+                      </td>
+                      <td class={`st ${color(l.status)}`} title={hoverTitle}>
+                        {l.status}
+                        {l.workingZoom != null ? (
+                          <span class="dim">
+                            {l.maxZoom != null && l.workingZoom < l.maxZoom ? (
+                              <span class="over" title={hoverTitle}>
+                                {" "}
+                                z{l.maxZoom}→{l.workingZoom}
+                              </span>
+                            ) : (
+                              ` @z${l.workingZoom}`
+                            )}
+                          </span>
+                        ) : (
+                          ""
+                        )}
+                      </td>
+                      <td>
+                        {l.prs.length ? (
+                          l.prs.map((p) => {
+                            const ic = prIcon(p);
+                            return (
+                              <a
+                                href={p.html_url}
+                                target="_blank"
+                                rel="noreferrer"
+                                class={`pl ${ic.cls}`}
+                                title={p.title}
+                              >
+                                {ic.char} #{p.number}
+                              </a>
+                            );
+                          })
+                        ) : (
+                          <span class="dim">─</span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </>
+        ) : (
+          []
+        ),
+      )
+    )
+  }
+</section>
+
+<style>
+  .hdr {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .err {
+    color: var(--red);
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  th {
+    text-align: left;
+    color: var(--fg-dim);
+    font-weight: 400;
+    padding: 3px 6px;
+    border-bottom: 1px solid var(--border);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  td {
+    padding: 3px 6px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  .gh {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .gh-lbl {
+    color: var(--fg);
+  }
+  .gh-cnt {
+    color: var(--fg-dim);
+    font-weight: 400;
+  }
+  .d {
+    width: 16px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+  }
+  .d.good {
+    color: var(--green);
+  }
+  .d.wait {
+    color: var(--yellow);
+  }
+  .d.bad {
+    color: var(--red);
+  }
+  .d.dim {
+    color: var(--fg-muted);
+  }
+  .nm {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .st {
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .st.good {
+    color: var(--green);
+  }
+  .st.wait {
+    color: var(--yellow);
+  }
+  .st.bad {
+    color: var(--red);
+  }
+  .st.dim {
+    color: var(--fg-muted);
+  }
+  .pl {
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 11px;
+  }
+  .pl.draft {
+    color: var(--purple);
+  }
+  .pl.wait {
+    color: var(--yellow);
+  }
+  .pl.open {
+    color: var(--fg-muted);
+  }
+  .over {
+    color: var(--yellow);
+  }
+  .dim {
+    color: var(--fg-dim);
+  }
+</style>

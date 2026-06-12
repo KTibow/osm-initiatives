@@ -1,0 +1,130 @@
+---
+import { getSecret } from "astro:env/server";
+import type { PullRef, PullSnapshot } from "../types";
+
+const { ref } = Astro.props as { ref: PullRef };
+const token = getSecret("GITHUB_TOKEN");
+
+function ghHeaders(token?: string): Record<string, string> {
+  const h: Record<string, string> = { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
+  if (token) h["Authorization"] = `Bearer ${token}`;
+  return h;
+}
+
+type GHPR = { title: string; html_url: string; state: string; draft: boolean; labels: { name: string }[]; created_at: string; updated_at: string; head: { sha: string }; merged: boolean; mergeable_state: string | null; requested_reviewers: { login: string }[] };
+type GHStatus = { state: "success" | "pending" | "failure" | "error"; statuses: unknown[] };
+type GHRuns = { total_count: number; check_runs: { status: string; conclusion: string | null }[] };
+
+async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
+  const r = await fetch(url, init);
+  if (!r.ok) throw new Error(`${r.status} ${r.statusText} for ${url}`);
+  return r.json() as Promise<T>;
+}
+
+async function checks(owner: string, repo: string, sha: string, token?: string): Promise<PullSnapshot["checks"]> {
+  const [sr, rr] = await Promise.allSettled([
+    fetchJson<GHStatus>(`https://api.github.com/repos/${owner}/${repo}/commits/${sha}/status`, { headers: ghHeaders(token) }),
+    fetchJson<GHRuns>(`https://api.github.com/repos/${owner}/${repo}/commits/${sha}/check-runs`, { headers: ghHeaders(token) }),
+  ]);
+  const s: PullSnapshot["checks"][] = [];
+  if (sr.status === "fulfilled" && sr.value.statuses.length) s.push(sr.value.state);
+  if (rr.status === "fulfilled" && rr.value.total_count) {
+    if (rr.value.check_runs.some((r) => r.status !== "completed")) s.push("pending");
+    else if (rr.value.check_runs.some((r) => r.conclusion && !["success", "neutral", "skipped"].includes(r.conclusion))) s.push("failure");
+    else s.push("success");
+  }
+  if (s.includes("failure") || s.includes("error")) return "failure";
+  if (s.includes("pending")) return "pending";
+  if (s.includes("success")) return "success";
+  return "unknown";
+}
+
+const pull: PullSnapshot = await (async (): Promise<PullSnapshot> => {
+  try {
+    const pr = await fetchJson<GHPR>(`https://api.github.com/repos/${ref.owner}/${ref.repo}/pulls/${ref.number}`, { headers: ghHeaders(token) });
+    return { ...ref, title: pr.title, url: pr.html_url, state: pr.state, draft: pr.draft, labels: pr.labels.map((l) => l.name), openedAt: pr.created_at, updatedAt: pr.updated_at, headSha: pr.head.sha, merged: pr.merged, mergeableState: pr.mergeable_state, requestedReviewers: pr.requested_reviewers.map((r) => r.login), checks: await checks(ref.owner, ref.repo, pr.head.sha, token), ageDays: Math.max(0, Math.floor((Date.now() - Date.parse(pr.created_at)) / 86_400_000)) };
+  } catch (e) {
+    return { ...ref, title: ref.label ?? `${ref.owner}/${ref.repo}#${ref.number}`, url: `https://github.com/${ref.owner}/${ref.repo}/pull/${ref.number}`, state: "unknown", draft: false, labels: [], openedAt: "", updatedAt: "", headSha: "", merged: false, mergeableState: null, requestedReviewers: [], checks: "unknown", ageDays: 0, error: e instanceof Error ? e.message : String(e) };
+  }
+})();
+
+const hasWaitLabel = pull.labels.some((label) => /triage|wait|review|needed|testing/i.test(label));
+
+const color =
+  pull.merged            ? "good"
+  : pull.state !== "open" ? "quiet"
+  : pull.error           ? "bad"
+  : pull.draft           ? "draft"
+  : pull.checks === "failure" || pull.checks === "error" ? "bad"
+  : pull.checks === "pending" ? "wait"
+  : hasWaitLabel         ? "wait"
+  : pull.requestedReviewers.length > 0 ? "wait"
+  : pull.ageDays > 7 ? "wait"
+  : pull.checks === "success" ? "good"
+  : "quiet";
+
+const icon =
+  pull.merged ? "M"
+  : pull.state !== "open" ? "◈"
+  : pull.draft ? "◆"
+  : pull.error ? "✕"
+  : "○";
+
+const tag =
+  pull.merged ? "merged"
+  : pull.state !== "open" ? "closed"
+  : pull.error ? "error"
+  : pull.draft ? "draft"
+  : pull.checks === "failure" ? "fail"
+  : pull.checks === "pending" ? "pend"
+  : hasWaitLabel ? "wait"
+  : pull.checks === "success" ? "pass"
+  : "?";
+---
+
+<a class={`chip ${color}`} href={pull.url} target="_blank" rel="noreferrer" title={`${pull.owner}/${pull.repo}#${pull.number}: ${pull.title}`}>
+  <span class="dot">{icon}</span>
+  <span class="name">{pull.label ?? pull.title}</span>
+  <span class="status">{tag}</span>
+</a>
+
+<style>
+  .chip {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    padding: 3px 9px;
+    border: 1px solid var(--c-border, var(--border));
+    border-radius: 4px;
+    background: var(--c-bg, var(--bg-card));
+    color: var(--fg);
+    font-size: 12px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .chip:hover { border-color: var(--c-fg, var(--fg-muted)); }
+  .dot { font-size: 11px; width: 14px; text-align: center; flex-shrink: 0; }
+  .name { overflow: hidden; text-overflow: ellipsis; max-width: 150px; flex-shrink: 1; }
+  .status { font-size: 10px; padding: 0 5px; border-radius: 3px; flex-shrink: 0; }
+
+  .good { --c-fg: var(--green); --c-border: rgba(63,185,80,0.35); --c-bg: rgba(63,185,80,0.08); }
+  .good .dot { color: var(--green); }
+  .good .status { background: var(--green-bg); color: var(--green); }
+
+  .wait { --c-fg: var(--yellow); --c-border: rgba(210,153,34,0.35); --c-bg: rgba(210,153,34,0.08); }
+  .wait .dot { color: var(--yellow); }
+  .wait .status { background: var(--yellow-bg); color: var(--yellow); }
+
+  .bad { --c-fg: var(--red); --c-border: rgba(248,81,73,0.35); --c-bg: rgba(248,81,73,0.08); }
+  .bad .dot { color: var(--red); }
+  .bad .status { background: var(--red-bg); color: var(--red); }
+
+  .draft { --c-fg: var(--purple); --c-border: rgba(188,140,255,0.35); --c-bg: rgba(188,140,255,0.08); }
+  .draft .dot { color: var(--purple); }
+  .draft .status { background: var(--purple-bg); color: var(--purple); }
+
+  .quiet { --c-fg: var(--fg-muted); --c-border: var(--border); }
+  .quiet .dot { color: var(--fg-muted); }
+  .quiet .status { background: transparent; color: var(--fg-dim); }
+</style>

@@ -1,0 +1,39 @@
+---
+import PrChip from "./PrChip.astro";
+
+const ref = {
+  owner: "openstreetmap",
+  repo: "iD",
+  number: 12412,
+  initiative: "plant-nursery",
+  label: "PR",
+};
+---
+
+<section>
+  <div class="hdr"><strong>plant nursery color</strong></div>
+  <div class="desc dim">
+    Adds <span class="tag">rgb(191,232,63)</span> area fill, grouped with orchard/vineyard,
+    for <strong>landuse=plant_nursery</strong> in iD.
+  </div>
+  <PrChip ref={ref} />
+</section>
+
+<style>
+  .hdr {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .desc {
+    font-size: 12px;
+    margin-bottom: 6px;
+    line-height: 1.6;
+  }
+  .tag {
+    color: var(--fg);
+    font-weight: 700;
+  }
+  .dim {
+    color: var(--fg-muted);
+  }
+</style>
