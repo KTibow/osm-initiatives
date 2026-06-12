@@ -32,11 +32,20 @@ way(bn.crossingWayNodes)["highway"]->.touchingHighways;
 node(w.crossingWays)(w.otherHighwayWays)["highway"!="crossing"]->.untaggedCrossingNodes;
 .untaggedCrossingNodes out 100;`;
 
-const missingCrossingIslandNodeQuery = `[out:json][timeout:360][maxsize:1073741824];
+const missingCrossingIslandYesNodeQuery = `[out:json][timeout:360][maxsize:1073741824];
 (
-  way["crossing:island"]["footway"="crossing"];
-  way["crossing:island"]["cycleway"="crossing"];
-  way["crossing:island"]["path"="crossing"];
+  way["crossing:island"="yes"]["footway"="crossing"];
+  way["crossing:island"="yes"]["cycleway"="crossing"];
+  way["crossing:island"="yes"]["path"="crossing"];
+)->.crossingWays;
+node(w.crossingWays)["highway"="crossing"][!"crossing:island"];
+out 100;`;
+
+const missingCrossingIslandNoNodeQuery = `[out:json][timeout:360][maxsize:1073741824];
+(
+  way["crossing:island"="no"]["footway"="crossing"];
+  way["crossing:island"="no"]["cycleway"="crossing"];
+  way["crossing:island"="no"]["path"="crossing"];
 )->.crossingWays;
 node(w.crossingWays)["highway"="crossing"][!"crossing:island"];
 out 100;`;
@@ -126,9 +135,15 @@ const eliError = eliAvailability
         <CrossingIslandInitiative />
         <OverpassPanel
           client:load
-          title="nodes missing crossing:island (sample)"
-          query={missingCrossingIslandNodeQuery}
-          emptyText="no missing island node samples"
+          title="nodes missing crossing:island=yes (sample)"
+          query={missingCrossingIslandYesNodeQuery}
+          emptyText="no missing crossing:island=yes node samples"
+        />
+        <OverpassPanel
+          client:load
+          title="nodes missing crossing:island=no (sample)"
+          query={missingCrossingIslandNoNodeQuery}
+          emptyText="no missing crossing:island=no node samples"
         />
         <OverpassPanel
           client:load
