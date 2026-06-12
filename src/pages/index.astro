@@ -58,6 +58,32 @@ const islandWayNotCrossingQuery = `[out:json][timeout:60];
 way["crossing:island"="yes"]["footway"!="crossing"]["cycleway"!="crossing"]["path"!="crossing"];
 out center 100;`;
 
+const islandYesCrossingTouchesTrafficIslandQuery = `[out:json][timeout:120];
+(
+  way["crossing:island"="yes"]["footway"="crossing"];
+  way["crossing:island"="yes"]["cycleway"="crossing"];
+  way["crossing:island"="yes"]["path"="crossing"];
+)->.crossingWays;
+way["footway"="traffic_island"]->.trafficIslandWays;
+node(w.crossingWays)(w.trafficIslandWays)->.sharedNodes;
+(
+  way(bn.sharedNodes)["crossing:island"="yes"]["footway"="crossing"];
+  way(bn.sharedNodes)["crossing:island"="yes"]["cycleway"="crossing"];
+  way(bn.sharedNodes)["crossing:island"="yes"]["path"="crossing"];
+);
+out center 100;`;
+
+const islandYesNodeOnSplitCrossingQuery = `[out:json][timeout:120][maxsize:1073741824];
+way["footway"="traffic_island"];
+node(w)->.islandNodes;
+(
+  way(bn.islandNodes)["footway"="crossing"][!"crossing:island"];
+  way(bn.islandNodes)["cycleway"="crossing"][!"crossing:island"];
+  way(bn.islandNodes)["path"="crossing"][!"crossing:island"];
+)->.crossingWaysTouchingIsland;
+node(w.crossingWaysTouchingIsland)["highway"="crossing"]["crossing:island"="yes"];
+out 100;`;
+
 const tactilePavingNodeOnlyQuery = `[out:json][timeout:60];
 (
   way["footway"="crossing"];
@@ -133,31 +159,63 @@ const eliError = eliAvailability
       </div>
       <div>
         <CrossingIslandInitiative />
-        <OverpassPanel
-          client:load
-          title="nodes missing crossing:island=yes (sample)"
-          query={missingCrossingIslandYesNodeQuery}
-          emptyText="no missing crossing:island=yes node samples"
-        />
-        <OverpassPanel
-          client:load
-          title="nodes missing crossing:island=no (sample)"
-          query={missingCrossingIslandNoNodeQuery}
-          emptyText="no missing crossing:island=no node samples"
-        />
-        <OverpassPanel
-          client:load
-          title="crossing:island nodes not highway=crossing (sample)"
-          query={islandNodeNotCrossingPointQuery}
-          emptyText="no island nodes missing highway=crossing found"
-          firstTag="highway"
-        />
-        <OverpassPanel
-          client:load
-          title="crossing:island ways not tagged as crossings (sample)"
-          query={islandWayNotCrossingQuery}
-          emptyText="no island ways missing crossing tags found"
-        />
+        <div class="initiative-links">
+          <a href="https://mpr.lt/c/55365">MapRoulette cleanup</a>
+          <a href="https://github.com/streetcomplete/StreetComplete/issues/6874">
+            StreetComplete prompt issue
+          </a>
+        </div>
+
+        <div class="subsection">
+          <div class="initiative-hdr">refuge island is missing</div>
+          <OverpassPanel
+            client:load
+            title="nodes missing crossing:island=yes (sample)"
+            query={missingCrossingIslandYesNodeQuery}
+            emptyText="no missing crossing:island=yes node samples"
+          />
+          <OverpassPanel
+            client:load
+            title="nodes missing crossing:island=no (sample)"
+            query={missingCrossingIslandNoNodeQuery}
+            emptyText="no missing crossing:island=no node samples"
+          />
+        </div>
+
+        <div class="subsection">
+          <div class="initiative-hdr">
+            refuge island is incorrectly present on split crossings
+          </div>
+          <OverpassPanel
+            client:load
+            title="split crossing ways tagged crossing:island=yes (sample)"
+            query={islandYesCrossingTouchesTrafficIslandQuery}
+            emptyText="no crossing:island=yes crossing ways touching traffic islands found"
+          />
+          <OverpassPanel
+            client:load
+            title="split crossing nodes tagged crossing:island=yes (sample)"
+            query={islandYesNodeOnSplitCrossingQuery}
+            emptyText="no crossing:island=yes crossing nodes on split crossings found"
+          />
+        </div>
+
+        <div class="subsection">
+          <div class="initiative-hdr">tag placement consistency</div>
+          <OverpassPanel
+            client:load
+            title="crossing:island nodes not highway=crossing (sample)"
+            query={islandNodeNotCrossingPointQuery}
+            emptyText="no island nodes missing highway=crossing found"
+            firstTag="highway"
+          />
+          <OverpassPanel
+            client:load
+            title="crossing:island ways not tagged as crossings (sample)"
+            query={islandWayNotCrossingQuery}
+            emptyText="no island ways missing crossing tags found"
+          />
+        </div>
       </div>
     </div>
 
@@ -216,6 +274,26 @@ const eliError = eliAvailability
     font-size: 12px;
     margin-bottom: 6px;
     line-height: 1.6;
+  }
+  .initiative-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 6px 0 10px;
+  }
+  .initiative-links a {
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--fg-muted);
+    font-size: 12px;
+    padding: 3px 8px;
+    text-decoration: none;
+  }
+  .initiative-links a:hover {
+    color: var(--fg);
+  }
+  .subsection {
+    margin-top: 12px;
   }
   .split {
     display: grid;
