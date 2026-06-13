@@ -5,13 +5,14 @@ import type { EliAvailability } from "../types";
 const eliOwner = "osmlab";
 const eliRepo = "editor-layer-index";
 const token = getSecret("GITHUB_TOKEN");
+if (!token) throw new Error("No token present");
 
 function ghHeaders(): Record<string, string> {
   const h: Record<string, string> = {
     Accept: "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
   };
-  if (token) h["Authorization"] = `Bearer ${token}`;
+  h["Authorization"] = `Bearer ${token}`;
   return h;
 }
 
@@ -38,9 +39,14 @@ const allPrs: GHPr[] = await fetchJson(
 async function fetchDiff(num: number): Promise<string> {
   const url = `https://github.com/${eliOwner}/${eliRepo}/pull/${num}.diff`;
   const res = await fetch(url, {
-    headers: token ? { Authorization: `Bearer ${token}` } : {},
+    headers: { Authorization: `Bearer ${token}` },
   });
-  return res.ok ? await res.text() : "";
+  if (!res.ok) {
+    throw new Error(
+      `Failed to fetch diff for ${eliOwner}/${eliRepo}#${num}: ${res.status} ${res.statusText} for ${url}`,
+    );
+  }
+  return res.text();
 }
 
 const diffs = await Promise.all(allPrs.map((p) => fetchDiff(p.number)));
@@ -61,7 +67,9 @@ for (let i = 0; i < allPrs.length; i++) {
   const sections = diffs[i].split(/(?=^diff --git )/m);
   for (const raw of sections) {
     if (!raw.trim()) continue;
-    const pathM = raw.match(/^diff --git a\/(sources\/[^\s]+\.geojson) b\/(?:sources\/[^\s]+\.geojson|\/dev\/null)/m);
+    const pathM = raw.match(
+      /^diff --git a\/(sources\/[^\s]+\.geojson) b\/(?:sources\/[^\s]+\.geojson|\/dev\/null)/m,
+    );
     if (!pathM) continue;
     addFilenamePr(sourceFilename(pathM[1]), pr);
   }
@@ -95,14 +103,18 @@ function color(s: string): string {
   return "bad";
 }
 
-function detailTitle(detail?: string, url?: string): string {
-  return [detail, url].filter(Boolean).join("\n");
+function urlsTitle(label: string, urls?: string[]): string {
+  return urls?.length ? `${label}\n${urls.join("\n")}` : "";
 }
 
 function layerTitle(l: (typeof layers)[number]): string {
-  if (l.status !== "up") return detailTitle(l.exampleDetail, l.exampleUrl);
+  if (l.status !== "up")
+    return urlsTitle("Failing sampled URLs", l.failingUrls);
   if (l.maxZoom != null && l.workingZoom != null && l.workingZoom < l.maxZoom) {
-    return detailTitle(l.declaredZoomExampleDetail, l.declaredZoomExampleUrl);
+    return urlsTitle(
+      "Failing declared max zoom URLs",
+      l.declaredZoomFailingUrls,
+    );
   }
   return "";
 }

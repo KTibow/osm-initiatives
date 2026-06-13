@@ -40,13 +40,10 @@ export type EliAvailabilityLayer = {
   status: string;
   okSamples: number;
   samples: number;
-  exampleStatus?: string;
-  exampleHttpStatus?: string;
-  exampleDetail?: string;
-  exampleUrl?: string;
-  declaredZoomExampleStatus?: string;
-  declaredZoomExampleDetail?: string;
-  declaredZoomExampleUrl?: string;
+  workingUrls?: string[];
+  failingUrls?: string[];
+  declaredZoomWorkingUrls?: string[];
+  declaredZoomFailingUrls?: string[];
   workingZoom?: number | null;
   maxZoom?: number | null;
   sourcePath?: string;
