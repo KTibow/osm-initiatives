@@ -159,7 +159,7 @@ def check_layer(layer: dict) -> dict:
 
 
 layers = []
-for path in SOURCES.glob("**/*.geojson"):
+for path in sorted(SOURCES.glob("**/*.geojson")):
     data = json.loads(path.read_text("utf-8"))
     props = data.get("properties") or {}
     lid = props.get("id") or path.stem
@@ -177,7 +177,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as executor:
         zn = f" @z{z}" if z is not None else ""
         print(f"[{i}/{len(layers)}] {row['id']} {row['status']}{zn} {row['okSamples']}/{row['samples']}", flush=True)
 
-rows.sort(key=lambda r: (r["status"] == "up", r["id"].lower()))
+rows.sort(key=lambda r: (r["sourcePath"], r["id"].lower()))
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 OUTPUT.write_text(json.dumps({"generatedAt": datetime.now(UTC).isoformat(), "layers": rows}, indent=2) + "\n", "utf-8")
 print(f"wrote {OUTPUT} with {len(rows)} layers")
