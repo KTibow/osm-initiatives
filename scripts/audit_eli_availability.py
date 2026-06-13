@@ -93,6 +93,10 @@ def audit_url(url: str) -> dict:
         return {"status": "bad", "detail": str(e), "url": url}
 
 
+def result_urls(results: list[dict], status: str) -> list[str]:
+    return [r["url"] for r in results if r.get("status") == status and r.get("url")]
+
+
 LOG = True
 
 
@@ -116,13 +120,13 @@ def check_layer(layer: dict) -> dict:
 
     if typ != "tms" or not url_tmpl:
         log(f"  -> unsupported (type={typ}, url={bool(url_tmpl)})")
-        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "exampleStatus": "", "exampleHttpStatus": "", "exampleDetail": "unsupported imagery type", "exampleUrl": "", "sourcePath": sp}
+        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [], "sourcePath": sp}
 
-    max_z = min(int(props.get("max_zoom") or 20), 20)
+    max_z = int(props.get("max_zoom") or 20)
     test_url = tile_url(url_tmpl, max_z, 0, 0)
     if "{" in test_url:
         log(f"  -> unsupported (unresolved tokens in URL)")
-        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "exampleStatus": "", "exampleHttpStatus": "", "exampleDetail": f"unresolved template tokens: {test_url}", "exampleUrl": test_url, "sourcePath": sp}
+        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [test_url], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [test_url], "sourcePath": sp}
     pts = sample_pts(flatten(coordinates(layer["geometry"])), SAMPLES)
     raw_pts = flatten(coordinates(layer["geometry"]))
     log(f"  max_zoom={max_z} raw_points={len(raw_pts)} sampled_points={len(pts)}")
@@ -153,10 +157,8 @@ def check_layer(layer: dict) -> dict:
 
     ok = sum(1 for r in best_results if r["status"] == "ok") if best_results else 0
     status = "up" if best_z is not None else "down"
-    failing = next((r for r in best_results if r["status"] != "ok"), {}) if best_results else {}
-    declared_zoom_failing = next((r for r in declared_zoom_results or [] if r["status"] != "ok"), {})
-    log(f"  => {status} ok={ok}/{len(best_results)} zoom={best_z} first_fail={failing.get('detail','')[:80]}")
-    return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": status, "okSamples": ok, "samples": len(best_results) if best_results else 0, "workingZoom": best_z, "maxZoom": max_z, "exampleStatus": failing.get("status", ""), "exampleHttpStatus": failing.get("httpStatus", ""), "exampleDetail": failing.get("detail", ""), "exampleUrl": failing.get("url", ""), "declaredZoomExampleStatus": declared_zoom_failing.get("status", ""), "declaredZoomExampleDetail": declared_zoom_failing.get("detail", ""), "declaredZoomExampleUrl": declared_zoom_failing.get("url", ""), "sourcePath": sp}
+    log(f"  => {status} ok={ok}/{len(best_results)} zoom={best_z}")
+    return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": status, "okSamples": ok, "samples": len(best_results) if best_results else 0, "workingZoom": best_z, "maxZoom": max_z, "workingUrls": result_urls(best_results or [], "ok"), "failingUrls": result_urls(best_results or [], "bad"), "declaredZoomWorkingUrls": result_urls(declared_zoom_results or [], "ok"), "declaredZoomFailingUrls": result_urls(declared_zoom_results or [], "bad"), "sourcePath": sp}
 
 
 layers = []
