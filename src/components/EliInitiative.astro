@@ -48,14 +48,13 @@ const layerToPrs = new Map<string, GHPr[]>();
 
 for (let i = 0; i < allPrs.length; i++) {
   const pr = allPrs[i];
-  const sections = diffs[i].split(/\ndiff --git /);
-  for (let raw of sections) {
+  const sections = diffs[i].split(/(?=^diff --git )/m);
+  for (const raw of sections) {
     if (!raw.trim()) continue;
-    if (!raw.match(/sources\/.+\.geojson/)) continue;
-    const pathM = raw.match(/^(?:a|b)\/(sources\/.+\.geojson)/m);
+    const pathM = raw.match(/^diff --git a\/(sources\/[^\s]+\.geojson) b\/(?:sources\/[^\s]+\.geojson|\/dev\/null)/m);
     if (!pathM) continue;
     const filename = pathM[1];
-    const idM = raw.match(/^\s*"?id"?\s*:\s*"([^"]+)"/m);
+    const idM = raw.match(/^[ +-]?\s*"?id"?\s*:\s*"([^"]+)"/m);
     const id = idM
       ? idM[1]
       : filename.replace(/^sources\/[^/]+\//, "").replace(/\.geojson$/, "");

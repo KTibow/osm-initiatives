@@ -13,9 +13,14 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@astrojs/svelte": "^7.0.13",
+    "@astrojs/svelte": "^8.1.2",
     "@unocss/reset": "^66.7.0",
     "astro": "^6.4.6",
     "svelte": "^5.31.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@types/node": "^25.9.3",
+    "typescript": "^5.9.3"
   }
 }
