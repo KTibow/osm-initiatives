@@ -132,7 +132,8 @@ def check_layer(layer: dict) -> dict:
     best_z = None
     best_results = None
     declared_zoom_results = None
-    for z in range(max_z, max_z - 4, -1):
+    min_z = max(int(props.get("min_zoom") or 0), 0)
+    for z in range(max_z, min_z - 1, -1):
         if z < 5:
             break
         urls = [tile_url(url_tmpl, z, *lonlat_to_tile(lon, lat, z)) for lon, lat in pts]

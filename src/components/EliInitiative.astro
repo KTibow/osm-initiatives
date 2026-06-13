@@ -44,7 +44,17 @@ async function fetchDiff(num: number): Promise<string> {
 }
 
 const diffs = await Promise.all(allPrs.map((p) => fetchDiff(p.number)));
-const layerToPrs = new Map<string, GHPr[]>();
+const filenameToPrs = new Map<string, GHPr[]>();
+
+function sourceFilename(sourcePath: string): string {
+  return sourcePath.split("/").at(-1) ?? sourcePath;
+}
+
+function addFilenamePr(filename: string, pr: GHPr): void {
+  const arr = filenameToPrs.get(filename) ?? [];
+  if (!arr.includes(pr)) arr.push(pr);
+  filenameToPrs.set(filename, arr);
+}
 
 for (let i = 0; i < allPrs.length; i++) {
   const pr = allPrs[i];
@@ -53,14 +63,7 @@ for (let i = 0; i < allPrs.length; i++) {
     if (!raw.trim()) continue;
     const pathM = raw.match(/^diff --git a\/(sources\/[^\s]+\.geojson) b\/(?:sources\/[^\s]+\.geojson|\/dev\/null)/m);
     if (!pathM) continue;
-    const filename = pathM[1];
-    const idM = raw.match(/^[ +-]?\s*"?id"?\s*:\s*"([^"]+)"/m);
-    const id = idM
-      ? idM[1]
-      : filename.replace(/^sources\/[^/]+\//, "").replace(/\.geojson$/, "");
-    const arr = layerToPrs.get(id) ?? [];
-    if (!arr.includes(pr)) arr.push(pr);
-    layerToPrs.set(id, arr);
+    addFilenamePr(sourceFilename(pathM[1]), pr);
   }
 }
 
@@ -77,11 +80,12 @@ const { availability, error = "" } = Astro.props as {
 };
 
 const layers = (availability?.layers ?? []).map((l) => {
-  const prs = layerToPrs.get(l.id) ?? [];
-  const lower = layerToPrs.get(l.id.toLowerCase());
+  const prs = l.sourcePath
+    ? (filenameToPrs.get(sourceFilename(l.sourcePath)) ?? [])
+    : [];
   return {
     ...l,
-    prs: lower ? [...prs, ...lower.filter((p) => !prs.includes(p))] : prs,
+    prs,
   };
 });
 
