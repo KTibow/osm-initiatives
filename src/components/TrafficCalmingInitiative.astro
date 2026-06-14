@@ -18,14 +18,14 @@ const refs = [
     repo: "osmose-backend",
     number: 2761,
     initiative: "raised-crossings",
-    label: "warn on ways",
+    label: "only for trafficked",
   },
   {
     owner: "openstreetmap",
     repo: "id-tagging-schema",
     number: 2314,
     initiative: "raised-crossings",
-    label: "hide on ways",
+    label: "not crossing ways",
   },
 ];
 
@@ -101,7 +101,7 @@ const taginfo: TaginfoSummary = await (async () => {
 <section>
   <div class="hdr">
     <strong>traffic_calming</strong> (raised crossings) • only matters to cars, so
-    should only be tagged on the crossing node
+    should only be tagged on roads
   </div>
   <div class="prs">{refs.map((ref) => <PrChip ref={ref} />)}</div>
   {
