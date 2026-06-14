@@ -65,7 +65,28 @@ def sample_pts(points: list, count: int) -> list:
     return [points[round(i * (len(points) - 1) / (count - 1))] for i in range(count)]
 
 
+def has_only_2d_positions(value) -> bool:
+    if isinstance(value, list) and value and all(isinstance(p, (int, float)) for p in value):
+        return len(value) == 2
+    if not isinstance(value, list):
+        return False
+    return all(has_only_2d_positions(child) for child in value)
+
+
+def strict_2d_ring(ring: list) -> list[tuple[float, float]]:
+    pts = []
+    for pos in ring:
+        if not isinstance(pos, list) or len(pos) != 2 or not all(isinstance(p, (int, float)) for p in pos):
+            return []
+        pts.append((float(pos[0]), float(pos[1])))
+    return pts
+
+
 def point_in_ring(point: tuple[float, float], ring: list) -> bool:
+    ring = strict_2d_ring(ring)
+    if len(ring) < 4:
+        return False
+
     x, y = point
     inside = False
     j = len(ring) - 1
@@ -84,7 +105,7 @@ def point_in_polygon(point: tuple[float, float], polygon: list) -> bool:
 
 
 def interior_polygon_pts(polygon: list, count: int) -> list[tuple[float, float]]:
-    ring = [(float(x), float(y)) for x, y in flatten(polygon[0] if polygon else [])]
+    ring = strict_2d_ring(polygon[0] if polygon else [])
     if len(ring) < 4:
         return []
 
@@ -194,6 +215,9 @@ def check_layer(layer: dict) -> dict:
     if "{" in test_url:
         log(f"  -> unsupported (unresolved tokens in URL)")
         return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [test_url], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [test_url], "sourcePath": sp}
+    if not has_only_2d_positions(coordinates(layer["geometry"])):
+        log(f"  -> unsupported (non-2d geometry)")
+        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [], "sourcePath": sp}
     pts = geometry_sample_pts(layer["geometry"], SAMPLES)
     raw_pts = flatten(coordinates(layer["geometry"]))
     log(f"  max_zoom={max_z} raw_points={len(raw_pts)} sampled_points={len(pts)}")
