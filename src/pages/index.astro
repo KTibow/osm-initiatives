@@ -5,7 +5,7 @@ import Layout from "../layouts/Layout.astro";
 import CrossingIslandInitiative from "../components/CrossingIslandInitiative.astro";
 import EliInitiative from "../components/EliInitiative.astro";
 import PlantNurseryInitiative from "../components/PlantNurseryInitiative.astro";
-import RaisedCrossingsInitiative from "../components/RaisedCrossingsInitiative.astro";
+import TrafficCalmingInitiative from "../components/TrafficCalmingInitiative.astro";
 import TactilePavingInitiative from "../components/TactilePavingInitiative.astro";
 import OverpassPanel from "../components/OverpassPanel.svelte";
 
@@ -149,7 +149,7 @@ const eliError = eliAvailability
   <main>
     <div class="split section">
       <div>
-        <RaisedCrossingsInitiative />
+        <TrafficCalmingInitiative />
         <OverpassPanel
           client:load
           title="traffic_calming on crossing ways (sample)"
@@ -161,7 +161,9 @@ const eliError = eliAvailability
         <CrossingIslandInitiative />
         <div class="initiative-links">
           <a href="https://mpr.lt/c/55365">MapRoulette cleanup</a>
-          <a href="https://github.com/streetcomplete/StreetComplete/issues/6874">
+          <a
+            href="https://github.com/streetcomplete/StreetComplete/issues/6874"
+          >
             StreetComplete prompt issue
           </a>
         </div>
@@ -222,7 +224,9 @@ const eliError = eliAvailability
     <div class="section">
       <TactilePavingInitiative />
       <div class="initiative-links">
-        <a href="https://github.com/Scottish-Tech-Army/Soundscape-Android/issues/945">
+        <a
+          href="https://github.com/Scottish-Tech-Army/Soundscape-Android/issues/945"
+        >
           Soundscape kerb lookup issue
         </a>
       </div>
