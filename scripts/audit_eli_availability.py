@@ -65,6 +65,73 @@ def sample_pts(points: list, count: int) -> list:
     return [points[round(i * (len(points) - 1) / (count - 1))] for i in range(count)]
 
 
+def point_in_ring(point: tuple[float, float], ring: list) -> bool:
+    x, y = point
+    inside = False
+    j = len(ring) - 1
+    for i, (xi, yi) in enumerate(ring):
+        xj, yj = ring[j]
+        if (yi > y) != (yj > y) and x < (xj - xi) * (y - yi) / (yj - yi) + xi:
+            inside = not inside
+        j = i
+    return inside
+
+
+def point_in_polygon(point: tuple[float, float], polygon: list) -> bool:
+    if not polygon or not point_in_ring(point, polygon[0]):
+        return False
+    return not any(point_in_ring(point, hole) for hole in polygon[1:])
+
+
+def interior_polygon_pts(polygon: list, count: int) -> list[tuple[float, float]]:
+    ring = [(float(x), float(y)) for x, y in flatten(polygon[0] if polygon else [])]
+    if len(ring) < 4:
+        return []
+
+    min_x, max_x = min(x for x, _ in ring), max(x for x, _ in ring)
+    min_y, max_y = min(y for _, y in ring), max(y for _, y in ring)
+    cx = sum(x for x, _ in ring) / len(ring)
+    cy = sum(y for _, y in ring) / len(ring)
+    candidates = [((min_x + max_x) / 2, (min_y + max_y) / 2), (cx, cy)]
+    candidates.extend((x + (cx - x) * 0.05, y + (cy - y) * 0.05) for x, y in sample_pts(ring, count * 3))
+
+    grid = 28
+    candidates.extend(
+        (min_x + (ix + 0.5) * (max_x - min_x) / grid, min_y + (iy + 0.5) * (max_y - min_y) / grid)
+        for iy in range(grid)
+        for ix in range(grid)
+    )
+
+    pts = []
+    seen = set()
+    for pt in candidates:
+        key = (round(pt[0], 7), round(pt[1], 7))
+        if key in seen or not point_in_polygon(pt, polygon):
+            continue
+        seen.add(key)
+        pts.append(pt)
+        if len(pts) >= count:
+            break
+    return pts
+
+
+def geometry_sample_pts(geometry: dict, count: int) -> list[tuple[float, float]]:
+    typ = geometry.get("type") if geometry else None
+    if typ == "Polygon":
+        return interior_polygon_pts(geometry.get("coordinates", []), count) or sample_pts(flatten(coordinates(geometry)), count)
+    if typ == "MultiPolygon":
+        pts = []
+        for polygon in geometry.get("coordinates", []):
+            pts.extend(interior_polygon_pts(polygon, 1))
+        return sample_pts(pts, count) or sample_pts(flatten(coordinates(geometry)), count)
+    if typ == "GeometryCollection":
+        pts = []
+        for child in geometry.get("geometries", []):
+            pts.extend(geometry_sample_pts(child, count))
+        return sample_pts(pts, count)
+    return sample_pts(flatten(coordinates(geometry)), count)
+
+
 def tile_url(template: str, zoom: int, x: int, y: int) -> str:
     import re
     url = template.replace("{zoom}", str(zoom)).replace("{z}", str(zoom)).replace("{x}", str(x)).replace("{y}", str(y)).replace("{-y}", str((2**zoom - 1) - y)).replace("{apikey}", "")
@@ -127,7 +194,7 @@ def check_layer(layer: dict) -> dict:
     if "{" in test_url:
         log(f"  -> unsupported (unresolved tokens in URL)")
         return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [test_url], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [test_url], "sourcePath": sp}
-    pts = sample_pts(flatten(coordinates(layer["geometry"])), SAMPLES)
+    pts = geometry_sample_pts(layer["geometry"], SAMPLES)
     raw_pts = flatten(coordinates(layer["geometry"]))
     log(f"  max_zoom={max_z} raw_points={len(raw_pts)} sampled_points={len(pts)}")
     if not pts:
