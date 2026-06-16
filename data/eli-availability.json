@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T17:30:43.829256+00:00",
+  "generatedAt": "2026-06-16T21:28:21.242011+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -7707,22 +7707,22 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": 13,
       "maxZoom": 19,
       "workingUrls": [
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280349/168556.png",
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280563/168626.png",
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/281493/166639.png",
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280345/166923.png"
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4380/2633.png",
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4383/2634.png",
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4398/2603.png",
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4380/2608.png"
       ],
       "failingUrls": [],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280349/168556.png",
         "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280563/168626.png",
         "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/281493/166639.png",
         "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280345/166923.png"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/europe/de/Mecklenburg-Vorpommern-ORKa.MV.geojson"
     },
     {
@@ -8760,25 +8760,25 @@
       "countryCode": "EE",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 18,
+      "workingZoom": null,
       "maxZoom": 18,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/44.png",
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/44.png",
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/45.png",
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/45.png"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/147997/182894.png",
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148703/183420.png",
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148934/185411.png",
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/150267/185739.png"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/147997/182894.png",
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148703/183420.png",
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148934/185411.png",
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/150267/185739.png"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/europe/ee/EstoniaOrtho-Maaamet-TMS.geojson"
     },
     {
@@ -21892,24 +21892,26 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 19,
       "maxZoom": 19,
-      "workingUrls": [],
-      "failingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/80",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/81",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/115/82",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/82"
-      ],
-      "declaredZoomWorkingUrls": [],
-      "declaredZoomFailingUrls": [
+      "workingUrls": [
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235300/165761",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235307/166605",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/234950/167936"
+      ],
+      "failingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285"
+      ],
+      "declaredZoomWorkingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235300/165761",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235307/166605",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/234950/167936"
+      ],
+      "declaredZoomFailingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP-PR.geojson"
     },
@@ -21919,25 +21921,25 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
-      "workingUrls": [],
-      "failingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/13/8",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/12/5",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/11/9",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/11/9"
-      ],
-      "declaredZoomWorkingUrls": [],
-      "declaredZoomFailingUrls": [
+      "workingUrls": [
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/112536/70747",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/101347/41483",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/98102/78961",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/95478/80963"
       ],
+      "failingUrls": [],
+      "declaredZoomWorkingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/112536/70747",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/101347/41483",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/98102/78961",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/95478/80963"
+      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP.geojson"
     },
     {
@@ -25587,26 +25589,24 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 19,
       "maxZoom": 19,
       "workingUrls": [
         "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218406/143853",
         "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218353/143835",
+        "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218615/143700",
         "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218504/144134"
       ],
-      "failingUrls": [
-        "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218615/143700"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218406/143853",
         "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218353/143835",
+        "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218615/143700",
         "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218504/144134"
       ],
-      "declaredZoomFailingUrls": [
-        "https://utility.arcgis.com/usrsvcs/servers/29aa5eb310654335b448551280f2fb89/rest/services/Aerials2021/MapServer/tile/19/218615/143700"
-      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Seminole_Ortho_2021.geojson"
     },
     {
@@ -25849,25 +25849,25 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
-      "workingUrls": [],
-      "failingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/113/15",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/112/15",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/111/14",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/114/14"
-      ],
-      "declaredZoomWorkingUrls": [],
-      "declaredZoomFailingUrls": [
+      "workingUrls": [
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115751/16356",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115481/15948",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/114447/14398",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/117014/14398"
       ],
+      "failingUrls": [],
+      "declaredZoomWorkingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115751/16356",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115481/15948",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/114447/14398",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/117014/14398"
+      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/USDA-NAIP-HI.geojson"
     },
     {
@@ -32711,25 +32711,23 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 2,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 21,
+      "workingZoom": null,
       "maxZoom": 21,
-      "workingUrls": [
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/12.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/12.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/11/12.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/13.png"
       ],
-      "declaredZoomWorkingUrls": [
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
-      ],
+      "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Argenmap-gray.geojson"
@@ -32824,26 +32822,24 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "workingUrls": [
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5297/6278.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5245/6581.png",
+        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5569/6757.png"
       ],
-      "failingUrls": [
-        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5297/6278.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5245/6581.png",
+        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5569/6757.png"
       ],
-      "declaredZoomFailingUrls": [
-        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png"
-      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Cartas-100k.geojson"
     },
     {
@@ -32978,24 +32974,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "workingUrls": [
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png",
-        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/356458/432489.png"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png"
+      ],
       "declaredZoomWorkingUrls": [
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png",
-        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/356458/432489.png"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-orthophotos_mosaic.geojson"
     },
     {
@@ -33143,25 +33141,25 @@
       "countryCode": "BR",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11",
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11",
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11",
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705",
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656",
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412",
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705",
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656",
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412",
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/br/Curitiba_2019_Orthophoto.geojson"
     },
     {
