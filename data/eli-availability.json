@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:28:21.242011+00:00",
+  "generatedAt": "2026-06-17T05:26:36.405038+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -7704,18 +7704,18 @@
       "countryCode": "DE",
       "category": "osmbasedmap",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": null,
       "maxZoom": 19,
-      "workingUrls": [
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4380/2633.png",
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4383/2634.png",
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4398/2603.png",
-        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/13/4380/2608.png"
+      "workingUrls": [],
+      "failingUrls": [
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/12/2190/1316.png",
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/12/2191/1317.png",
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/12/2199/1301.png",
+        "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/12/2190/1304.png"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://www.orka-mv.de/geodienste/orkamv/tiles/1.0.0/orkamv/GLOBAL_WEBMERCATOR/19/280349/168556.png",
@@ -8760,25 +8760,25 @@
       "countryCode": "EE",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
-      "workingUrls": [],
-      "failingUrls": [
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/44.png",
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/44.png",
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/45.png",
-        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/6/36/45.png"
-      ],
-      "declaredZoomWorkingUrls": [],
-      "declaredZoomFailingUrls": [
+      "workingUrls": [
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/147997/182894.png",
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148703/183420.png",
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148934/185411.png",
         "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/150267/185739.png"
       ],
+      "failingUrls": [],
+      "declaredZoomWorkingUrls": [
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/147997/182894.png",
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148703/183420.png",
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/148934/185411.png",
+        "https://tiles.maaamet.ee/tm/tms/1.0.0/foto@GMC/18/150267/185739.png"
+      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/europe/ee/EstoniaOrtho-Maaamet-TMS.geojson"
     },
     {
@@ -20322,25 +20322,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2003.geojson"
     },
     {
@@ -20349,25 +20349,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2006.geojson"
     },
     {
@@ -20376,25 +20376,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2009.geojson"
     },
     {
@@ -20403,25 +20403,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2012.geojson"
     },
     {
@@ -20430,25 +20430,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2014.geojson"
     },
     {
@@ -20457,25 +20457,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2016.geojson"
     },
     {
@@ -20484,25 +20484,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2017.geojson"
     },
     {
@@ -20511,25 +20511,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2018.geojson"
     },
     {
@@ -20538,25 +20538,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/700/326",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/700/325",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/701/324",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/701/325"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2019.geojson"
     },
     {
@@ -20565,25 +20565,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2020.geojson"
     },
     {
@@ -20592,25 +20592,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2021.geojson"
     },
     {
@@ -20619,26 +20619,24 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 3,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359023/166591"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358572/167088"
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22410/10443",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22424/10409",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22440/10399",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22438/10411"
       ],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358572/167088"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2022.geojson"
     },
@@ -20648,25 +20646,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2023.geojson"
     },
     {
@@ -20675,25 +20673,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2024.geojson"
     },
     {
@@ -20702,25 +20700,25 @@
       "countryCode": "CA",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2025.geojson"
     },
     {
@@ -24029,6 +24027,23 @@
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Brevard_Ortho_2025.geojson"
+    },
+    {
+      "id": "Brevard_Ortho_2026",
+      "name": "Brevard County Orthoimagery (2026)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "workingUrls": [],
+      "failingUrls": [],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Brevard_Ortho_2026.geojson"
     },
     {
       "id": "Broward_Ortho_2021",
@@ -32711,25 +32726,25 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 21,
       "maxZoom": 21,
-      "workingUrls": [],
-      "failingUrls": [
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/12.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/12.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/11/12.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/13.png"
-      ],
-      "declaredZoomWorkingUrls": [],
-      "declaredZoomFailingUrls": [
+      "workingUrls": [
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
       ],
+      "failingUrls": [],
+      "declaredZoomWorkingUrls": [
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
+      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Argenmap-gray.geojson"
     },
     {
@@ -32739,26 +32754,24 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "workingUrls": [
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
-      ],
-      "failingUrls": [
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/712916/864978.png"
       ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
-      ],
-      "declaredZoomFailingUrls": [
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/712916/864978.png"
       ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Argenmap.geojson"
     },
     {
@@ -32974,26 +32987,24 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "workingUrls": [
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png",
+        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/356458/432489.png"
       ],
-      "failingUrls": [
-        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png",
+        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png",
         "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/356458/432489.png"
       ],
-      "declaredZoomFailingUrls": [
-        "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png"
-      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-orthophotos_mosaic.geojson"
     },
     {
@@ -33141,25 +33152,25 @@
       "countryCode": "BR",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 20,
       "maxZoom": 20,
-      "workingUrls": [],
-      "failingUrls": [
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11",
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11",
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11",
-        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
-      ],
-      "declaredZoomWorkingUrls": [],
-      "declaredZoomFailingUrls": [
+      "workingUrls": [
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705",
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656",
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412",
         "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
       ],
+      "failingUrls": [],
+      "declaredZoomWorkingUrls": [
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705",
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656",
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412",
+        "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
+      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/br/Curitiba_2019_Orthophoto.geojson"
     },
     {
