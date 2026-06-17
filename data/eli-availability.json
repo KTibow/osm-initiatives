@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T16:14:07.182892+00:00",
+  "generatedAt": "2026-06-17T20:39:36.252438+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -62,26 +62,24 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9893&y=8185",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9901&y=8180"
       ],
-      "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9893&y=8185",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9901&y=8180"
       ],
-      "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180"
-      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/africa/ke/osmim-imagicode-S2A_R092_S02_20160613T075613.geojson"
     },
     {
@@ -91,24 +89,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9895&y=8050",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9887&y=8045",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9903&y=8045"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9895&y=8050",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9887&y=8045",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9903&y=8045"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/africa/tz/osmim-imagicode-S2A_R092_S05_20160802T075556.geojson"
     },
     {
@@ -118,25 +118,25 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4776&y=4104"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4776&y=4104",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4779&y=4100"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4773&y=4100",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4779&y=4100"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4773&y=4100"
       ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4776&y=4104"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4776&y=4104",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4779&y=4100"
       ],
       "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4773&y=4100",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4779&y=4100"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4773&y=4100"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/africa/ug/osmim-imagicode-LC81730602015040LGN00.geojson"
     },
@@ -147,24 +147,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9553&y=8207",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9552&y=8206",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9558&y=8202"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9553&y=8207",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9552&y=8206",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9558&y=8202"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/africa/ug/osmim-imagicode-S2A_R078_N01_20160702T082522.geojson"
     },
     {
@@ -394,24 +396,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=978&y=43",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=955&y=19",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=968&y=18"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=978&y=43",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=955&y=19",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=968&y=18"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80281222016035LGN00.geojson"
     },
     {
@@ -421,24 +425,24 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2439&y=799"
       ],
       "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=803"
       ],
       "declaredZoomWorkingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2439&y=799"
       ],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=803"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80651332014352LGN01.geojson"
@@ -450,24 +454,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2454&y=838",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2456&y=804"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799"
+      ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2454&y=838",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2456&y=804"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80651332016358LGN02.geojson"
     },
     {
@@ -482,19 +488,19 @@
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2438&y=803"
       ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838"
       ],
       "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2438&y=803"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80661332021346LGN00.geojson"
@@ -506,24 +512,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=827",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=823",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=815"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819"
+      ],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=827",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=823",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=815"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80691332019346LGN01.geojson"
     },
     {
@@ -538,20 +546,20 @@
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=803"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2384&y=837",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2369&y=799"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2384&y=837",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2369&y=799"
-      ],
-      "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=839",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=803"
       ],
-      "declaredZoomFailingUrls": [
+      "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2384&y=837",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2369&y=799"
+      ],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=803"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80691332021351LGN00.geojson"
     },
@@ -589,25 +597,25 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=838",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2350&y=804"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839"
       ],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=838",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2350&y=804"
       ],
       "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80711332020363LGN00.geojson"
     },
@@ -618,24 +626,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2281&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=804"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838"
+      ],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2281&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=804"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80741332021354LGN00.geojson"
     },
     {
@@ -651,19 +661,19 @@
       "maxZoom": 12,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
       ],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799"
       ],
       "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838"
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80781332017355LGN00.geojson"
     },
@@ -674,26 +684,24 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2209&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2208&y=838",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2210&y=804"
       ],
-      "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2208&y=838",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2209&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2208&y=838",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2210&y=804"
       ],
-      "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2208&y=838",
-        "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799"
-      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80791332016360LGN01.geojson"
     },
     {
@@ -1108,24 +1116,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2228&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2245&y=804"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=838"
+      ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=839",
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=838",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2228&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2245&y=804"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=838"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LO80771332019354LGN00.geojson"
     },
     {
@@ -1135,24 +1145,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=837",
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=803"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799"
+      ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=837",
-        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799",
         "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=803"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839",
+        "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LO80841332019355LGN00.geojson"
     },
     {
@@ -1162,24 +1174,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2846&y=2321",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2821&y=2327"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2851&y=2330",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2821&y=2327",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2872&y=2304"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2846&y=2321",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2821&y=2327"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2851&y=2330",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2821&y=2327",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2872&y=2304"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2A_R009_S61_20160109.geojson"
     },
     {
@@ -1189,24 +1203,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6385&y=2057",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6378&y=2031",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6288&y=1987",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6324&y=1983"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6385&y=2057",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6378&y=2031",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6288&y=1987"
+      ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6385&y=2057",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6378&y=2031",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6288&y=1987",
         "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6324&y=1983"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6385&y=2057",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6378&y=2031",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6288&y=1987"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2A_R017_S67_20170223T022551.geojson"
     },
     {
@@ -1297,24 +1313,24 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2848&y=2153"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
       ],
       "declaredZoomWorkingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2848&y=2153"
       ],
       "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R009_S64_20230216T125859.geojson"
@@ -1381,24 +1397,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7822&y=2018",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7824&y=2007",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7843&y=1979",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7854&y=1983"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7843&y=1979"
+      ],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7822&y=2018",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7824&y=2007",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7843&y=1979",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7854&y=1983"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7843&y=1979"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R043_S67_20190301T220359.geojson"
     },
     {
@@ -1462,23 +1480,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1088&y=582",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1093&y=602"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1088&y=582"
       ],
       "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1093&y=602",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1015&y=454",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1079&y=482"
       ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1088&y=582",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1093&y=602"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1088&y=582"
       ],
       "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1093&y=602",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1015&y=454",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1079&y=482"
       ],
@@ -1545,17 +1563,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2223&y=897",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2227&y=880",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2145&y=809",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2195&y=809"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2227&y=880"
+      ],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=13&x=4446&y=1794",
@@ -1572,17 +1591,17 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 10,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1922&y=151"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=10&x=988&y=79",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=10&x=982&y=82",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=10&x=961&y=75"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1977&y=159",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1965&y=164",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1920&y=123"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=10&x=960&y=61"
       ],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
@@ -1600,17 +1619,17 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3965&y=841",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3937&y=809",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3967&y=808"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3975&y=836",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3937&y=809"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3975&y=836"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3965&y=841",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3967&y=808"
       ],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
@@ -1628,17 +1647,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2870&y=859",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2874&y=854",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2832&y=703",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2876&y=742"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2870&y=859",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2874&y=854",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2832&y=703"
+      ],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=13&x=5740&y=1718",
@@ -1655,17 +1675,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2260&y=795"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2253&y=809",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2260&y=795",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2149&y=697",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2216&y=697"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=13&x=4506&y=1618",
@@ -1682,18 +1703,17 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2393&y=839",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2395&y=848",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2401&y=767"
-      ],
-      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2401&y=767",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2421&y=801"
       ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=13&x=4786&y=1678",
@@ -1766,18 +1786,17 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1946&y=160",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1933&y=166",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1889&y=151",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1896&y=123"
       ],
-      "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1946&y=160"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=12&x=3893&y=320",
@@ -1906,18 +1925,17 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 10,
       "maxZoom": 12,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1929&y=163",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1919&y=167",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1893&y=144"
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=964&y=81",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=959&y=83",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=946&y=72",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=948&y=65"
       ],
-      "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1896&y=131"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=12&x=3859&y=326",
@@ -1961,24 +1979,25 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3898&y=1026"
+      ],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3900&y=1023",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3888&y=1038",
+        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3888&y=1008"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7801&y=2046",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7796&y=2052",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2076",
         "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2016"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7801&y=2046",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7796&y=2052",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2076",
-        "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2016"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R129_S67_20200121T222409.geojson"
     },
     {
@@ -2096,24 +2115,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=329&y=20",
+        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=329&y=20"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=326&y=14",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=315&y=0",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=343&y=0"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=329&y=20",
+        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=329&y=20"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=326&y=14",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=315&y=0",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=343&y=0"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-aster_anti3.geojson"
     },
     {
@@ -2123,24 +2144,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=985&y=28",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=980&y=26",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=966&y=51",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=949&y=6"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=985&y=28"
+      ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=985&y=28",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=980&y=26",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=966&y=51",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=949&y=6"
       ],
-      "declaredZoomFailingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=985&y=28"
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-aster_anti_east.geojson"
     },
     {
@@ -2150,24 +2173,26 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=32"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=24&y=17",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=18&y=19",
-        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=32",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=1"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=32"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=24&y=17",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=18&y=19",
-        "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=32",
         "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=1"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-aster_anti_west.geojson"
     },
     {
@@ -2177,25 +2202,25 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5379&y=2013",
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5365&y=2026"
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5609&y=2004"
       ],
       "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5142&y=1937",
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5609&y=2004"
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5379&y=2013",
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5365&y=2026",
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5142&y=1937"
       ],
       "declaredZoomWorkingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5379&y=2013",
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5365&y=2026"
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5609&y=2004"
       ],
       "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5142&y=1937",
-        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5609&y=2004"
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5379&y=2013",
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5365&y=2026",
+        "https://imagico.de/map/osmim_tiles.php?layer=enderby&z=13&x=5142&y=1937"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-enderby.geojson"
     },
@@ -2260,24 +2285,26 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "workingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=28&y=155"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=512&y=186",
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=555&y=161",
-        "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=28&y=155",
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=217&y=13"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
+        "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=28&y=155"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=512&y=186",
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=555&y=161",
-        "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=28&y=155",
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=217&y=13"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-usgs_500k_ant.geojson"
     },
     {
@@ -2287,24 +2314,26 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586",
-        "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586",
+        "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586"
+      ],
+      "failingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3879&y=556",
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3898&y=553"
       ],
-      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586",
-        "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586",
+        "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586"
+      ],
+      "declaredZoomFailingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3879&y=556",
         "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3898&y=553"
       ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-usgs_50k_ant.geojson"
     },
     {
@@ -2395,26 +2424,24 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "workingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6693&y=4154",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6695&y=4150",
         "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6698&y=4142",
         "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6706&y=4143"
       ],
-      "failingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6695&y=4150"
-      ],
+      "failingUrls": [],
       "declaredZoomWorkingUrls": [
         "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6693&y=4154",
+        "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6695&y=4150",
         "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6698&y=4142",
         "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6706&y=4143"
       ],
-      "declaredZoomFailingUrls": [
-        "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6695&y=4150"
-      ],
+      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/asia/id/osmim-imagicode-LC81190582014075LGN00.geojson"
     },
     {
@@ -9084,25 +9111,25 @@
       "countryCode": "ES",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/5/11/15.png",
+        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/5/11/15.png",
+        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/5/11/15.png",
+        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/5/11/15.png"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/385432/516743.png",
         "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/385438/516968.png",
         "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/383643/515315.png",
         "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/384667/514416.png"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/385432/516743.png",
-        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/385438/516968.png",
-        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/383643/515315.png",
-        "https://www.geo.euskadi.eus/geoeuskadi/rest/services/U11/WMTS_KARTO/MapServer/WMTS/tile/1.0.0/U11_WMTS_KARTO/default/GoogleMapsCompatible/20/384667/514416.png"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/europe/es/geoEuskadi-Karto.geojson"
     },
     {
@@ -17638,17 +17665,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 19,
       "maxZoom": 23,
       "workingUrls": [
         "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=173302&tileCol=290021",
-        "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=174942&tileCol=289825",
         "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=167805&tileCol=285630",
         "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=172706&tileCol=283669"
       ],
-      "failingUrls": [],
+      "failingUrls": [
+        "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=174942&tileCol=289825"
+      ],
       "declaredZoomWorkingUrls": [],
       "declaredZoomFailingUrls": [
         "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:23&tileRow=2772845&tileCol=4640337",
@@ -20358,25 +20386,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2003/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2003.geojson"
     },
     {
@@ -20385,25 +20413,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2006/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2006.geojson"
     },
     {
@@ -20412,25 +20440,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2009/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2009.geojson"
     },
     {
@@ -20439,25 +20467,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2012/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2012.geojson"
     },
     {
@@ -20466,25 +20494,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/163",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/162",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/10/350/162"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2014/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2014.geojson"
     },
     {
@@ -20493,25 +20521,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/7/43/20"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2016/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2016.geojson"
     },
     {
@@ -20520,25 +20548,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2017/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2017.geojson"
     },
     {
@@ -20547,25 +20575,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2018/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2018.geojson"
     },
     {
@@ -20574,25 +20602,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/700/326",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/700/325",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/701/324",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/11/701/325"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2019/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2019.geojson"
     },
     {
@@ -20601,25 +20629,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2020/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2020.geojson"
     },
     {
@@ -20628,25 +20656,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2021/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2021.geojson"
     },
     {
@@ -20655,26 +20683,24 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 3,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359023/166591"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358572/167088"
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22410/10443",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22424/10409",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22440/10399",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/16/22438/10411"
       ],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_SC/MapServer/tile/20/358572/167088"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2022.geojson"
     },
@@ -20684,25 +20710,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2023/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2023.geojson"
     },
     {
@@ -20711,25 +20737,25 @@
       "countryCode": "CA",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2024/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2024.geojson"
     },
     {
@@ -20738,25 +20764,25 @@
       "countryCode": "CA",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5",
+        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/5/10/5"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358572/167088",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358795/166552",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359050/166386",
         "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359023/166591"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358572/167088",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/358795/166552",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359050/166386",
-        "https://geodata.coquitlam.ca/arcgis/rest/services/CachedServices/Imagery_2025/MapServer/tile/20/359023/166591"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/ca/bc/Coquitlam_2025.geojson"
     },
     {
@@ -21928,26 +21954,24 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 3,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": null,
       "maxZoom": 19,
-      "workingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235300/165761",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235307/166605",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/234950/167936"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285"
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/80",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/81",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/115/82",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/82"
       ],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235300/165761",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235307/166605",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/234950/167936"
-      ],
-      "declaredZoomFailingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP-PR.geojson"
     },
@@ -21957,25 +21981,25 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 18,
+      "workingZoom": null,
       "maxZoom": 18,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/13/8",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/12/5",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/11/9",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/11/9"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/112536/70747",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/101347/41483",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/98102/78961",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/95478/80963"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/112536/70747",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/101347/41483",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/98102/78961",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/95478/80963"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP.geojson"
     },
     {
@@ -23731,25 +23755,23 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 3,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": null,
       "maxZoom": 19,
-      "workingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/200100/152323",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/199282/152108",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/201291/152293"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/200287/152452"
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/5/12/9"
       ],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/200100/152323",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/199282/152108",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/201291/152293"
-      ],
-      "declaredZoomFailingUrls": [
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/201291/152293",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2012/ImageServer/WMTS/tile/1.0.0/DE_Imagery_DE_Imagery_2012/default/default028mm/19/200287/152452"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/de/Delaware2012Orthophotography.geojson"
@@ -23794,25 +23816,25 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": null,
       "maxZoom": 19,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/5/12/9"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/200100/152323",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/199282/152108",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/201291/152293",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/200287/152452"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/200100/152323",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/199282/152108",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/201291/152293",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2021/ImageServer/tile/19/200287/152452"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/de/Delaware_FirstMap_2021.geojson"
     },
     {
@@ -23821,25 +23843,23 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 3,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": null,
       "maxZoom": 19,
-      "workingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/200100/152323",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/199282/152108",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/201291/152293"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/200287/152452"
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/5/12/9"
       ],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/200100/152323",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/199282/152108",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/201291/152293"
-      ],
-      "declaredZoomFailingUrls": [
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/201291/152293",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022/ImageServer/tile/19/200287/152452"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/de/Delaware_FirstMap_2022.geojson"
@@ -23850,25 +23870,23 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 3,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/400200/304647",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/398564/304216",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/402582/304587"
-      ],
+      "workingUrls": [],
       "failingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/400575/304904"
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/5/12/9"
       ],
-      "declaredZoomWorkingUrls": [
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/400200/304647",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/398564/304216",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/402582/304587"
-      ],
-      "declaredZoomFailingUrls": [
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/402582/304587",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2024/ImageServer/tile/20/400575/304904"
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/de/Delaware_FirstMap_2024.geojson"
@@ -23879,25 +23897,25 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/5/12/9",
+        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/5/12/9"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/397819/304253",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/398636/303745",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/402525/304469",
         "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/402110/305636"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/397819/304253",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/398636/303745",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/402525/304469",
-        "https://imagery.firstmap.delaware.gov/imagery/rest/services/DE_Imagery/DE_Imagery_2022_Parks_HR/ImageServer/tile/20/402110/305636"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/de/Delaware_Parks_2022.geojson"
     },
     {
@@ -26147,25 +26165,25 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 18,
+      "workingZoom": null,
       "maxZoom": 18,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/113/15",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/112/15",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/111/14",
+        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/114/14"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115751/16356",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115481/15948",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/114447/14398",
         "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/117014/14398"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115751/16356",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115481/15948",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/114447/14398",
-        "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/117014/14398"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/USDA-NAIP-HI.geojson"
     },
     {
@@ -33009,25 +33027,25 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 21,
+      "workingZoom": null,
       "maxZoom": 21,
-      "workingUrls": [
+      "workingUrls": [],
+      "failingUrls": [
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/12.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/12.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/11/12.png",
+        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/5/10/13.png"
+      ],
+      "declaredZoomWorkingUrls": [],
+      "declaredZoomFailingUrls": [
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png",
         "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
       ],
-      "failingUrls": [],
-      "declaredZoomWorkingUrls": [
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png",
-        "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
-      ],
-      "declaredZoomFailingUrls": [],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Argenmap-gray.geojson"
     },
     {
