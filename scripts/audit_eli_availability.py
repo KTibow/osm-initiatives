@@ -181,10 +181,6 @@ def audit_url(url: str) -> dict:
         return {"status": "bad", "detail": str(e), "url": url}
 
 
-def result_urls(results: list[dict], status: str) -> list[str]:
-    return [r["url"] for r in results if r.get("status") == status and r.get("url")]
-
-
 LOG = True
 
 
@@ -208,16 +204,16 @@ def check_layer(layer: dict) -> dict:
 
     if typ != "tms" or not url_tmpl:
         log(f"  -> unsupported (type={typ}, url={bool(url_tmpl)})")
-        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [], "sourcePath": sp}
+        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "urls": [], "sourcePath": sp}
 
     max_z = int(props.get("max_zoom") or 20)
     test_url = tile_url(url_tmpl, max_z, 0, 0)
     if "{" in test_url:
         log(f"  -> unsupported (unresolved tokens in URL)")
-        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [test_url], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [test_url], "sourcePath": sp}
+        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "urls": [], "sourcePath": sp}
     if not has_only_2d_positions(coordinates(layer["geometry"])):
         log(f"  -> unsupported (non-2d geometry)")
-        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "workingUrls": [], "failingUrls": [], "declaredZoomWorkingUrls": [], "declaredZoomFailingUrls": [], "sourcePath": sp}
+        return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": "unsupported", "okSamples": 0, "samples": 0, "workingZoom": None, "maxZoom": None, "urls": [], "sourcePath": sp}
     pts = geometry_sample_pts(layer["geometry"], SAMPLES)
     raw_pts = flatten(coordinates(layer["geometry"]))
     log(f"  max_zoom={max_z} raw_points={len(raw_pts)} sampled_points={len(pts)}")
@@ -226,7 +222,7 @@ def check_layer(layer: dict) -> dict:
         pts = [(0, 0), (10, 10), (20, 20), (30, 30)]
     best_z = None
     best_results = None
-    declared_zoom_results = None
+    all_urls: list[dict] = []
     min_z = max(int(props.get("min_zoom") or 0), 0)
     for z in range(max_z, min_z - 1, -1):
         if z < 5:
@@ -235,10 +231,10 @@ def check_layer(layer: dict) -> dict:
         log(f"  trying zoom={z} first_url={urls[0][:150]}...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=min(SAMPLES, 8)) as ex:
             results = list(ex.map(audit_url, urls))
-        if z == max_z:
-            declared_zoom_results = results
         for idx, r in enumerate(results):
             log(f"    sample[{idx}]: status={r['status']} detail={r['detail'][:100]}")
+        for r in results:
+            all_urls.append({"success": r["status"] == "ok", "zoom": z, "url": r["url"]})
         if any(r["status"] == "ok" for r in results):
             log(f"  -> up @z{z}")
             best_z = z
@@ -249,7 +245,7 @@ def check_layer(layer: dict) -> dict:
     ok = sum(1 for r in best_results if r["status"] == "ok") if best_results else 0
     status = "up" if best_z is not None else "down"
     log(f"  => {status} ok={ok}/{len(best_results)} zoom={best_z}")
-    return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": status, "okSamples": ok, "samples": len(best_results) if best_results else 0, "workingZoom": best_z, "maxZoom": max_z, "workingUrls": result_urls(best_results or [], "ok"), "failingUrls": result_urls(best_results or [], "bad"), "declaredZoomWorkingUrls": result_urls(declared_zoom_results or [], "ok"), "declaredZoomFailingUrls": result_urls(declared_zoom_results or [], "bad"), "sourcePath": sp}
+    return {"id": lid, "name": name, "countryCode": cc, "category": cat, "type": typ, "status": status, "okSamples": ok, "samples": len(best_results) if best_results else 0, "workingZoom": best_z, "maxZoom": max_z, "urls": all_urls, "sourcePath": sp}
 
 
 layers = []

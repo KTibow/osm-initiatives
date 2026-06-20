@@ -108,13 +108,15 @@ function urlsTitle(label: string, urls?: string[]): string {
 }
 
 function layerTitle(l: (typeof layers)[number]): string {
-  if (l.status !== "up")
-    return urlsTitle("Failing sampled URLs", l.failingUrls);
+  if (l.status !== "up") {
+    const failing = l.urls?.filter((u) => !u.success).map((u) => u.url);
+    return urlsTitle("Failing sampled URLs", failing);
+  }
   if (l.maxZoom != null && l.workingZoom != null && l.workingZoom < l.maxZoom) {
-    return urlsTitle(
-      "Failing declared max zoom URLs",
-      l.declaredZoomFailingUrls,
-    );
+    const maxZoomFailing = l.urls
+      ?.filter((u) => !u.success && u.zoom === l.maxZoom)
+      .map((u) => u.url);
+    return urlsTitle("Failing declared max zoom URLs", maxZoomFailing);
   }
   return "";
 }
