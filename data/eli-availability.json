@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:31:43.685513+00:00",
+  "generatedAt": "2026-06-24T04:46:21.723083+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -19288,7 +19288,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -19309,7 +19309,7 @@
           "url": "https://geo.api.vlaanderen.be/OFW/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ofw&STYLE=&FORMAT=image/png&tileMatrixSet=GoogleMapsVL&tileMatrix=21&tileRow=703873&tileCol=1076302"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://geo.api.vlaanderen.be/OFW/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ofw&STYLE=&FORMAT=image/png&tileMatrixSet=GoogleMapsVL&tileMatrix=21&tileRow=704335&tileCol=1081821"
         }
@@ -38709,111 +38709,31 @@
       "countryCode": "GB",
       "category": "other",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://www.raggedred.net/tiles/codepoint/20/505882/355907.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://www.raggedred.net/tiles/codepoint/20/499419/316712.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://www.raggedred.net/tiles/codepoint/20/518186/303660.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://www.raggedred.net/tiles/codepoint/20/520485/302431.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://www.raggedred.net/tiles/codepoint/19/252941/177953.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://www.raggedred.net/tiles/codepoint/19/249709/158356.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://www.raggedred.net/tiles/codepoint/19/259093/151830.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://www.raggedred.net/tiles/codepoint/19/260242/151215.png"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://www.raggedred.net/tiles/codepoint/18/126470/88976.png"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://www.raggedred.net/tiles/codepoint/18/124854/79178.png"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://www.raggedred.net/tiles/codepoint/18/129546/75915.png"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://www.raggedred.net/tiles/codepoint/18/130121/75607.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://www.raggedred.net/tiles/codepoint/17/63235/44488.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://www.raggedred.net/tiles/codepoint/17/62427/39589.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://www.raggedred.net/tiles/codepoint/17/64773/37957.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://www.raggedred.net/tiles/codepoint/17/65060/37803.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://www.raggedred.net/tiles/codepoint/16/31617/22244.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://www.raggedred.net/tiles/codepoint/16/31213/19794.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://www.raggedred.net/tiles/codepoint/16/32386/18978.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://www.raggedred.net/tiles/codepoint/16/32530/18901.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/europe/gb/Code-Point_Open.geojson"
@@ -70385,19 +70305,19 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 19,
       "maxZoom": 19,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235300/165761"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235307/166605"
         },
@@ -70407,229 +70327,9 @@
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/234950/167936"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/117650/82880"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/117653/83302"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/118030/84142"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/117475/83968"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/58825/41440"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/58826/41651"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/59015/42071"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/58737/41984"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29412/20720"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29413/20825"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29507/21035"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29368/20992"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14706/10360"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14706/10412"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14753/10517"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14684/10496"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7353/5180"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7353/5206"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7376/5258"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7342/5248"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3676/2590"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3676/2603"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3688/2629"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3671/2624"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1838/1295"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1838/1301"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1844/1314"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1835/1312"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/919/647"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/919/650"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/922/657"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/917/656"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/459/323"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/459/325"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/461/328"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/458/328"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/229/161"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/229/162"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/230/164"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/229/164"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/80"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/81"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/115/82"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/82"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP-PR.geojson"
@@ -70640,291 +70340,31 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/112536/70747"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/101347/41483"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/98102/78961"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/18/95478/80963"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/17/56268/35373"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/17/50673/20741"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/17/49051/39480"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/17/47739/40481"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/16/28134/17686"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/16/25336/10370"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/16/24525/19740"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/16/23869/20240"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/15/14067/8843"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/15/12668/5185"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/15/12262/9870"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/15/11934/10120"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/14/7033/4421"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/14/6334/2592"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/14/6131/4935"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/14/5967/5060"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/13/3516/2210"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/13/3167/1296"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/13/3065/2467"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/13/2983/2530"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/12/1758/1105"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/12/1583/648"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/12/1532/1233"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/12/1491/1265"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/11/879/552"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/11/791/324"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/11/766/616"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/11/745/632"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/10/439/276"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/10/395/162"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/10/383/308"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/10/372/316"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/9/219/138"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/9/197/81"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/9/191/154"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/9/186/158"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/8/109/69"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/8/98/40"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/8/95/77"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/8/93/79"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/7/54/34"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/7/49/20"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/7/47/38"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/7/46/39"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/6/27/17"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/6/24/10"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/6/23/19"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/6/23/19"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/13/8"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/12/5"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/11/9"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/5/11/9"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP.geojson"
@@ -78705,231 +78145,31 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115751/16356"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115481/15948"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/114447/14398"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/117014/14398"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/57875/8178"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/57740/7974"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/57223/7199"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/58507/7199"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/28937/4089"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/28870/3987"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/28611/3599"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/29253/3599"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14468/2044"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14435/1993"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14305/1799"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14626/1799"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7234/1022"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7217/996"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7152/899"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7313/899"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3617/511"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3608/498"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3576/449"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3656/449"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1808/255"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1804/249"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1788/224"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1828/224"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/904/127"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/902/124"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/894/112"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/914/112"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/452/63"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/451/62"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/447/56"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/457/56"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/226/31"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/225/31"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/223/28"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/228/28"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/113/15"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/112/15"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/111/14"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/114/14"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/USDA-NAIP-HI.geojson"
@@ -89842,7 +89082,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 18,
       "maxZoom": 18,
@@ -89853,12 +89093,12 @@
           "url": "https://servicios.usig.buenosaires.gob.ar/mapcache/tms/1.0.0/fotografias_aereas_2017_caba_3857@GoogleMapsCompatible/18/88522/104175.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 18,
           "url": "https://servicios.usig.buenosaires.gob.ar/mapcache/tms/1.0.0/fotografias_aereas_2017_caba_3857@GoogleMapsCompatible/18/88550/104195.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 18,
           "url": "https://servicios.usig.buenosaires.gob.ar/mapcache/tms/1.0.0/fotografias_aereas_2017_caba_3857@GoogleMapsCompatible/18/88500/104244.png"
         },
@@ -89912,13 +89152,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png"
         },
@@ -89947,13 +89187,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png"
         },
@@ -89963,12 +89203,12 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/712916/864978.png"
         }
@@ -89982,18 +89222,18 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1324/1569.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1311/1645.png"
         },
@@ -90052,7 +89292,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -90063,7 +89303,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5297/6278.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5245/6581.png"
         },
@@ -90277,13 +89517,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 15,
       "maxZoom": 15,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10594/12557.png"
         },
