@@ -49,7 +49,10 @@ async function fetchDiff(num: number): Promise<string> {
   return res.text();
 }
 
-const diffs = await Promise.all(allPrs.map((p) => fetchDiff(p.number)));
+let diffs: string[] = [];
+for (const { number } of allPrs) {
+  diffs.push(await fetchDiff(number));
+}
 const filenameToPrs = new Map<string, GHPr[]>();
 
 function sourceFilename(sourcePath: string): string {
