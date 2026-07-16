@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:47:55.843031+00:00",
+  "generatedAt": "2026-07-16T08:41:54.912193+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -14,7 +14,7 @@
       "maxZoom": 14,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8291&y=8496"
         },
@@ -24,7 +24,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8291&y=8492"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8276&y=8478"
         },
@@ -54,7 +54,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7076&y=8878"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7074&y=8877"
         },
@@ -64,7 +64,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7065&y=8871"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7086&y=8871"
         }
@@ -78,18 +78,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9893&y=8185"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184"
         },
@@ -99,7 +99,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9901&y=8180"
         }
@@ -113,7 +113,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -124,7 +124,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9895&y=8050"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049"
         },
@@ -148,7 +148,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -164,7 +164,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4773&y=4100"
         },
@@ -183,18 +183,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 14,
+      "workingZoom": 13,
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9553&y=8207"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9552&y=8206"
         },
@@ -207,6 +207,26 @@
           "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9558&y=8202"
+        },
+        {
+          "success": true,
+          "zoom": 13,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=13&x=4776&y=4103"
+        },
+        {
+          "success": true,
+          "zoom": 13,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=13&x=4776&y=4103"
+        },
+        {
+          "success": true,
+          "zoom": 13,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=13&x=4774&y=4101"
+        },
+        {
+          "success": true,
+          "zoom": 13,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=13&x=4779&y=4101"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/africa/ug/osmim-imagicode-S2A_R078_N01_20160702T082522.geojson"
@@ -483,7 +503,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
@@ -494,7 +514,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=978&y=43"
         },
@@ -504,7 +524,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=955&y=19"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=968&y=18"
         }
@@ -529,7 +549,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838"
         },
@@ -539,7 +559,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2439&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=803"
         }
@@ -553,13 +573,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839"
         },
@@ -588,7 +608,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -609,7 +629,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2438&y=803"
         }
@@ -664,7 +684,7 @@
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=839"
         },
@@ -679,7 +699,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2369&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=803"
         }
@@ -699,7 +719,7 @@
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2367&y=839"
         },
@@ -709,7 +729,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2367&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2351&y=799"
         },
@@ -734,7 +754,7 @@
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839"
         },
@@ -744,7 +764,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799"
         },
@@ -779,12 +799,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2281&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=804"
         }
@@ -798,13 +818,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839"
         },
@@ -833,13 +853,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2209&y=839"
         },
@@ -854,7 +874,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2210&y=804"
         }
@@ -868,18 +888,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2209&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2208&y=838"
         },
@@ -889,7 +909,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2193&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2210&y=804"
         }
@@ -903,7 +923,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -914,7 +934,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2191&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2191&y=838"
         },
@@ -1393,7 +1413,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -1404,7 +1424,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=838"
         },
@@ -1414,7 +1434,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2228&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2245&y=804"
         }
@@ -1428,13 +1448,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839"
         },
@@ -1444,7 +1464,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=837"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799"
         },
@@ -1463,7 +1483,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -1474,17 +1494,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2846&y=2321"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2851&y=2330"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2821&y=2327"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2872&y=2304"
         }
@@ -1498,18 +1518,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6385&y=2057"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6378&y=2031"
         },
@@ -1533,23 +1553,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3919&y=608"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3904&y=621"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3898&y=559"
         },
@@ -1678,30 +1698,50 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2848&y=2153"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=12&x=1398&y=1098"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=12&x=1402&y=1098"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=12&x=1375&y=1079"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=12&x=1424&y=1076"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R009_S64_20230216T125859.geojson"
@@ -1788,7 +1828,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -1829,7 +1869,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=529&y=174"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=536&y=164"
         }
@@ -2059,12 +2099,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R057_S7X_20190210T213409&z=12&x=3875&y=759"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R057_S7X_20190210T213409&z=12&x=3820&y=584"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R057_S7X_20190210T213409&z=12&x=3869&y=636"
         }
@@ -2188,7 +2228,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2214,7 +2254,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=12&x=3840&y=246"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1977&y=159"
         },
@@ -2229,7 +2269,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1922&y=151"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1920&y=123"
         }
@@ -2243,7 +2283,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2269,7 +2309,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=13&x=7934&y=1616"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3965&y=841"
         },
@@ -2279,12 +2319,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3975&y=836"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3937&y=809"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3967&y=808"
         }
@@ -2298,7 +2338,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2329,17 +2369,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2870&y=859"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2874&y=854"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2832&y=703"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2876&y=742"
         }
@@ -2353,7 +2393,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2384,17 +2424,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2253&y=809"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2260&y=795"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2149&y=697"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2216&y=697"
         }
@@ -2408,7 +2448,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2434,7 +2474,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=13&x=4843&y=1603"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2393&y=839"
         },
@@ -2444,12 +2484,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2395&y=848"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2401&y=767"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2421&y=801"
         }
@@ -2553,7 +2593,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2579,12 +2619,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=12&x=3792&y=246"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1946&y=160"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1933&y=166"
         },
@@ -2768,7 +2808,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2804,12 +2844,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1919&y=167"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1893&y=144"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1896&y=131"
         }
@@ -2898,13 +2938,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7801&y=2046"
         },
@@ -2919,7 +2959,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2076"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2016"
         }
@@ -2933,13 +2973,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7793&y=2054"
         },
@@ -2949,12 +2989,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7794&y=2044"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7802&y=2038"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7805&y=2038"
         }
@@ -3003,7 +3043,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -3029,12 +3069,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=13&x=7666&y=1398"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3844&y=825"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3850&y=812"
         },
@@ -3044,7 +3084,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3769&y=700"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3833&y=699"
         }
@@ -3358,7 +3398,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -3369,7 +3409,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586"
         },
@@ -3379,7 +3419,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3879&y=556"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3898&y=553"
         }
@@ -3430,28 +3470,48 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7216&y=4005"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7212&y=4004"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7200&y=3998"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7230&y=3998"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3608&y=2002"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3606&y=2002"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3600&y=1999"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3615&y=1999"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/asia/id/osmim-imagicode-LC81030632015286LGN00.geojson"
@@ -3463,18 +3523,18 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6866&y=4026"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6863&y=4024"
         },
@@ -3484,7 +3544,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6846&y=4014"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6882&y=4014"
         }
@@ -3500,28 +3560,48 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6693&y=4154"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6695&y=4150"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6698&y=4142"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6706&y=4143"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=12&x=3346&y=2077"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=12&x=3347&y=2075"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=12&x=3349&y=2071"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=12&x=3353&y=2071"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/asia/id/osmim-imagicode-LC81190582014075LGN00.geojson"
@@ -46184,7 +46264,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
@@ -46205,7 +46285,7 @@
           "url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/Aerials/2023/MapServer/tile/20/442635/289426"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://maps.co.palm-beach.fl.us/arcgis/rest/services/Aerials/2023/MapServer/tile/20/442678/289468"
         }
@@ -50323,13 +50403,13 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 19,
       "maxZoom": 19,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 19,
           "url": "https://imagery.oregonexplorer.info/arcgis/rest/services/OSIP_2022/OSIP_2022_WM/ImageServer/tile/19/190388/86377"
         },
@@ -51773,31 +51853,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/20/366625/169539"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/20/367278/170006"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/20/367449/167473"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/20/367773/167981"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/19/183312/84769"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/19/183639/85003"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/19/183724/83736"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/19/183886/83990"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/18/91656/42384"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/18/91819/42501"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/18/91862/41868"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/18/91943/41995"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/17/45828/21192"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/17/45909/21250"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/17/45931/20934"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/17/45971/20997"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/16/22914/10596"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/16/22954/10625"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/16/22965/10467"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/16/22985/10498"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/15/11457/5298"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/15/11477/5312"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/15/11482/5233"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/15/11492/5249"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/14/5728/2649"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/14/5738/2656"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/14/5741/2616"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/14/5746/2624"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/13/2864/1324"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/13/2869/1328"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/13/2870/1308"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/13/2873/1312"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/12/1432/662"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/12/1434/664"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/12/1435/654"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/12/1436/656"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/11/716/331"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/11/717/332"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/11/717/327"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/11/718/328"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/10/358/165"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/10/358/166"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/10/358/163"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/10/359/164"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/9/179/83"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/9/179/81"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/8/89/40"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2019/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2019/default/default028mm/5/11/5"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/wa/King_WA_2019.geojson"
@@ -51808,31 +52188,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/20/366625/169539"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/20/367278/170006"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/20/367449/167473"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/20/367773/167981"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/19/183312/84769"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/19/183639/85003"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/19/183724/83736"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/19/183886/83990"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/18/91656/42384"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/18/91819/42501"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/18/91862/41868"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/18/91943/41995"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/17/45828/21192"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/17/45909/21250"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/17/45931/20934"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/17/45971/20997"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/16/22914/10596"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/16/22954/10625"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/16/22965/10467"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/16/22985/10498"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/15/11457/5298"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/15/11477/5312"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/15/11482/5233"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/15/11492/5249"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/14/5728/2649"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/14/5738/2656"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/14/5741/2616"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/14/5746/2624"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/13/2864/1324"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/13/2869/1328"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/13/2870/1308"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/13/2873/1312"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/12/1432/662"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/12/1434/664"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/12/1435/654"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/12/1436/656"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/11/716/331"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/11/717/332"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/11/717/327"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/11/718/328"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/10/358/165"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/10/358/166"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/10/358/163"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/10/359/164"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/9/179/83"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/9/179/81"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/8/89/40"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2021/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2021/default/default028mm/5/11/5"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/wa/King_WA_2021.geojson"
@@ -51843,31 +52523,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/20/366625/169539"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/20/367278/170006"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/20/367449/167473"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/20/367773/167981"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/19/183312/84769"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/19/183639/85003"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/19/183724/83736"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/19/183886/83990"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/18/91656/42384"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/18/91819/42501"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/18/91862/41868"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/18/91943/41995"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/17/45828/21192"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/17/45909/21250"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/17/45931/20934"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/17/45971/20997"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/16/22914/10596"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/16/22954/10625"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/16/22965/10467"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/16/22985/10498"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/15/11457/5298"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/15/11477/5312"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/15/11482/5233"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/15/11492/5249"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/14/5728/2649"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/14/5738/2656"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/14/5741/2616"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/14/5746/2624"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/13/2864/1324"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/13/2869/1328"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/13/2870/1308"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/13/2873/1312"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/12/1432/662"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/12/1434/664"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/12/1435/654"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/12/1436/656"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/11/716/331"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/11/717/332"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/11/717/327"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/11/718/328"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/10/358/165"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/10/358/166"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/10/358/163"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/10/359/164"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/9/179/83"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/9/179/81"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/8/89/40"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2023/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2023/default/default028mm/5/11/5"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/wa/King_WA_2023.geojson"
@@ -51878,31 +52858,331 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/20/366625/169539"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/20/367278/170006"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/20/367449/167473"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/20/367773/167981"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/19/183312/84769"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/19/183639/85003"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/19/183724/83736"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/19/183886/83990"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/18/91656/42384"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/18/91819/42501"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/18/91862/41868"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/18/91943/41995"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/17/45828/21192"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/17/45909/21250"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/17/45931/20934"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/17/45971/20997"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/16/22914/10596"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/16/22954/10625"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/16/22965/10467"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/16/22985/10498"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/15/11457/5298"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/15/11477/5312"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/15/11482/5233"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/15/11492/5249"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/14/5728/2649"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/14/5738/2656"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/14/5741/2616"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/14/5746/2624"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/13/2864/1324"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/13/2869/1328"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/13/2870/1308"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/13/2873/1312"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/12/1432/662"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/12/1434/664"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/12/1435/654"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/12/1436/656"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/11/716/331"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/11/717/332"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/11/717/327"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/11/718/328"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/10/358/165"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/10/358/166"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/10/358/163"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/10/359/164"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/9/179/83"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/9/179/81"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/9/179/82"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/8/89/40"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/8/89/41"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/7/44/20"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/6/22/10"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/5/11/5"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://gismaps.kingcounty.gov/arcgis/rest/services/BaseMaps/KingCo_Aerial_2025/MapServer/WMTS/tile/1.0.0/BaseMaps_KingCo_Aerial_2025/default/default028mm/5/11/5"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/wa/King_WA_2025.geojson"
@@ -57723,13 +59003,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png"
         },
@@ -57739,7 +59019,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
         },
@@ -57758,7 +59038,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -57769,12 +59049,12 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
         },
@@ -57828,7 +59108,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -57839,7 +59119,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2609/3456.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2607/3458.png"
         },
@@ -57863,7 +59143,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -57884,7 +59164,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5569/6757.png"
         }
@@ -58088,7 +59368,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 15,
       "maxZoom": 15,
@@ -58099,7 +59379,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10594/12557.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10490/13163.png"
         },
@@ -58139,28 +59419,48 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 19,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/339032/401849.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/335695/421219.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/361164/413017.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/356458/432489.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/169516/200924.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/167847/210609.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/180582/206508.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/178229/216244.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-UAV_mosaic.geojson"
@@ -58172,18 +59472,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png"
         },
@@ -58346,31 +59646,331 @@
       "countryCode": "BR",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300563/190352"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300528/190328"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300462/190206"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300569/190234"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150281/95176"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150264/95164"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150231/95103"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150284/95117"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75140/47588"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75132/47582"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75115/47551"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75142/47558"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37570/23794"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37566/23791"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37557/23775"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37571/23779"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18785/11897"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18783/11895"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18778/11887"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18785/11889"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9392/5948"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9391/5947"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9389/5943"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9392/5944"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4696/2974"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4695/2973"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4694/2971"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4696/2972"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2348/1487"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2347/1486"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2347/1485"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2348/1486"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1174/743"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1173/743"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1173/742"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1174/743"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/587/371"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/586/371"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/586/371"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/587/371"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/br/Curitiba_2019_Orthophoto.geojson"
@@ -59516,7 +61116,7 @@
       "category": "osmbasedmap",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
@@ -59527,7 +61127,7 @@
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/524288/524288.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/553415/495011.png"
         },
