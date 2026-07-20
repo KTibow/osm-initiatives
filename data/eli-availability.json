@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T09:42:44.976194+00:00",
+  "generatedAt": "2026-07-20T14:41:03.315609+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -14,12 +14,12 @@
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8291&y=8496"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8291&y=8492"
         },
@@ -43,7 +43,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -59,7 +59,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7074&y=8877"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7065&y=8871"
         },
@@ -78,9 +78,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
@@ -89,39 +89,19 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9893&y=8185"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9901&y=8180"
-        },
-        {
-          "success": true,
-          "zoom": 13,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=13&x=4946&y=4092"
-        },
-        {
-          "success": true,
-          "zoom": 13,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=13&x=4945&y=4092"
-        },
-        {
-          "success": true,
-          "zoom": 13,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=13&x=4942&y=4090"
-        },
-        {
-          "success": true,
-          "zoom": 13,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=13&x=4950&y=4090"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/africa/ke/osmim-imagicode-S2A_R092_S02_20160613T075613.geojson"
@@ -133,13 +113,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9895&y=8050"
         },
@@ -149,12 +129,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9887&y=8045"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9903&y=8045"
         }
@@ -168,18 +148,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4776&y=4104"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103"
         },
@@ -203,13 +183,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9553&y=8207"
         },
@@ -238,30 +218,190 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 22,
+      "workingZoom": 14,
       "maxZoom": 22,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 22,
           "url": "https://aerial.openstreetmap.org.za/ngi-aerial/22/2384631/2443519.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 22,
           "url": "https://aerial.openstreetmap.org.za/ngi-aerial/22/2381206/2453387.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 22,
           "url": "https://aerial.openstreetmap.org.za/ngi-aerial/22/2322455/2520530.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 22,
           "url": "https://aerial.openstreetmap.org.za/ngi-aerial/22/2354874/2518353.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/21/1192315/1221759.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/21/1190603/1226693.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/21/1161227/1260265.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/21/1177437/1259176.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/20/596157/610879.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/20/595301/613346.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/20/580613/630132.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/20/588718/629588.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/19/298078/305439.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/19/297650/306673.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/19/290306/315066.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/19/294359/314794.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/18/149039/152719.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/18/148825/153336.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/18/145153/157533.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/18/147179/157397.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/17/74519/76359.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/17/74412/76668.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/17/72576/78766.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/17/73589/78698.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/16/37259/38179.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/16/37206/38334.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/16/36288/39383.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/16/36794/39349.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/15/18629/19089.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/15/18603/19167.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/15/18144/19691.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/15/18397/19674.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/14/9314/9544.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/14/9301/9583.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/14/9072/9845.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://aerial.openstreetmap.org.za/ngi-aerial/14/9198/9837.jpg"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/africa/za/SouthAfricaCDNGIAerial.geojson"
@@ -275,28 +415,168 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 21,
+      "workingZoom": 14,
       "maxZoom": 21,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/21/1157240/1258817.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/21/1157384/1258998.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/21/1155422/1260285.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/21/1159045/1260489.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/20/578620/629408.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/20/578692/629499.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/20/577711/630142.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/20/579522/630244.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/19/289310/314704.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/19/289346/314749.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/19/288855/315071.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/19/289761/315122.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/18/144655/157352.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/18/144673/157374.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/18/144427/157535.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/18/144880/157561.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/17/72327/78676.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/17/72336/78687.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/17/72213/78767.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/17/72440/78780.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/16/36163/39338.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/16/36168/39343.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/16/36106/39383.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/16/36220/39390.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/15/18081/19669.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/15/18084/19671.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/15/18053/19691.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/15/18110/19695.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/14/9040/9834.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/14/9042/9835.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/14/9026/9845.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2013/14/9055/9847.jpg"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/africa/za/SouthAfricaCoCT2013Aerial.geojson"
@@ -310,28 +590,168 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 21,
+      "workingZoom": 14,
       "maxZoom": 21,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/21/1157240/1258817.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/21/1157384/1258998.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/21/1155422/1260285.jpg"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/21/1159045/1260489.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/20/578620/629408.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/20/578692/629499.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/20/577711/630142.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 20,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/20/579522/630244.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/19/289310/314704.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/19/289346/314749.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/19/288855/315071.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/19/289761/315122.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/18/144655/157352.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/18/144673/157374.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/18/144427/157535.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/18/144880/157561.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/17/72327/78676.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/17/72336/78687.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/17/72213/78767.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/17/72440/78780.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/16/36163/39338.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/16/36168/39343.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/16/36106/39383.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/16/36220/39390.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/15/18081/19669.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/15/18084/19671.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/15/18053/19691.jpg"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/15/18110/19695.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/14/9040/9834.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/14/9042/9835.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/14/9026/9845.jpg"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://a.coct.aerial.openstreetmap.org.za/layer/za_coct_aerial_2015/14/9055/9847.jpg"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/africa/za/SouthAfricaCoCT2015Aerial.geojson"
@@ -573,7 +993,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -589,7 +1009,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2454&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799"
         },
@@ -608,23 +1028,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
         },
@@ -643,13 +1063,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=827"
         },
@@ -748,13 +1168,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839"
         },
@@ -783,23 +1203,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2281&y=799"
         },
@@ -818,7 +1238,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -829,7 +1249,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838"
         },
@@ -839,7 +1259,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
         }
@@ -853,13 +1273,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2209&y=839"
         },
@@ -888,7 +1308,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -899,12 +1319,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2209&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2208&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2193&y=799"
         },
@@ -923,13 +1343,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2191&y=839"
         },
@@ -958,7 +1378,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -969,7 +1389,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2191&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2191&y=838"
         },
@@ -1518,7 +1938,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -1529,7 +1949,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6385&y=2057"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R017_S67_20170223T022551&z=13&x=6378&y=2031"
         },
@@ -1553,7 +1973,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -1564,7 +1984,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3919&y=608"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3904&y=621"
         },
@@ -1588,7 +2008,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1629,7 +2049,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=12&x=2449&y=907"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=12&x=2462&y=905"
         }
@@ -1698,7 +2118,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -1709,17 +2129,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2848&y=2153"
         }
@@ -1808,7 +2228,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -1834,7 +2254,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=12&x=1072&y=328"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=571&y=225"
         },
@@ -2098,7 +2518,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2124,7 +2544,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=13&x=5640&y=1594"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2801&y=878"
         },
@@ -2134,7 +2554,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2807&y=879"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2787&y=750"
         },
@@ -2153,7 +2573,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2189,7 +2609,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2227&y=880"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2145&y=809"
         },
@@ -2208,7 +2628,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2239,12 +2659,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1977&y=159"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1965&y=164"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1922&y=151"
         },
@@ -2483,7 +2903,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2514,17 +2934,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1305&y=949"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1293&y=936"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1263&y=814"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1300&y=851"
         }
@@ -2573,7 +2993,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2599,7 +3019,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=12&x=3792&y=246"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1946&y=160"
         },
@@ -2609,7 +3029,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1933&y=166"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1889&y=151"
         },
@@ -2628,13 +3048,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R099_SXX_20230212T200529&z=12&x=3898&y=498"
         },
@@ -2652,26 +3072,6 @@
           "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R099_SXX_20230212T200529&z=12&x=3787&y=326"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R099_SXX_20230212T200529&z=11&x=1949&y=249"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R099_SXX_20230212T200529&z=11&x=1936&y=244"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R099_SXX_20230212T200529&z=11&x=1881&y=185"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R099_SXX_20230212T200529&z=11&x=1893&y=163"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R099_SXX_20230212T200529.geojson"
@@ -2683,9 +3083,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
@@ -2694,7 +3094,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=12&x=1137&y=567"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=12&x=1119&y=561"
         },
@@ -2707,26 +3107,6 @@
           "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=12&x=1090&y=438"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=11&x=568&y=283"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=11&x=559&y=280"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=11&x=520&y=214"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R109_SXX_20230124T124909&z=11&x=545&y=219"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R109_SXX_20230124T124909.geojson"
@@ -2773,7 +3153,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2809,12 +3189,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_SXX_20220209T085949&z=12&x=1997&y=877"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_SXX_20220209T085949&z=12&x=1939&y=809"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_SXX_20220209T085949&z=12&x=1987&y=809"
         }
@@ -2828,7 +3208,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2859,12 +3239,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1929&y=163"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1919&y=167"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1893&y=144"
         },
@@ -2993,13 +3373,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7793&y=2054"
         },
@@ -3009,7 +3389,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7794&y=2044"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7802&y=2038"
         },
@@ -3028,7 +3408,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -3039,7 +3419,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2619&y=2110"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2626&y=2096"
         },
@@ -3049,7 +3429,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2512&y=1984"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2580&y=1984"
         }
@@ -6668,28 +7048,148 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 14,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/20/598468/386377.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/20/598237/386424.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/20/602429/389302.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/20/605639/388918.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/19/299234/193188.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/19/299118/193212.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/19/301214/194651.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/19/302819/194459.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/18/149617/96594.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/18/149559/96606.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/18/150607/97325.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/18/151409/97229.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/17/74808/48297.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/17/74779/48303.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/17/75303/48662.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/17/75704/48614.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/16/37404/24148.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/16/37389/24151.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/16/37651/24331.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/16/37852/24307.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/15/18702/12074.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/15/18694/12075.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/15/18825/12165.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/15/18926/12153.png"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/14/9351/6037.png"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/14/9347/6037.png"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/14/9412/6082.png"
+        },
+        {
+          "success": true,
+          "zoom": 14,
+          "url": "https://bg-imagery.openstreetmap.org/layer/maf-orthophoto-latest/14/9463/6076.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/europe/bg/maf-orthophoto.geojson"
@@ -14164,28 +14664,108 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 16,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/20/520377/350860.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/20/520299/350696.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/20/520448/351996.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/20/521612/350935.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/19/260188/175430.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/19/260149/175348.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/19/260224/175998.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/19/260806/175467.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/18/130094/87715.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/18/130074/87674.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/18/130112/87999.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/18/130403/87733.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/17/65047/43857.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/17/65037/43837.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/17/65056/43999.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/17/65201/43866.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/16/32523/21928.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/16/32518/21918.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/16/32528/21999.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_fcir/16/32600/21933.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/europe/gb/HampshireAerialFCIR.geojson"
@@ -14199,28 +14779,108 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 16,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/20/520377/350860.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/20/520299/350696.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/20/520448/351996.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/20/521612/350935.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/19/260188/175430.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/19/260149/175348.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/19/260224/175998.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/19/260806/175467.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/18/130094/87715.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/18/130074/87674.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/18/130112/87999.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/18/130403/87733.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/17/65047/43857.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/17/65037/43837.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/17/65056/43999.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/17/65201/43866.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/16/32523/21928.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/16/32518/21918.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/16/32528/21999.png"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://a.hampshire.aerial.openstreetmap.org.uk/layer/gb_hampshire_aerial_rgb/16/32600/21933.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/europe/gb/HampshireAerialRGB.geojson"
@@ -35079,7 +35739,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 19,
       "maxZoom": 23,
@@ -35165,17 +35825,17 @@
           "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:20&tileRow=345413&tileCol=567339"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=173302&tileCol=290021"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=174942&tileCol=289825"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTOFOTOMAPA&STYLE=default&FORMAT=image/jpeg&tileMatrixSet=EPSG:3857&tileMatrix=EPSG:3857:19&tileRow=167805&tileCol=285630"
         },
@@ -57797,13 +58457,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png"
         },
@@ -57832,7 +58492,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -57843,7 +58503,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png"
         },
@@ -57866,31 +58526,171 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 12,
+      "workingZoom": null,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1324/1569.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1311/1645.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1410/1613.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1392/1689.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/11/662/784.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/11/655/822.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/11/705/806.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/11/696/844.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/10/331/392.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/10/327/411.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/10/352/403.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/10/348/422.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/9/165/196.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/9/163/205.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/9/176/201.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/9/174/211.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/8/82/98.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/8/81/102.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/8/88/100.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/8/87/105.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/7/41/49.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/7/40/51.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/7/44/50.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/7/43/52.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/6/20/24.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/6/20/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/6/22/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/6/21/26.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/5/11/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Atlas-Argentina-500k.geojson"
@@ -57901,31 +58701,191 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": null,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2609/3456.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2607/3458.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2627/3476.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2617/3474.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/12/1304/1728.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/12/1303/1729.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/12/1313/1738.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/12/1308/1737.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/11/652/864.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/11/651/864.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/11/656/869.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/11/654/868.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/10/326/432.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/10/325/432.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/10/328/434.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/10/327/434.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/9/163/216.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/9/162/216.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/9/164/217.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/9/163/217.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/8/81/108.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/8/81/108.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/8/82/108.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/8/81/108.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/7/40/54.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/7/40/54.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/7/41/54.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/7/40/54.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/6/20/27.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/6/20/27.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/6/20/27.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/6/20/27.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/5/10/13.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/5/10/13.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/5/10/13.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Atlas-Tucuman-100k.geojson"
@@ -57936,31 +58896,211 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 14,
+      "workingZoom": null,
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5297/6278.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5245/6581.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5569/6757.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/13/2648/3139.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/13/2622/3290.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/13/2821/3226.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/13/2784/3378.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/12/1324/1569.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/12/1311/1645.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/12/1410/1613.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/12/1392/1689.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/11/662/784.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/11/655/822.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/11/705/806.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/11/696/844.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/10/331/392.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/10/327/411.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/10/352/403.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/10/348/422.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/9/165/196.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/9/163/205.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/9/176/201.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/9/174/211.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/8/82/98.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/8/81/102.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/8/88/100.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/8/87/105.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/7/41/49.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/7/40/51.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/7/44/50.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/7/43/52.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/6/20/24.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/6/20/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/6/22/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/6/21/26.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/5/11/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Cartas-100k.geojson"
@@ -57971,31 +59111,171 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 12,
+      "workingZoom": null,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1324/1569.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1311/1645.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1410/1613.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1392/1689.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/11/662/784.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/11/655/822.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/11/705/806.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/11/696/844.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/10/331/392.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/10/327/411.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/10/352/403.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/10/348/422.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/9/165/196.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/9/163/205.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/9/176/201.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/9/174/211.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/8/82/98.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/8/81/102.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/8/88/100.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/8/87/105.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/7/41/49.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/7/40/51.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/7/44/50.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/7/43/52.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/6/20/24.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/6/20/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/6/22/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/6/21/26.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/5/11/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Cartas-250k.geojson"
@@ -58161,31 +59441,231 @@
       "countryCode": "AR",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 15,
+      "workingZoom": null,
       "maxZoom": 15,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10594/12557.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10490/13163.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/11286/12906.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/11139/13515.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/14/5297/6278.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/14/5245/6581.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/14/5643/6453.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/14/5569/6757.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/13/2648/3139.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/13/2622/3290.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/13/2821/3226.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/13/2784/3378.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/12/1324/1569.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/12/1311/1645.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/12/1410/1613.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/12/1392/1689.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/11/662/784.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/11/655/822.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/11/705/806.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/11/696/844.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/10/331/392.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/10/327/411.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/10/352/403.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/10/348/422.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/9/165/196.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/9/163/205.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/9/176/201.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/9/174/211.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/8/82/98.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/8/81/102.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/8/88/100.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/8/87/105.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/7/41/49.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/7/40/51.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/7/44/50.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/7/43/52.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/6/20/24.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/6/20/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/6/22/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/6/21/26.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/5/11/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-Cartas-50k.geojson"
@@ -58210,10 +59690,10 @@
       "countryCode": "AR",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
@@ -58237,24 +59717,304 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/356458/432489.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 19,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/169516/200924.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 19,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/167847/210609.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 19,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/180582/206508.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 19,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/178229/216244.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/84758/100462.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/83923/105304.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/90291/103254.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/89114/108122.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/17/42379/50231.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/17/41961/52652.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/17/45145/51627.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/17/44557/54061.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/16/21189/25115.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/16/20980/26326.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/16/22572/25813.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/16/22278/27030.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/15/10594/12557.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/15/10490/13163.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/15/11286/12906.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/15/11139/13515.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/14/5297/6278.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/14/5245/6581.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/14/5643/6453.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/14/5569/6757.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/13/2648/3139.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/13/2622/3290.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/13/2821/3226.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/13/2784/3378.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/12/1324/1569.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/12/1311/1645.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/12/1410/1613.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/12/1392/1689.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/11/662/784.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/11/655/822.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/11/705/806.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/11/696/844.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/10/331/392.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/10/327/411.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/10/352/403.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/10/348/422.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/9/165/196.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/9/163/205.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/9/176/201.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/9/174/211.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/8/82/98.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/8/81/102.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/8/88/100.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/8/87/105.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/7/41/49.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/7/40/51.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/7/44/50.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/7/43/52.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/6/20/24.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/6/20/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/6/22/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/6/21/26.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/5/11/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-UAV_mosaic.geojson"
@@ -58265,31 +60025,331 @@
       "countryCode": "AR",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/356458/432489.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/19/169516/200924.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/19/167847/210609.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/19/180582/206508.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/19/178229/216244.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/18/84758/100462.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/18/83923/105304.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/18/90291/103254.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/18/89114/108122.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/17/42379/50231.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/17/41961/52652.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/17/45145/51627.png"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/17/44557/54061.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/16/21189/25115.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/16/20980/26326.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/16/22572/25813.png"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/16/22278/27030.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/15/10594/12557.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/15/10490/13163.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/15/11286/12906.png"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/15/11139/13515.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/14/5297/6278.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/14/5245/6581.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/14/5643/6453.png"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/14/5569/6757.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/13/2648/3139.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/13/2622/3290.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/13/2821/3226.png"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/13/2784/3378.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/12/1324/1569.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/12/1311/1645.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/12/1410/1613.png"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/12/1392/1689.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/11/662/784.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/11/655/822.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/11/705/806.png"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/11/696/844.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/10/331/392.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/10/327/411.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/10/352/403.png"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/10/348/422.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/9/165/196.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/9/163/205.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/9/176/201.png"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/9/174/211.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/8/82/98.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/8/81/102.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/8/88/100.png"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/8/87/105.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/7/41/49.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/7/40/51.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/7/44/50.png"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/7/43/52.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/6/20/24.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/6/20/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/6/22/25.png"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/6/21/26.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/5/10/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/5/11/12.png"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/5/10/13.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-orthophotos_mosaic.geojson"
@@ -58440,31 +60500,331 @@
       "countryCode": "BR",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300563/190352"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300528/190328"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300462/190206"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300569/190234"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150281/95176"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150264/95164"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150231/95103"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150284/95117"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75140/47588"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75132/47582"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75115/47551"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75142/47558"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37570/23794"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37566/23791"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37557/23775"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37571/23779"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18785/11897"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18783/11895"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18778/11887"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18785/11889"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9392/5948"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9391/5947"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9389/5943"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9392/5944"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4696/2974"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4695/2973"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4694/2971"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4696/2972"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2348/1487"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2347/1486"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2347/1485"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2348/1486"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1174/743"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1173/743"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1173/742"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1174/743"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/587/371"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/586/371"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/586/371"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/587/371"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/br/Curitiba_2019_Orthophoto.geojson"
@@ -59610,30 +61970,70 @@
       "category": "osmbasedmap",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 18,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/524288/524288.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/553415/495011.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/582542/464813.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/611669/432616.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/19/262144/262144.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/19/276707/247505.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/19/291271/232406.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/19/305834/216308.png"
+        },
+        {
+          "success": true,
+          "zoom": 18,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/18/131072/131072.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/18/138353/123752.png"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/18/145635/116203.png"
+        },
+        {
+          "success": true,
+          "zoom": 18,
+          "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/18/152917/108154.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/world/CyclOSM.geojson"
@@ -62459,30 +64859,50 @@
       "category": "osmbasedmap",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 19,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/hot/20/524288/524288.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/hot/20/553415/495011.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/hot/20/582542/464813.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/hot/20/611669/432616.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://a.tile.openstreetmap.fr/hot/19/262144/262144.png"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://a.tile.openstreetmap.fr/hot/19/276707/247505.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://a.tile.openstreetmap.fr/hot/19/291271/232406.png"
+        },
+        {
+          "success": true,
+          "zoom": 19,
+          "url": "https://a.tile.openstreetmap.fr/hot/19/305834/216308.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/world/OpenStreetMap-HotStyle.geojson"
