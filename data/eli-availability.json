@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T09:12:03.043480+00:00",
+  "generatedAt": "2026-07-30T14:41:25.470168+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -113,7 +113,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -124,7 +124,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9895&y=8050"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9893&y=8049"
         },
@@ -134,7 +134,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9887&y=8045"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9903&y=8045"
         }
@@ -183,7 +183,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -199,7 +199,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9552&y=8206"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202"
         },
@@ -483,13 +483,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43"
         },
@@ -518,13 +518,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=839"
         },
@@ -534,7 +534,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2439&y=799"
         },
@@ -553,7 +553,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -564,12 +564,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2454&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799"
         },
@@ -588,18 +588,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838"
         },
@@ -609,7 +609,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2438&y=803"
         }
@@ -623,7 +623,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -634,7 +634,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=827"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=823"
         },
@@ -644,7 +644,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=815"
         }
@@ -658,13 +658,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=839"
         },
@@ -693,7 +693,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -714,7 +714,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2351&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2368&y=804"
         }
@@ -763,7 +763,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -779,7 +779,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2296&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2281&y=799"
         },
@@ -798,18 +798,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838"
         },
@@ -833,7 +833,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -854,7 +854,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2210&y=804"
         }
@@ -868,7 +868,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -879,17 +879,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2209&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2208&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2193&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2210&y=804"
         }
@@ -903,7 +903,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -924,7 +924,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2175&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2192&y=804"
         }
@@ -938,7 +938,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -949,17 +949,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2191&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2191&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2176&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2191&y=803"
         }
@@ -1008,23 +1008,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80821332021346LGN00&z=12&x=2156&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80821332021346LGN00&z=12&x=2156&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80821332021346LGN00&z=12&x=2140&y=799"
         },
@@ -1078,7 +1078,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -1099,7 +1099,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80871332017354LGN00&z=12&x=2052&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80871332017354LGN00&z=12&x=2068&y=803"
         }
@@ -1428,7 +1428,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -1439,7 +1439,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=837"
         },
@@ -1463,7 +1463,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -1484,7 +1484,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2821&y=2327"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2872&y=2304"
         }
@@ -1533,13 +1533,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3919&y=608"
         },
@@ -1623,7 +1623,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1649,12 +1649,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=13&x=4699&y=1403"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2412&y=859"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2422&y=835"
         },
@@ -1678,7 +1678,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -1694,7 +1694,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159"
         },
@@ -1788,7 +1788,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -1814,7 +1814,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=12&x=1072&y=328"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=571&y=225"
         },
@@ -1824,12 +1824,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=557&y=225"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=529&y=174"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=536&y=164"
         }
@@ -1843,18 +1843,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7822&y=2018"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7824&y=2007"
         },
@@ -1864,7 +1864,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7843&y=1979"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7854&y=1983"
         }
@@ -1933,7 +1933,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1959,7 +1959,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=13&x=4253&y=1619"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2139&y=900"
         },
@@ -1974,7 +1974,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2076&y=809"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2126&y=809"
         }
@@ -1988,18 +1988,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 12,
+      "workingZoom": 11,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1088&y=582"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1093&y=602"
         },
@@ -2012,6 +2012,26 @@
           "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1079&y=482"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=11&x=544&y=291"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=11&x=546&y=301"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=11&x=507&y=227"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=11&x=539&y=241"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R052_SXX_20230130T130859.geojson"
@@ -2023,7 +2043,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2064,7 +2084,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R057_S7X_20190210T213409&z=12&x=3820&y=584"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R057_S7X_20190210T213409&z=12&x=3869&y=636"
         }
@@ -2078,7 +2098,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2104,12 +2124,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=13&x=5640&y=1594"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2801&y=878"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2807&y=879"
         },
@@ -2133,7 +2153,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2159,12 +2179,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=13&x=4391&y=1619"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2223&y=897"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2227&y=880"
         },
@@ -2243,7 +2263,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2269,12 +2289,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=13&x=7934&y=1616"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3965&y=841"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3975&y=836"
         },
@@ -2284,7 +2304,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3937&y=809"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3967&y=808"
         }
@@ -2898,13 +2918,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7801&y=2046"
         },
@@ -2914,12 +2934,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7796&y=2052"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2076"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2016"
         }
@@ -3003,7 +3023,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -3034,17 +3054,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3844&y=825"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3850&y=812"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3769&y=700"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3833&y=699"
         }
@@ -3093,7 +3113,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
@@ -3114,7 +3134,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=315&y=0"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti3&z=10&x=343&y=0"
         }
@@ -3128,7 +3148,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
@@ -3139,12 +3159,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=985&y=28"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=980&y=26"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_east&z=10&x=966&y=51"
         },
@@ -3163,7 +3183,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
@@ -3179,7 +3199,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=18&y=19"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=32"
         },
@@ -3233,13 +3253,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1347&y=996"
         },
@@ -3254,7 +3274,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1331&y=953"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1342&y=952"
         }
@@ -3323,18 +3343,18 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=512&y=186"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=555&y=161"
         },
@@ -3344,7 +3364,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=28&y=155"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=217&y=13"
         }
@@ -3358,9 +3378,9 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 12,
+      "workingZoom": 11,
       "maxZoom": 12,
       "urls": [
         {
@@ -3379,9 +3399,29 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3879&y=556"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3898&y=553"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1948&y=293"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1948&y=293"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1939&y=278"
+        },
+        {
+          "success": true,
+          "zoom": 11,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1949&y=276"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-usgs_50k_ant.geojson"
@@ -3463,7 +3503,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -3474,12 +3514,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6866&y=4026"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6863&y=4024"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6846&y=4014"
         },
@@ -3652,7 +3692,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -3663,7 +3703,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81510432015030LGN00&z=12&x=2840&y=2324"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81510432015030LGN00&z=12&x=2834&y=2319"
         },
@@ -14116,13 +14156,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/volta/20/340201/470681.png"
         },
@@ -14132,12 +14172,12 @@
           "url": "https://a.tile.openstreetmap.fr/volta/20/369439/512575.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/volta/20/346612/481190.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://a.tile.openstreetmap.fr/volta/20/529385/371768.png"
         }
@@ -36140,7 +36180,7 @@
       "category": "other",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -36161,7 +36201,7 @@
           "url": "https://vector-rgz.openstreetmap.rs/styles/rgz-big/21/1158683/747492.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://vector-rgz.openstreetmap.rs/styles/rgz-big/21/1160710/753057.png"
         }
@@ -42719,10 +42759,10 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 20,
       "maxZoom": 23,
       "urls": [
         {
@@ -42786,12 +42826,12 @@
           "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/21/836157/359006"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/20/418238/179646"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/20/418205/179676"
         },
@@ -42801,309 +42841,9 @@
           "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/20/418078/179791"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/20/418078/179503"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/19/209119/89823"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/19/209102/89838"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/19/209039/89895"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/19/209039/89751"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/18/104559/44911"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/18/104551/44919"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/18/104519/44947"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/18/104519/44875"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/17/52279/22455"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/17/52275/22459"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/17/52259/22473"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/17/52259/22437"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/16/26139/11227"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/16/26137/11229"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/16/26129/11236"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/16/26129/11218"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/15/13069/5613"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/15/13068/5614"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/15/13064/5618"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/15/13064/5609"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/14/6534/2806"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/14/6534/2807"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/14/6532/2809"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/14/6532/2804"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/13/3267/1403"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/13/3267/1403"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/13/3266/1404"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/13/3266/1402"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/12/1633/701"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/12/1633/701"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/12/1633/702"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/12/1633/701"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/11/816/350"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/11/816/350"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/11/816/351"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/11/816/350"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/10/408/175"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/10/408/175"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/10/408/175"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/10/408/175"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/9/204/87"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/9/204/87"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/9/204/87"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/9/204/87"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/8/102/43"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/8/102/43"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/8/102/43"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/8/102/43"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/7/51/21"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/7/51/21"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/7/51/21"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/7/51/21"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/6/25/10"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/6/25/10"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/6/25/10"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/6/25/10"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/5/12/5"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/5/12/5"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/5/12/5"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://mobilegis.burbankca.gov/burgis/rest/services/Ortho/Base_2021_3in_Webmerc_Notitles/MapServer/tile/5/12/5"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Burbank_CA_2021.geojson"
@@ -56739,10 +56479,10 @@
       "countryCode": "AU",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
@@ -56751,7 +56491,7 @@
           "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/20/581196/954781"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/20/593531/955251"
         },
@@ -56764,306 +56504,6 @@
           "success": false,
           "zoom": 20,
           "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/20/602283/935992"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/19/290598/477390"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/19/296765/477625"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/19/277819/463828"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/19/301141/467996"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/18/145299/238695"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/18/148382/238812"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/18/138909/231914"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/18/150570/233998"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/17/72649/119347"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/17/74191/119406"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/17/69454/115957"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/17/75285/116999"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/16/36324/59673"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/16/37095/59703"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/16/34727/57978"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/16/37642/58499"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/15/18162/29836"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/15/18547/29851"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/15/17363/28989"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/15/18821/29249"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/14/9081/14918"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/14/9273/14925"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/14/8681/14494"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/14/9410/14624"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/13/4540/7459"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/13/4636/7462"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/13/4340/7247"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/13/4705/7312"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/12/2270/3729"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/12/2318/3731"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/12/2170/3623"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/12/2352/3656"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/11/1135/1864"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/11/1159/1865"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/11/1085/1811"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/11/1176/1828"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/10/567/932"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/10/579/932"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/10/542/905"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/10/588/914"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/9/283/466"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/9/289/466"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/9/271/452"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/9/294/457"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/8/141/233"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/8/144/233"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/8/135/226"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/8/147/228"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/7/70/116"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/7/72/116"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/7/67/113"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/7/73/114"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/6/35/58"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/6/36/58"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/6/33/56"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/6/36/57"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/5/17/29"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/5/18/29"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/5/16/28"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/WMTS/tile/1.0.0/Basemaps_LatestStateProgram_AllUsers/default/GoogleMapsCompatible/5/18/28"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/oceania/au/qld/QLD-LatestStateProgram.geojson"
@@ -57074,291 +56514,31 @@
       "countryCode": "AU",
       "category": "map",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/145299/238695.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/148382/238812.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/138909/231914.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/150570/233998.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/72649/119347.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/74191/119406.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/69454/115957.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/75285/116999.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/36324/59673.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/37095/59703.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/34727/57978.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/37642/58499.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/18162/29836.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/18547/29851.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/17363/28989.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/18821/29249.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/9081/14918.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/9273/14925.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/8681/14494.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/9410/14624.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4540/7459.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4636/7462.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4340/7247.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4705/7312.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2270/3729.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2318/3731.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2170/3623.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2352/3656.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1135/1864.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1159/1865.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1085/1811.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1176/1828.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/567/932.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/579/932.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/542/905.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/588/914.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/283/466.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/289/466.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/271/452.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/294/457.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/141/233.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/144/233.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/135/226.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/147/228.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/70/116.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/72/116.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/67/113.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/73/114.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/35/58.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/36/58.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/33/56.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/36/57.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/17/29.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/18/29.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/16/28.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Lite/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/18/28.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/oceania/au/qld/QLD-Lite.geojson"
@@ -57383,291 +56563,31 @@
       "countryCode": "AU",
       "category": "map",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 18,
       "maxZoom": 18,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/145299/238695.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/148382/238812.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/138909/231914.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 18,
           "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/18/150570/233998.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/72649/119347.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/74191/119406.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/69454/115957.png"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/17/75285/116999.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/36324/59673.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/37095/59703.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/34727/57978.png"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/16/37642/58499.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/18162/29836.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/18547/29851.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/17363/28989.png"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/15/18821/29249.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/9081/14918.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/9273/14925.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/8681/14494.png"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/14/9410/14624.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4540/7459.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4636/7462.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4340/7247.png"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/13/4705/7312.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2270/3729.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2318/3731.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2170/3623.png"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/12/2352/3656.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1135/1864.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1159/1865.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1085/1811.png"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/11/1176/1828.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/567/932.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/579/932.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/542/905.png"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/10/588/914.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/283/466.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/289/466.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/271/452.png"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/9/294/457.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/141/233.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/144/233.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/135/226.png"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/8/147/228.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/70/116.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/72/116.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/67/113.png"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/7/73/114.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/35/58.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/36/58.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/33/56.png"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/6/36/57.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/17/29.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/18/29.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/16/28.png"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Basemaps/QldMap_Topo/MapServer/WMTS/tile/1.0.0/Basemaps_QldMap_Lite/default/GoogleMapsCompatible/5/18/28.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/oceania/au/qld/QLD-Topo.geojson"
@@ -59151,7 +58071,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -59167,7 +58087,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
         },
@@ -59186,13 +58106,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png"
         },
@@ -59202,12 +58122,12 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/712916/864978.png"
         }
@@ -59221,7 +58141,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -59242,7 +58162,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1410/1613.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1392/1689.png"
         }
@@ -59256,7 +58176,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -59277,7 +58197,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2627/3476.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2617/3474.png"
         }
@@ -59291,7 +58211,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -59312,7 +58232,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5643/6453.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5569/6757.png"
         }
@@ -59326,7 +58246,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -59347,7 +58267,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1410/1613.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1392/1689.png"
         }
@@ -59565,18 +58485,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 19,
+      "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/339032/401849.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/335695/421219.png"
         },
@@ -59586,29 +58506,9 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/361164/413017.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/356458/432489.png"
-        },
-        {
-          "success": true,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/169516/200924.png"
-        },
-        {
-          "success": true,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/167847/210609.png"
-        },
-        {
-          "success": true,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/180582/206508.png"
-        },
-        {
-          "success": true,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/178229/216244.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-UAV_mosaic.geojson"
@@ -60964,23 +59864,23 @@
       "category": "osmbasedmap",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/524288/524288.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/553415/495011.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/582542/464813.png"
         },
