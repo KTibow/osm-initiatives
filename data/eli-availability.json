@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T09:25:22.449602+00:00",
+  "generatedAt": "2026-07-31T14:45:39.177995+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -46127,28 +46127,18 @@
       "status": "up",
       "okSamples": 2,
       "samples": 2,
-      "workingZoom": 20,
+      "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/Soskut-Tarnok-Pusztazamor-Diosd/mercator/21/1158218/734284.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/Soskut-Tarnok-Pusztazamor-Diosd/mercator/21/1158913/734125.png"
-        },
-        {
-          "success": true,
-          "zoom": 20,
-          "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/Soskut-Tarnok-Pusztazamor-Diosd/mercator/20/579109/367142.png"
-        },
-        {
-          "success": true,
-          "zoom": 20,
-          "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/Soskut-Tarnok-Pusztazamor-Diosd/mercator/20/579456/367062.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/europe/hu/Soskut-Pusztazamor-Tarnok-Diosd-ortophoto-2017.geojson"
@@ -46253,48 +46243,28 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1152265/739254.jpeg"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1152428/737974.jpeg"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1158501/733945.jpeg"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1159432/730108.jpeg"
-        },
-        {
-          "success": true,
-          "zoom": 20,
-          "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/20/576132/369627.jpeg"
-        },
-        {
-          "success": true,
-          "zoom": 20,
-          "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/20/576214/368987.jpeg"
-        },
-        {
-          "success": true,
-          "zoom": 20,
-          "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/20/579250/366972.jpeg"
-        },
-        {
-          "success": true,
-          "zoom": 20,
-          "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/20/579716/365054.jpeg"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/europe/hu/openstreetmaphuorthophotos.geojson"
@@ -64373,10 +64343,10 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 21,
       "maxZoom": 22,
       "urls": [
         {
@@ -64400,344 +64370,24 @@
           "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/22/1725902/1142226"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/21/861546/572386"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/21/861414/572044"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/21/863397/570590"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/21/862951/571113"
-        },
-        {
-          "success": false,
-          "zoom": 20,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/20/430773/286193"
-        },
-        {
-          "success": false,
-          "zoom": 20,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/20/430707/286022"
-        },
-        {
-          "success": false,
-          "zoom": 20,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/20/431698/285295"
-        },
-        {
-          "success": false,
-          "zoom": 20,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/20/431475/285556"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/19/215386/143096"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/19/215353/143011"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/19/215849/142647"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/19/215737/142778"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/18/107693/71548"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/18/107676/71505"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/18/107924/71323"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/18/107868/71389"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/17/53846/35774"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/17/53838/35752"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/17/53962/35661"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/17/53934/35694"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/16/26923/17887"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/16/26919/17876"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/16/26981/17830"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/16/26967/17847"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/15/13461/8943"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/15/13459/8938"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/15/13490/8915"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/15/13483/8923"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/14/6730/4471"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/14/6729/4469"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/14/6745/4457"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/14/6741/4461"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/13/3365/2235"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/13/3364/2234"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/13/3372/2228"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/13/3370/2230"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/12/1682/1117"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/12/1682/1117"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/12/1686/1114"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/12/1685/1115"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/11/841/558"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/11/841/558"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/11/843/557"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/11/842/557"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/10/420/279"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/10/420/279"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/10/421/278"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/10/421/278"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/9/210/139"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/9/210/139"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/9/210/139"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/9/210/139"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/8/105/69"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/8/105/69"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/8/105/69"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/8/105/69"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/7/52/34"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/7/52/34"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/7/52/34"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/7/52/34"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/6/26/17"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/6/26/17"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/6/26/17"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/6/26/17"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/5/13/8"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/5/13/8"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/5/13/8"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://maps.ncpafl.com/ncflpa_arcgis/rest/services/nassau/NassauAerials2023/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Nassau_Ortho_2023.geojson"
@@ -78201,7 +77851,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -78222,7 +77872,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/712916/864978.png"
         }
@@ -78236,7 +77886,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -78247,7 +77897,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/678065/803699.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png"
         },
@@ -78306,7 +77956,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -78322,7 +77972,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2607/3458.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_tucuman_100k%3Atucuman100k@EPSG%3A3857@png/13/2627/3476.png"
         },
@@ -78376,7 +78026,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -78387,7 +78037,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1324/1569.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1311/1645.png"
         },
@@ -79184,331 +78834,31 @@
       "countryCode": "BR",
       "category": "photo",
       "type": "tms",
-      "status": "down",
-      "okSamples": 0,
+      "status": "up",
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": null,
+      "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601126/380705"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601057/380656"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/600924/380412"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/20/601138/380468"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300563/190352"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300528/190328"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300462/190206"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/19/300569/190234"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150281/95176"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150264/95164"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150231/95103"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/18/150284/95117"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75140/47588"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75132/47582"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75115/47551"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/17/75142/47558"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37570/23794"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37566/23791"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37557/23775"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/16/37571/23779"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18785/11897"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18783/11895"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18778/11887"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/15/18785/11889"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9392/5948"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9391/5947"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9389/5943"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/14/9392/5944"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4696/2974"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4695/2973"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4694/2971"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/13/4696/2972"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2348/1487"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2347/1486"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2347/1485"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/12/2348/1486"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1174/743"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1173/743"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1173/742"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/11/1174/743"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/587/371"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/586/371"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/586/371"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/10/587/371"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/9/293/185"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/8/146/92"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
-        },
-        {
-          "success": false,
-          "zoom": 7,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/7/73/46"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
-        },
-        {
-          "success": false,
-          "zoom": 6,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/6/36/23"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
-        },
-        {
-          "success": false,
-          "zoom": 5,
-          "url": "https://geocuritiba.ippuc.org.br/server/rest/services/Hosted/Ortofotos2019/MapServer/tile/5/18/11"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/br/Curitiba_2019_Orthophoto.geojson"
@@ -82834,13 +82184,13 @@
       "category": "osmbasedmap",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://a.tile-cyclosm.openstreetmap.fr/cyclosm/20/524288/524288.png"
         },
@@ -82904,7 +82254,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 17,
       "maxZoom": 22,
@@ -83020,7 +82370,7 @@
           "url": "https://clarity.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/17/61876/69176"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 17,
           "url": "https://clarity.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/MapServer/tile/17/58101/72817"
         },
