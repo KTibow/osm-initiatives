@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:08:47.952227+00:00",
+  "generatedAt": "2026-08-25T02:00:36.626242+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -8,7 +8,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -29,7 +29,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8276&y=8478"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8304&y=8478"
         }
@@ -43,13 +43,13 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7076&y=8878"
         },
@@ -59,7 +59,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7074&y=8877"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7065&y=8871"
         },
@@ -78,23 +78,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9893&y=8185"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180"
         },
@@ -183,7 +183,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -199,7 +199,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9552&y=8206"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202"
         },
@@ -483,13 +483,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43"
         },
@@ -518,23 +518,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2439&y=799"
         },
@@ -553,13 +553,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839"
         },
@@ -569,12 +569,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2454&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2456&y=804"
         }
@@ -588,7 +588,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -604,7 +604,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
         },
@@ -623,7 +623,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -639,7 +639,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=823"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819"
         },
@@ -658,13 +658,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=839"
         },
@@ -679,7 +679,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2369&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332021351LGN00&z=12&x=2385&y=803"
         }
@@ -693,7 +693,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -704,7 +704,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2367&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2367&y=838"
         },
@@ -728,7 +728,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -749,7 +749,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2350&y=804"
         }
@@ -798,13 +798,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839"
         },
@@ -814,12 +814,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
         }
@@ -844,7 +844,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2209&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2208&y=838"
         },
@@ -854,7 +854,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2210&y=804"
         }
@@ -868,13 +868,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2209&y=839"
         },
@@ -889,7 +889,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2193&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2210&y=804"
         }
@@ -903,23 +903,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2191&y=839"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2191&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2175&y=799"
         },
@@ -938,7 +938,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -959,7 +959,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2176&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332021348LGN00&z=12&x=2191&y=803"
         }
@@ -1393,13 +1393,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80771332019354LGN00&z=12&x=2244&y=839"
         },
@@ -1428,13 +1428,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=839"
         },
@@ -1449,7 +1449,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=803"
         }
@@ -1463,13 +1463,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R009_S61_20160109&z=13&x=2846&y=2321"
         },
@@ -1533,13 +1533,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3919&y=608"
         },
@@ -1549,7 +1549,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3904&y=621"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3898&y=559"
         },
@@ -1568,7 +1568,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1599,12 +1599,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=12&x=2488&y=935"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=12&x=2478&y=933"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=12&x=2449&y=907"
         },
@@ -1623,7 +1623,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1654,17 +1654,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2412&y=859"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2422&y=835"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2274&y=705"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2349&y=701"
         }
@@ -1678,13 +1678,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2797&y=2197"
         },
@@ -1694,7 +1694,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159"
         },
@@ -1843,13 +1843,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7822&y=2018"
         },
@@ -2078,7 +2078,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2104,12 +2104,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=13&x=5640&y=1594"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2801&y=878"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2807&y=879"
         },
@@ -2119,7 +2119,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2787&y=750"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2820&y=797"
         }
@@ -2133,9 +2133,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
@@ -2159,7 +2159,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=13&x=4391&y=1619"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2223&y=897"
         },
@@ -2174,29 +2174,9 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2145&y=809"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=12&x=2195&y=809"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=11&x=1111&y=448"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=11&x=1113&y=440"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=11&x=1072&y=404"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R063_SXX_20220317T073919&z=11&x=1097&y=404"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R063_SXX_20220317T073919.geojson"
@@ -2208,7 +2188,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2239,7 +2219,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1977&y=159"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R069_S83_20230111T174429&z=11&x=1965&y=164"
         },
@@ -2318,7 +2298,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2344,12 +2324,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=13&x=5753&y=1485"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2870&y=859"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2874&y=854"
         },
@@ -2373,7 +2353,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2399,7 +2379,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=13&x=4433&y=1394"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R077_S7X_20220226T070839&z=12&x=2253&y=809"
         },
@@ -2428,7 +2408,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2454,7 +2434,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=13&x=4843&y=1603"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2393&y=839"
         },
@@ -2464,12 +2444,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2395&y=848"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2401&y=767"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2421&y=801"
         }
@@ -2483,7 +2463,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2514,17 +2494,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1305&y=949"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1293&y=936"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1263&y=814"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1300&y=851"
         }
@@ -2538,7 +2518,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -2549,7 +2529,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=13&x=2635&y=2086"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=13&x=2650&y=2052"
         },
@@ -2573,7 +2553,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2604,7 +2584,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1946&y=160"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1933&y=166"
         },
@@ -2614,7 +2594,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1889&y=151"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R098_S83_20230113T182459&z=11&x=1896&y=123"
         }
@@ -2788,7 +2768,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -2814,7 +2794,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=12&x=3793&y=262"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1929&y=163"
         },
@@ -2824,7 +2804,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1919&y=167"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1893&y=144"
         },
@@ -2918,13 +2898,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
-      "workingZoom": 12,
+      "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7801&y=2046"
         },
@@ -2934,7 +2914,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7796&y=2052"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2076"
         },
@@ -2942,26 +2922,6 @@
           "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=13&x=7776&y=2016"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3900&y=1023"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3898&y=1026"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3888&y=1038"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200121T222409&z=12&x=3888&y=1008"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R129_S67_20200121T222409.geojson"
@@ -2973,9 +2933,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
@@ -2984,7 +2944,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7793&y=2054"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7794&y=2044"
         },
@@ -2997,6 +2957,26 @@
           "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=13&x=7805&y=2038"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=12&x=3896&y=1027"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=12&x=3897&y=1022"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=12&x=3901&y=1019"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R129_S67_20200301T222409&z=12&x=3902&y=1019"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R129_S67_20200301T222409.geojson"
@@ -3010,28 +2990,48 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2619&y=2110"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2626&y=2096"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2512&y=1984"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=13&x=2580&y=1984"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=12&x=1309&y=1055"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=12&x=1313&y=1048"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=12&x=1256&y=992"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R138_S6X_20220302T132919&z=12&x=1290&y=992"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R138_S6X_20220302T132919.geojson"
@@ -3043,7 +3043,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -3079,12 +3079,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3850&y=812"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3769&y=700"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3833&y=699"
         }
@@ -3273,7 +3273,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -3289,7 +3289,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1344&y=986"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1331&y=953"
         },
@@ -3363,9 +3363,9 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
-      "workingZoom": 9,
+      "workingZoom": 10,
       "maxZoom": 10,
       "urls": [
         {
@@ -3374,7 +3374,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=512&y=186"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=555&y=161"
         },
@@ -3384,29 +3384,9 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=28&y=155"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=10&x=217&y=13"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=9&x=256&y=93"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=9&x=277&y=80"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=9&x=14&y=77"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=9&x=108&y=6"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-usgs_500k_ant.geojson"
@@ -3418,7 +3398,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -3429,12 +3409,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3896&y=586"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3879&y=556"
         },
@@ -3488,13 +3468,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7216&y=4005"
         },
@@ -3509,9 +3489,29 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7200&y=3998"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7230&y=3998"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3608&y=2002"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3606&y=2002"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3600&y=1999"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3615&y=1999"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/asia/id/osmim-imagicode-LC81030632015286LGN00.geojson"
@@ -3523,7 +3523,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -3539,12 +3539,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6863&y=4024"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6846&y=4014"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81130622013270LGN00&z=13&x=6882&y=4014"
         }
@@ -3558,7 +3558,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -3574,7 +3574,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6695&y=4150"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81190582014075LGN00&z=13&x=6698&y=4142"
         },
@@ -3593,18 +3593,18 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=13&x=6472&y=4112"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=13&x=6470&y=4109"
         },
@@ -3614,9 +3614,29 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=13&x=6463&y=4096"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=13&x=6482&y=4096"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=12&x=3236&y=2056"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=12&x=3235&y=2054"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=12&x=3231&y=2048"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=12&x=3241&y=2048"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/asia/id/osmim-imagicode-LC81250592016107LGN00.geojson"
@@ -3628,23 +3648,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R088_S05_20160812T011732&z=14&x=14440&y=8008"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R088_S05_20160812T011732&z=14&x=14435&y=8006"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R088_S05_20160812T011732&z=14&x=14418&y=7998"
         },
@@ -6148,7 +6168,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -6164,7 +6184,7 @@
           "url": "https://geo.api.vlaanderen.be/OFW/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ofw&STYLE=&FORMAT=image/png&tileMatrixSet=GoogleMapsVL&tileMatrix=21&tileRow=701753&tileCol=1074735"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://geo.api.vlaanderen.be/OFW/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ofw&STYLE=&FORMAT=image/png&tileMatrixSet=GoogleMapsVL&tileMatrix=21&tileRow=703873&tileCol=1076302"
         },
@@ -33100,7 +33120,7 @@
       "category": "",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
@@ -33121,7 +33141,7 @@
           "url": "https://wmts3.geoportail.lu/opendata/wmts/cadastre/GLOBAL_WEBMERCATOR_4_V3/20/541677/354903.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://wmts3.geoportail.lu/opendata/wmts/cadastre/GLOBAL_WEBMERCATOR_4_V3/20/541044/356081.png"
         }
@@ -41267,6 +41287,55 @@
       "sourcePath": "vendor/editor-layer-index/sources/north-america/mx/INEGIDigitalMapofMexico(WMS).geojson"
     },
     {
+      "id": "USDA-NAIP-PR",
+      "name": "National Agriculture Imagery Program (PR)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/pr/USDA-NAIP-PR.geojson"
+    },
+    {
+      "id": "us-pr-slope",
+      "name": "USGS slope",
+      "countryCode": "US",
+      "category": "elevation",
+      "type": "tms",
+      "status": "up",
+      "okSamples": 4,
+      "samples": 4,
+      "workingZoom": 16,
+      "maxZoom": 16,
+      "urls": [
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20883/29375"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20883/29375"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20873/29376"
+        },
+        {
+          "success": true,
+          "zoom": 16,
+          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20875/29379"
+        }
+      ],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/pr/usgs-culebra-slope.geojson"
+    },
+    {
       "id": "NOAA_East_2023",
       "name": "NOAA NGS East Coast Imagery (2023)",
       "countryCode": "US",
@@ -41915,261 +41984,6 @@
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/TIGER2023RoadsOverlay.geojson"
-    },
-    {
-      "id": "USDA-NAIP-PR",
-      "name": "National Agriculture Imagery Program (PR/USVI)",
-      "countryCode": "US",
-      "category": "photo",
-      "type": "tms",
-      "status": "down",
-      "okSamples": 0,
-      "samples": 4,
-      "workingZoom": null,
-      "maxZoom": 19,
-      "urls": [
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235300/165761"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/235307/166605"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/236060/168285"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/19/234950/167936"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/117650/82880"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/117653/83302"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/118030/84142"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/18/117475/83968"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/58825/41440"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/58826/41651"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/59015/42071"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/17/58737/41984"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29412/20720"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29413/20825"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29507/21035"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/16/29368/20992"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14706/10360"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14706/10412"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14753/10517"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/15/14684/10496"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7353/5180"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7353/5206"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7376/5258"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/14/7342/5248"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3676/2590"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3676/2603"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3688/2629"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/13/3671/2624"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1838/1295"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1838/1301"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1844/1314"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/12/1835/1312"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/919/647"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/919/650"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/922/657"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/11/917/656"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/459/323"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/459/325"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/461/328"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/10/458/328"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/229/161"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/229/162"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/230/164"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/9/229/164"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/80"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/81"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/115/82"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/PR/ImageServer/tile/8/114/82"
-        }
-      ],
-      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/USDA-NAIP-PR.geojson"
     },
     {
       "id": "USDA-NAIP",
@@ -42896,8 +42710,8 @@
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ak/NOAA_NGS_70701_RGB.geojson"
     },
     {
-      "id": "USDA_Delta_Junction_2021",
-      "name": "USDA Delta Junction Orthoimagery (2021)",
+      "id": "NRCS_Alaska_2023",
+      "name": "NRCS Alaska Imagery (2023)",
       "countryCode": "US",
       "category": "photo",
       "type": "wms",
@@ -42907,7 +42721,21 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ak/USDA_Delta_Junction_2021.geojson"
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ak/NRCS_Alaska_2023.geojson"
+    },
+    {
+      "id": "NRCS_Delta_Junction_2021",
+      "name": "NRCS Delta Junction Orthoimagery (2021)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ak/NRCS_Delta_Junction_2021.geojson"
     },
     {
       "id": "ADOP_2017_1ft",
@@ -43538,7 +43366,7 @@
       "id": "Manteca_CA_2024",
       "name": "City of Manteca Orthoimagery (2024)",
       "countryCode": "US",
-      "category": "photo",
+      "category": "historicphoto",
       "type": "wms",
       "status": "unsupported",
       "okSamples": 0,
@@ -43547,6 +43375,20 @@
       "maxZoom": null,
       "urls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Manteca_CA_2024.geojson"
+    },
+    {
+      "id": "Manteca_CA_2025",
+      "name": "City of Manteca Orthoimagery (2025)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Manteca_CA_2025.geojson"
     },
     {
       "id": "Modesto_CA_2023",
@@ -43650,7 +43492,7 @@
       "id": "Roseville_CA_2025",
       "name": "City of Roseville Orthoimagery (2025)",
       "countryCode": "US",
-      "category": "photo",
+      "category": "historicphoto",
       "type": "wms",
       "status": "unsupported",
       "okSamples": 0,
@@ -43659,6 +43501,20 @@
       "maxZoom": null,
       "urls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Roseville_CA_2025.geojson"
+    },
+    {
+      "id": "Roseville_CA_2026",
+      "name": "City of Roseville Orthoimagery (2026)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Roseville_CA_2026.geojson"
     },
     {
       "id": "SANDAG_2020",
@@ -43781,7 +43637,7 @@
       "id": "San_Bernardino_CA_2024",
       "name": "San Bernardino County Orthoimagery (2024)",
       "countryCode": "US",
-      "category": "photo",
+      "category": "historicphoto",
       "type": "wms",
       "status": "unsupported",
       "okSamples": 0,
@@ -43790,6 +43646,34 @@
       "maxZoom": null,
       "urls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/San_Bernardino_CA_2024.geojson"
+    },
+    {
+      "id": "San_Bernardino_CA_2025",
+      "name": "San Bernardino County Orthoimagery (2025)",
+      "countryCode": "US",
+      "category": "historicphoto",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/San_Bernardino_CA_2025.geojson"
+    },
+    {
+      "id": "San_Bernardino_CA_2026",
+      "name": "San Bernardino County Orthoimagery (2026)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/San_Bernardino_CA_2026.geojson"
     },
     {
       "id": "San_Francisco_2022",
@@ -44274,8 +44158,8 @@
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Solano_CA_2025.geojson"
     },
     {
-      "id": "Stockton_CA_2023",
-      "name": "City of Stockton Orthoimagery (2023)",
+      "id": "Sonoma_CA_2025",
+      "name": "Sonoma County Orthoimagery (2025)",
       "countryCode": "US",
       "category": "photo",
       "type": "wms",
@@ -44285,6 +44169,101 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Sonoma_CA_2025.geojson"
+    },
+    {
+      "id": "Stockton_CA_2023",
+      "name": "City of Stockton Orthoimagery (2023)",
+      "countryCode": "US",
+      "category": "photo",
+      "type": "tms",
+      "status": "up",
+      "okSamples": 4,
+      "samples": 4,
+      "workingZoom": 20,
+      "maxZoom": 23,
+      "urls": [
+        {
+          "success": false,
+          "zoom": 23,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/23/3236605/1367551"
+        },
+        {
+          "success": false,
+          "zoom": 23,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/23/3235272/1367605"
+        },
+        {
+          "success": false,
+          "zoom": 23,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/23/3233273/1363896"
+        },
+        {
+          "success": false,
+          "zoom": 23,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/23/3237264/1365879"
+        },
+        {
+          "success": false,
+          "zoom": 22,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/22/1618302/683775"
+        },
+        {
+          "success": false,
+          "zoom": 22,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/22/1617636/683802"
+        },
+        {
+          "success": false,
+          "zoom": 22,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/22/1616636/681948"
+        },
+        {
+          "success": false,
+          "zoom": 22,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/22/1618632/682939"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/21/809151/341887"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/21/808818/341901"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/21/808318/340974"
+        },
+        {
+          "success": false,
+          "zoom": 21,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/21/809316/341469"
+        },
+        {
+          "success": true,
+          "zoom": 20,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/20/404575/170943"
+        },
+        {
+          "success": true,
+          "zoom": 20,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/20/404409/170950"
+        },
+        {
+          "success": true,
+          "zoom": 20,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/20/404159/170487"
+        },
+        {
+          "success": true,
+          "zoom": 20,
+          "url": "https://gisportal.stocktonca.gov/arcgis2/rest/services/BaseMaps/Aerials_2023/MapServer/tile/20/404658/170734"
+        }
+      ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/ca/Stockton_CA_2023.geojson"
     },
     {
@@ -48864,267 +48843,46 @@
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/Maui_2026.geojson"
     },
     {
+      "id": "NRCS_Hawaii_2022",
+      "name": "NRCS Hawaii Imagery (2022)",
+      "countryCode": "US",
+      "category": "historicphoto",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/NRCS_Hawaii_2022.geojson"
+    },
+    {
+      "id": "NRCS_Northwest_Hawaiian_Islands_2022",
+      "name": "NRCS Northwest Hawaiian Islands Imagery (2022)",
+      "countryCode": "US",
+      "category": "historicphoto",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/NRCS_Northwest_Hawaiian_Islands_2022.geojson"
+    },
+    {
       "id": "USDA-NAIP-HI",
       "name": "National Agriculture Imagery Program (HI)",
       "countryCode": "US",
       "category": "photo",
-      "type": "tms",
-      "status": "down",
+      "type": "wms",
+      "status": "unsupported",
       "okSamples": 0,
-      "samples": 4,
+      "samples": 0,
       "workingZoom": null,
-      "maxZoom": 18,
-      "urls": [
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115751/16356"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/115481/15948"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/114447/14398"
-        },
-        {
-          "success": false,
-          "zoom": 18,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/18/117014/14398"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/57875/8178"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/57740/7974"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/57223/7199"
-        },
-        {
-          "success": false,
-          "zoom": 17,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/17/58507/7199"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/28937/4089"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/28870/3987"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/28611/3599"
-        },
-        {
-          "success": false,
-          "zoom": 16,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/16/29253/3599"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14468/2044"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14435/1993"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14305/1799"
-        },
-        {
-          "success": false,
-          "zoom": 15,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/15/14626/1799"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7234/1022"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7217/996"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7152/899"
-        },
-        {
-          "success": false,
-          "zoom": 14,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/14/7313/899"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3617/511"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3608/498"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3576/449"
-        },
-        {
-          "success": false,
-          "zoom": 13,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/13/3656/449"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1808/255"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1804/249"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1788/224"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/12/1828/224"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/904/127"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/902/124"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/894/112"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/11/914/112"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/452/63"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/451/62"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/447/56"
-        },
-        {
-          "success": false,
-          "zoom": 10,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/10/457/56"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/226/31"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/225/31"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/223/28"
-        },
-        {
-          "success": false,
-          "zoom": 9,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/9/228/28"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/113/15"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/112/15"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/111/14"
-        },
-        {
-          "success": false,
-          "zoom": 8,
-          "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NonCONUS/HI/ImageServer/tile/8/114/14"
-        }
-      ],
+      "maxZoom": null,
+      "urls": [],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/USDA-NAIP-HI.geojson"
-    },
-    {
-      "id": "USDA_Hawaii_2022",
-      "name": "USDA Hawaii Imagery (2022)",
-      "countryCode": "US",
-      "category": "photo",
-      "type": "wms",
-      "status": "unsupported",
-      "okSamples": 0,
-      "samples": 0,
-      "workingZoom": null,
-      "maxZoom": null,
-      "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/USDA_Hawaii_2022.geojson"
-    },
-    {
-      "id": "USDA_Northwest_Hawaiian_Islands_2022",
-      "name": "USDA Northwest Hawaiian Islands Imagery (2022)",
-      "countryCode": "US",
-      "category": "photo",
-      "type": "wms",
-      "status": "unsupported",
-      "okSamples": 0,
-      "samples": 0,
-      "workingZoom": null,
-      "maxZoom": null,
-      "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/hi/USDA_Northwest_Hawaiian_Islands_2022.geojson"
     },
     {
       "id": "Cook_IL_2020",
@@ -52076,41 +51834,6 @@
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/pa/Philadelphia_Ortho_2025_3in.geojson"
     },
     {
-      "id": "us-pr-slope",
-      "name": "USGS slope",
-      "countryCode": "US",
-      "category": "elevation",
-      "type": "tms",
-      "status": "up",
-      "okSamples": 4,
-      "samples": 4,
-      "workingZoom": 16,
-      "maxZoom": 16,
-      "urls": [
-        {
-          "success": true,
-          "zoom": 16,
-          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20883/29375"
-        },
-        {
-          "success": true,
-          "zoom": 16,
-          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20883/29375"
-        },
-        {
-          "success": true,
-          "zoom": 16,
-          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20873/29376"
-        },
-        {
-          "success": true,
-          "zoom": 16,
-          "url": "https://proxy.slopes4osm.workers.dev/us-pr/16/20875/29379"
-        }
-      ],
-      "sourcePath": "vendor/editor-layer-index/sources/north-america/us/pr/usgs-culebra-slope.geojson"
-    },
-    {
       "id": "RIGIS_Aerial_Photo_21f",
       "name": "Rhode Island Aerial Photo (Fall 2021)",
       "countryCode": "US",
@@ -53184,8 +52907,22 @@
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/wv/Monongalia_WV_2026.geojson"
     },
     {
-      "id": "USDA_American_Samoa_2022",
-      "name": "USDA American Samoa Imagery (2022)",
+      "id": "NRCS_American_Samoa_2022",
+      "name": "NRCS American Samoa Imagery (2022)",
+      "countryCode": "AS",
+      "category": "historicphoto",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/as/NRCS_American_Samoa_2022.geojson"
+    },
+    {
+      "id": "NRCS_American_Samoa_2024",
+      "name": "NRCS American Samoa Imagery (2024)",
       "countryCode": "AS",
       "category": "photo",
       "type": "wms",
@@ -53195,7 +52932,7 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/oceania/as/USDA_American_Samoa_2022.geojson"
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/as/NRCS_American_Samoa_2024.geojson"
     },
     {
       "id": "AGRI-black_and_white-2.5m",
@@ -58302,10 +58039,10 @@
       "sourcePath": "vendor/editor-layer-index/sources/oceania/fm/USDA_Micronesia_2023.geojson"
     },
     {
-      "id": "USDA_Guam_2022",
-      "name": "USDA Guam Imagery (2022)",
+      "id": "NRCS_Guam_2022",
+      "name": "NRCS Guam Imagery (2022)",
       "countryCode": "GU",
-      "category": "photo",
+      "category": "historicphoto",
       "type": "wms",
       "status": "unsupported",
       "okSamples": 0,
@@ -58313,13 +58050,13 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/oceania/gu/USDA_Guam_2022.geojson"
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/gu/NRCS_Guam_2022.geojson"
     },
     {
-      "id": "USDA_Marshall_Islands_2023",
-      "name": "USDA Marshall Islands Imagery (2023)",
+      "id": "NRCS_Marshall_Islands_2023",
+      "name": "NRCS Marshall Islands Imagery (2023)",
       "countryCode": "MH",
-      "category": "photo",
+      "category": "historicphoto",
       "type": "wms",
       "status": "unsupported",
       "okSamples": 0,
@@ -58327,11 +58064,11 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/oceania/mh/USDA_Marshall_Islands_2023.geojson"
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/mh/NRCS_Marshall_Islands_2023.geojson"
     },
     {
-      "id": "USDA_CNMI_2022",
-      "name": "USDA Northern Mariana Islands Imagery (2022)",
+      "id": "NRCS_CNMI_2022",
+      "name": "NRCS Northern Mariana Islands Imagery (2022)",
       "countryCode": "MP",
       "category": "photo",
       "type": "wms",
@@ -58341,7 +58078,21 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/oceania/mp/USDA_CNMI_2022.geojson"
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/mp/NRCS_CNMI_2022.geojson"
+    },
+    {
+      "id": "NRCS_CNMI_2024",
+      "name": "NRCS Northern Mariana Islands Imagery (2024)",
+      "countryCode": "MP",
+      "category": "photo",
+      "type": "wms",
+      "status": "unsupported",
+      "okSamples": 0,
+      "samples": 0,
+      "workingZoom": null,
+      "maxZoom": null,
+      "urls": [],
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/mp/NRCS_CNMI_2024.geojson"
     },
     {
       "id": "Environment_Canterbury_Imagery",
@@ -58783,10 +58534,10 @@
       "sourcePath": "vendor/editor-layer-index/sources/oceania/pg/osmim-imagicode-LC80940622015159LGN00.geojson"
     },
     {
-      "id": "USDA_Palau_2022",
-      "name": "USDA Palau Imagery (2022)",
+      "id": "NRCS_Palau_2022",
+      "name": "NRCS Palau Imagery (2022)",
       "countryCode": "PW",
-      "category": "photo",
+      "category": "historicphoto",
       "type": "wms",
       "status": "unsupported",
       "okSamples": 0,
@@ -58794,7 +58545,7 @@
       "workingZoom": null,
       "maxZoom": null,
       "urls": [],
-      "sourcePath": "vendor/editor-layer-index/sources/oceania/pw/USDA_Palau_2022.geojson"
+      "sourcePath": "vendor/editor-layer-index/sources/oceania/pw/NRCS_Palau_2022.geojson"
     },
     {
       "id": "Mapa-Educativo-wms",
@@ -58887,13 +58638,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png"
         },
@@ -58903,7 +58654,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
         },
@@ -58922,7 +58673,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -58943,7 +58694,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/712916/864978.png"
         }
@@ -58957,7 +58708,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -58978,7 +58729,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1410/1613.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/atlas_argentina_500k%3Aatlas_argentina_500k@EPSG%3A3857@png/12/1392/1689.png"
         }
@@ -59027,13 +58778,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_100k@EPSG%3A3857@png/14/5297/6278.png"
         },
@@ -59252,7 +59003,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 15,
       "maxZoom": 15,
@@ -59263,7 +59014,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10594/12557.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 15,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_50k@EPSG%3A3857@png/15/10490/13163.png"
         },
