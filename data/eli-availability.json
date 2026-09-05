@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T15:24:45.867803+00:00",
+  "generatedAt": "2026-09-05T20:32:58.414634+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -8,7 +8,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -29,7 +29,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8276&y=8478"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R022_N06_20151221T103009&z=14&x=8304&y=8478"
         }
@@ -43,7 +43,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -54,7 +54,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7076&y=8878"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC82100502015347LGN00&z=14&x=7074&y=8877"
         },
@@ -78,7 +78,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -89,7 +89,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9893&y=8185"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9891&y=8184"
         },
@@ -99,7 +99,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9885&y=8180"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S02_20160613T075613&z=14&x=9901&y=8180"
         }
@@ -113,7 +113,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -134,7 +134,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9887&y=8045"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R092_S05_20160802T075556&z=14&x=9903&y=8045"
         }
@@ -148,7 +148,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -159,7 +159,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4776&y=4104"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81730602015040LGN00&z=13&x=4775&y=4103"
         },
@@ -183,7 +183,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -204,7 +204,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9548&y=8202"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R078_N01_20160702T082522&z=14&x=9558&y=8202"
         }
@@ -485,48 +485,28 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 9,
+      "workingZoom": 10,
       "maxZoom": 10,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=983&y=43"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=978&y=43"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=955&y=19"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=10&x=968&y=18"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=9&x=491&y=21"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=9&x=489&y=21"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=9&x=477&y=9"
-        },
-        {
-          "success": true,
-          "zoom": 9,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80281222016035LGN00&z=9&x=484&y=9"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80281222016035LGN00.geojson"
@@ -554,12 +534,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2439&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332014352LGN01&z=12&x=2455&y=803"
         }
@@ -573,13 +553,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2455&y=839"
         },
@@ -589,12 +569,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2454&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2439&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80651332016358LGN02&z=12&x=2456&y=804"
         }
@@ -608,13 +588,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=839"
         },
@@ -624,7 +604,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2437&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80661332021346LGN00&z=12&x=2422&y=799"
         },
@@ -643,7 +623,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -654,17 +634,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=827"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2402&y=823"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=819"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80691332019346LGN01&z=12&x=2390&y=815"
         }
@@ -713,7 +693,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -734,7 +714,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2351&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80701332017363LGN00&z=12&x=2368&y=804"
         }
@@ -759,12 +739,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2349&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80711332020363LGN00&z=12&x=2334&y=799"
         },
@@ -783,9 +763,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
@@ -804,29 +784,9 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2281&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=12&x=2297&y=804"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=11&x=1148&y=419"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=11&x=1148&y=419"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=11&x=1140&y=399"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80741332021354LGN00&z=11&x=1148&y=402"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80741332021354LGN00.geojson"
@@ -838,13 +798,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=839"
         },
@@ -854,34 +814,14 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2226&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2210&y=799"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=12&x=2227&y=804"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=11&x=1113&y=419"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=11&x=1113&y=419"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=11&x=1105&y=399"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80781332017355LGN00&z=11&x=1113&y=402"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80781332017355LGN00.geojson"
@@ -893,13 +833,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2209&y=839"
         },
@@ -914,7 +854,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2193&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332016360LGN01&z=12&x=2210&y=804"
         }
@@ -928,13 +868,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2209&y=839"
         },
@@ -944,12 +884,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2208&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2193&y=799"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80791332020355LGN00&z=12&x=2210&y=804"
         }
@@ -963,9 +903,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
@@ -979,7 +919,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2191&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2175&y=799"
         },
@@ -987,26 +927,6 @@
           "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=12&x=2192&y=804"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=11&x=1095&y=419"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=11&x=1095&y=419"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=11&x=1087&y=399"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80801332017353LGN00&z=11&x=1096&y=402"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-LC80801332017353LGN00.geojson"
@@ -1228,13 +1148,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80891322019359LGN00&z=12&x=2061&y=790"
         },
@@ -1249,7 +1169,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80891322019359LGN00&z=12&x=2046&y=746"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80891322019359LGN00&z=12&x=2061&y=751"
         }
@@ -1263,7 +1183,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -1279,7 +1199,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80891332019359LGN00&z=12&x=2033&y=838"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80891332019359LGN00&z=12&x=2017&y=799"
         },
@@ -1333,23 +1253,23 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80901332019350LGN01&z=12&x=2016&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80901332019350LGN01&z=12&x=2015&y=838"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC80901332019350LGN01&z=12&x=2000&y=799"
         },
@@ -1438,7 +1358,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
@@ -1459,7 +1379,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81511242016033LGN00&z=10&x=357&y=30"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81511242016033LGN00&z=10&x=365&y=29"
         }
@@ -1508,7 +1428,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -1524,7 +1444,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2121&y=837"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LO80841332019355LGN00&z=12&x=2105&y=799"
         },
@@ -1613,13 +1533,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3919&y=608"
         },
@@ -1629,34 +1549,14 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3904&y=621"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3898&y=559"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=12&x=3970&y=656"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=11&x=1959&y=304"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=11&x=1952&y=310"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=11&x=1949&y=279"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2A_R042_S78_20170214T202521&z=11&x=1985&y=328"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2A_R042_S78_20170214T202521.geojson"
@@ -1668,7 +1568,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1694,7 +1594,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=13&x=4925&y=1811"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S69_20180222T061749&z=12&x=2488&y=935"
         },
@@ -1723,7 +1623,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -1749,12 +1649,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=13&x=4699&y=1403"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2412&y=859"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2422&y=835"
         },
@@ -1764,7 +1664,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2274&y=705"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R005_S7X_20200303T061749&z=12&x=2349&y=701"
         }
@@ -1778,7 +1678,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -1794,7 +1694,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2805&y=2196"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R009_S64_20230216T125859&z=13&x=2750&y=2159"
         },
@@ -1888,7 +1788,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 11,
       "maxZoom": 12,
@@ -1919,17 +1819,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=571&y=225"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=557&y=225"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=529&y=174"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R037_S8X_20230129T120239&z=11&x=536&y=164"
         }
@@ -1943,13 +1843,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7822&y=2018"
         },
@@ -1964,7 +1864,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7843&y=1979"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R043_S67_20190301T220359&z=13&x=7854&y=1983"
         }
@@ -1978,9 +1878,9 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
-      "workingZoom": 10,
+      "workingZoom": 11,
       "maxZoom": 12,
       "urls": [
         {
@@ -2004,7 +1904,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=12&x=1543&y=262"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=11&x=847&y=210"
         },
@@ -2019,29 +1919,9 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=11&x=707&y=125"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=11&x=771&y=131"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=10&x=423&y=105"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=10&x=416&y=106"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=10&x=353&y=62"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_S8X_20210209T080929&z=10&x=385&y=65"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R049_S8X_20210209T080929.geojson"
@@ -2053,7 +1933,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2079,12 +1959,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=13&x=4253&y=1619"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2139&y=900"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2143&y=883"
         },
@@ -2094,7 +1974,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2076&y=809"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R049_SXX_20220316T080929&z=12&x=2126&y=809"
         }
@@ -2108,7 +1988,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -2119,7 +1999,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1088&y=582"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R052_SXX_20230130T130859&z=12&x=1093&y=602"
         },
@@ -2198,7 +2078,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2224,22 +2104,22 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=13&x=5640&y=1594"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2801&y=878"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2807&y=879"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2787&y=750"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R061_S7X_20200226T041719&z=12&x=2820&y=797"
         }
@@ -2363,7 +2243,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 1,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2389,7 +2269,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=13&x=7934&y=1616"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3965&y=841"
         },
@@ -2399,12 +2279,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3975&y=836"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3937&y=809"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R071_S72_20200216T210519&z=12&x=3967&y=808"
         }
@@ -2418,7 +2298,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2444,7 +2324,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=13&x=5753&y=1485"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R075_S7X_20190113T034629&z=12&x=2870&y=859"
         },
@@ -2528,7 +2408,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2554,12 +2434,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=13&x=4843&y=1603"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2393&y=839"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R091_S7X_20210324T063829&z=12&x=2395&y=848"
         },
@@ -2583,7 +2463,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2609,17 +2489,17 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=13&x=2601&y=1703"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1305&y=949"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1293&y=936"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20200119T131859&z=12&x=1263&y=814"
         },
@@ -2638,18 +2518,18 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 13,
+      "workingZoom": 12,
       "maxZoom": 13,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=13&x=2635&y=2086"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=13&x=2650&y=2052"
         },
@@ -2662,6 +2542,26 @@
           "success": false,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=13&x=2641&y=1820"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=12&x=1317&y=1043"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=12&x=1325&y=1026"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=12&x=1259&y=910"
+        },
+        {
+          "success": true,
+          "zoom": 12,
+          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R095_S6X_20220128T131859&z=12&x=1320&y=910"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R095_S6X_20220128T131859.geojson"
@@ -2809,7 +2709,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_S7X_20220301T085959&z=12&x=1832&y=693"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_S7X_20220301T085959&z=12&x=1842&y=673"
         },
@@ -2819,7 +2719,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_S7X_20220301T085959&z=12&x=1671&y=560"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_S7X_20220301T085959&z=12&x=1756&y=560"
         }
@@ -2833,7 +2733,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -2859,12 +2759,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_SXX_20220209T085949&z=13&x=3974&y=1618"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_SXX_20220209T085949&z=12&x=1993&y=894"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R121_SXX_20220209T085949&z=12&x=1997&y=877"
         },
@@ -2890,7 +2790,7 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 10,
+      "workingZoom": 11,
       "maxZoom": 12,
       "urls": [
         {
@@ -2914,44 +2814,24 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=12&x=3793&y=262"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1929&y=163"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1919&y=167"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1893&y=144"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 11,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=11&x=1896&y=131"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=964&y=81"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=959&y=83"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=946&y=72"
-        },
-        {
-          "success": true,
-          "zoom": 10,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R127_S83_20230115T190459&z=10&x=948&y=65"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-S2B_R127_S83_20230115T190459.geojson"
@@ -3143,7 +3023,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 13,
@@ -3174,7 +3054,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3844&y=825"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R143_S7X_20200302T215359&z=12&x=3850&y=812"
         },
@@ -3303,13 +3183,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 1,
       "samples": 4,
       "workingZoom": 10,
       "maxZoom": 10,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=24&y=17"
         },
@@ -3319,12 +3199,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=18&y=19"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=32"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 10,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=aster_anti_west&z=10&x=0&y=1"
         }
@@ -3373,7 +3253,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -3384,7 +3264,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1347&y=996"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1344&y=986"
         },
@@ -3394,7 +3274,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1331&y=953"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=larsen_2018&z=12&x=1342&y=952"
         }
@@ -3463,7 +3343,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 9,
       "maxZoom": 10,
@@ -3494,7 +3374,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=9&x=256&y=93"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 9,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_500k_ant&z=9&x=277&y=80"
         },
@@ -3518,9 +3398,9 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 1,
       "samples": 4,
-      "workingZoom": 11,
+      "workingZoom": 12,
       "maxZoom": 12,
       "urls": [
         {
@@ -3539,29 +3419,9 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3879&y=556"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=12&x=3898&y=553"
-        },
-        {
-          "success": false,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1948&y=293"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1948&y=293"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1939&y=278"
-        },
-        {
-          "success": true,
-          "zoom": 11,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=usgs_50k_ant&z=11&x=1949&y=276"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/antarctica/osmim-imagicode-usgs_50k_ant.geojson"
@@ -3608,50 +3468,30 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
-      "workingZoom": 12,
+      "workingZoom": 13,
       "maxZoom": 13,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7216&y=4005"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7212&y=4004"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7200&y=3998"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=13&x=7230&y=3998"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3608&y=2002"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3606&y=2002"
-        },
-        {
-          "success": false,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3600&y=1999"
-        },
-        {
-          "success": true,
-          "zoom": 12,
-          "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81030632015286LGN00&z=12&x=3615&y=1999"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/asia/id/osmim-imagicode-LC81030632015286LGN00.geojson"
@@ -3733,7 +3573,7 @@
       "category": "historicphoto",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 13,
       "maxZoom": 13,
@@ -3754,7 +3594,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=13&x=6463&y=4096"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 13,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81250592016107LGN00&z=13&x=6482&y=4096"
         }
@@ -3803,7 +3643,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 14,
       "maxZoom": 14,
@@ -3819,12 +3659,12 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R032_S07_20200921T025549&z=14&x=12988&y=7912"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R032_S07_20200921T025549&z=14&x=12985&y=7910"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 14,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=S2B_R032_S07_20200921T025549&z=14&x=12993&y=7910"
         }
@@ -3852,7 +3692,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 12,
       "maxZoom": 12,
@@ -3863,7 +3703,7 @@
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81510432015030LGN00&z=12&x=2840&y=2324"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagico.de/map/osmim_tiles.php?layer=LC81510432015030LGN00&z=12&x=2834&y=2319"
         },
@@ -6288,7 +6128,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -6304,7 +6144,7 @@
           "url": "https://geo.api.vlaanderen.be/OFW/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ofw&STYLE=&FORMAT=image/png&tileMatrixSet=GoogleMapsVL&tileMatrix=21&tileRow=701753&tileCol=1074735"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://geo.api.vlaanderen.be/OFW/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ofw&STYLE=&FORMAT=image/png&tileMatrixSet=GoogleMapsVL&tileMatrix=21&tileRow=703873&tileCol=1076302"
         },
@@ -42311,13 +42151,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1152265/739254.jpeg"
         },
@@ -42327,7 +42167,7 @@
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1152428/737974.jpeg"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "http://wms.openstreetmap.hu/mapproxy/tiles/1.0.0/openstreetmap.hu.orthophotos/mercator/21/1158501/733945.jpeg"
         },
@@ -58477,10 +58317,10 @@
       "countryCode": "US",
       "category": "map",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 23,
       "urls": [
         {
@@ -58544,24 +58384,324 @@
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/21/867718/574823"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Basemap/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Basemap.geojson"
@@ -58572,31 +58712,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_color/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_2021.geojson"
@@ -58607,31 +59047,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_color/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_2024.geojson"
@@ -58642,31 +59382,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_color/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_2025.geojson"
@@ -58677,31 +59717,331 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_color/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_2026.geojson"
@@ -58712,31 +60052,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2021_cir/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_CIR_2021.geojson"
@@ -58747,31 +60387,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Imagery_2024_cir/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_CIR_2024.geojson"
@@ -58782,31 +60722,331 @@
       "countryCode": "US",
       "category": "historicphoto",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2025_cir/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_CIR_2025.geojson"
@@ -58817,31 +61057,331 @@
       "countryCode": "US",
       "category": "photo",
       "type": "tms",
-      "status": "up",
-      "okSamples": 4,
+      "status": "down",
+      "okSamples": 0,
       "samples": 4,
-      "workingZoom": 20,
+      "workingZoom": null,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/20/432826/287055"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/20/432898/287060"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/20/432753/286628"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/20/433859/287411"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/19/216413/143527"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/19/216449/143530"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/19/216376/143314"
+        },
+        {
+          "success": false,
+          "zoom": 19,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/19/216929/143705"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/18/108206/71763"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/18/108224/71765"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/18/108188/71657"
+        },
+        {
+          "success": false,
+          "zoom": 18,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/18/108464/71852"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/17/54103/35881"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/17/54112/35882"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/17/54094/35828"
+        },
+        {
+          "success": false,
+          "zoom": 17,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/17/54232/35926"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/16/27051/17940"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/16/27056/17941"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/16/27047/17914"
+        },
+        {
+          "success": false,
+          "zoom": 16,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/16/27116/17963"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/15/13525/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/15/13528/8970"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/15/13523/8957"
+        },
+        {
+          "success": false,
+          "zoom": 15,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/15/13558/8981"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/14/6762/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/14/6764/4485"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/14/6761/4478"
+        },
+        {
+          "success": false,
+          "zoom": 14,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/14/6779/4490"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/13/3381/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/13/3382/2242"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/13/3380/2239"
+        },
+        {
+          "success": false,
+          "zoom": 13,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/13/3389/2245"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/12/1690/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/12/1691/1121"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/12/1690/1119"
+        },
+        {
+          "success": false,
+          "zoom": 12,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/12/1694/1122"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/11/845/560"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/11/845/559"
+        },
+        {
+          "success": false,
+          "zoom": 11,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/11/847/561"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/10/422/280"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/10/422/279"
+        },
+        {
+          "success": false,
+          "zoom": 10,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/10/423/280"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/9/211/139"
+        },
+        {
+          "success": false,
+          "zoom": 9,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/9/211/140"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/8/105/69"
+        },
+        {
+          "success": false,
+          "zoom": 8,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/8/105/70"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/7/52/34"
+        },
+        {
+          "success": false,
+          "zoom": 7,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/7/52/35"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 6,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/6/26/17"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/5/13/8"
+        },
+        {
+          "success": false,
+          "zoom": 5,
+          "url": "https://www.gis.sjcfl.us/portal_sjcgis/rest/services/Hosted/Imagery_2026_cir/MapServer/tile/5/13/8"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/north-america/us/fl/Saint_Johns_Ortho_CIR_2026.geojson"
@@ -70444,13 +72984,13 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/678065/803699.png"
         },
@@ -70860,68 +73400,28 @@
       "status": "up",
       "okSamples": 4,
       "samples": 4,
-      "workingZoom": 18,
+      "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/339032/401849.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/335695/421219.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/361164/413017.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/20/356458/432489.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/169516/200924.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/167847/210609.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/180582/206508.png"
-        },
-        {
-          "success": false,
-          "zoom": 19,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/19/178229/216244.png"
-        },
-        {
-          "success": true,
-          "zoom": 18,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/84758/100462.png"
-        },
-        {
-          "success": true,
-          "zoom": 18,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/83923/105304.png"
-        },
-        {
-          "success": true,
-          "zoom": 18,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/90291/103254.png"
-        },
-        {
-          "success": true,
-          "zoom": 18,
-          "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos_vant@EPSG%3A3857@png/18/89114/108122.png"
         }
       ],
       "sourcePath": "vendor/editor-layer-index/sources/south-america/ar/IGN-UAV_mosaic.geojson"
@@ -70933,13 +73433,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/339032/401849.png"
         },
