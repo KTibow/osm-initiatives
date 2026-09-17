@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:14:06.301630+00:00",
+  "generatedAt": "2026-09-17T21:36:13.414812+00:00",
   "layers": [
     {
       "id": "osmim-imagicode-S2A_R022_N06_20151221T103009",
@@ -63905,7 +63905,7 @@
       "category": "",
       "type": "tms",
       "status": "up",
-      "okSamples": 2,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 19,
       "maxZoom": 20,
@@ -63936,7 +63936,7 @@
           "url": "https://wmts3.geoportail.lu/opendata/wmts/basemap/GLOBAL_WEBMERCATOR/19/271075/178227.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://wmts3.geoportail.lu/opendata/wmts/basemap/GLOBAL_WEBMERCATOR/19/271071/178253.png"
         },
@@ -63946,7 +63946,7 @@
           "url": "https://wmts3.geoportail.lu/opendata/wmts/basemap/GLOBAL_WEBMERCATOR/19/270838/177451.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 19,
           "url": "https://wmts3.geoportail.lu/opendata/wmts/basemap/GLOBAL_WEBMERCATOR/19/270522/178040.png"
         }
@@ -64079,7 +64079,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
@@ -64095,7 +64095,7 @@
           "url": "https://wmts1.geoportail.lu/opendata/wmts/ortho_2019_winter/GLOBAL_WEBMERCATOR_4_V3/20/542142/356506.jpeg"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 20,
           "url": "https://wmts1.geoportail.lu/opendata/wmts/ortho_2019_winter/GLOBAL_WEBMERCATOR_4_V3/20/541677/354903.jpeg"
         },
@@ -87270,13 +87270,13 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 2,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
       "urls": [
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://services.nconemap.gov/secure/rest/services/Imagery/Orthoimagery_Latest_cached/ImageServer/tile/20/414576/291613"
         },
@@ -87291,7 +87291,7 @@
           "url": "https://services.nconemap.gov/secure/rest/services/Imagery/Orthoimagery_Latest_cached/ImageServer/tile/20/413067/303806"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://services.nconemap.gov/secure/rest/services/Imagery/Orthoimagery_Latest_cached/ImageServer/tile/20/410645/286234"
         }
@@ -97319,7 +97319,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 3,
+      "okSamples": 4,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -97335,7 +97335,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/671391/842439.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/21/722328/826035.png"
         },
@@ -97354,7 +97354,7 @@
       "category": "map",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 21,
       "maxZoom": 21,
@@ -97370,7 +97370,7 @@
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/671391/842439.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 21,
           "url": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG:3857@png/21/722328/826035.png"
         },
@@ -97510,12 +97510,12 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1311/1645.png"
         },
         {
-          "success": false,
+          "success": true,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1410/1613.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 12,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/cartas_mosaicos%3Acartas_250k@EPSG%3A3857@png/12/1392/1689.png"
         }
@@ -97768,7 +97768,7 @@
       "category": "photo",
       "type": "tms",
       "status": "up",
-      "okSamples": 4,
+      "okSamples": 3,
       "samples": 4,
       "workingZoom": 20,
       "maxZoom": 20,
@@ -97784,7 +97784,7 @@
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/335695/421219.png"
         },
         {
-          "success": true,
+          "success": false,
           "zoom": 20,
           "url": "https://imagenes.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mosaicos_vuelos@EPSG%3A3857@png/20/361164/413017.png"
         },
